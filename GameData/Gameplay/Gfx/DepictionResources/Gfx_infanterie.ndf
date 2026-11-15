@@ -42,6 +42,39 @@ export Modele_M25_SWS is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/USA
 export Modele_SMAW is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/USA/SMAW/SMAW.fbx" )
 export Modele_Sniper_M40A1 is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/USA/Sniper_M40A1/Sniper_M40A1.fbx" )
 export Modele_M18_RR is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/USA/M18_RR/M18_RR.fbx" )
+
+export Modele_M21_Silenced  is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/USA/Sniper_M21_Silenced/Sniper_M21_Silenced.fbx" )
+export Modele_M16A2_DMR     is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/USA/M16A2_DMR/M16A2_DMR.fbx" )
+export Modele_Colt_M365     is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/USA/Colt_M365/Colt_M365.fbx" )
+//------------------------------------------------------------------------------
+//------------------------------------ARMES BRZ---------------------------------
+//------------------------------------------------------------------------------
+export Modele_MD2           is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/BRZ/MD2/MD2.fbx" )
+export Modele_Kar_98K_Scope is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/BRZ/Kar_98K_Scope/Kar_98K_Scope.fbx" )
+export Modele_BAR           is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/BRZ/BAR/BAR.fbx" )
+export Modele_Uru           is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/BRZ/Uru/Uru.fbx" )
+export Modele_M9_Bazooka    is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/BRZ/M9_Bazooka/M9_Bazooka.fbx" )
+export Modele_Madsen_LMG    is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/BRZ/Madsen_LMG/Madsen_LMG.fbx" )
+export Modele_LC_T1_M1      is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/BRZ/LC_T1_M1_Flamethrower/LC_T1_M1_Flamethrower_gun.fbx" )
+export Modele_LC_T1_M1_fuel is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/BRZ/LC_T1_M1_Flamethrower/LC_T1_M1_Flamethrower_fuel.fbx" )
+//------------------------------------------------------------------------------
+//------------------------------------ARMES VEN---------------------------------
+//------------------------------------------------------------------------------
+export Modele_Catatumbo         is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/VEN/Catatumbo/Catatumbo.fbx" )
+export Modele_FAL_M60           is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/VEN/FAL_M60/FAL_M60.fbx" )
+export Modele_M9_7_Flamethrower is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/VEN/M9_7_Flamethrower/M9_7_Flamethrower.fbx" )
+export Modele_M9_7_Flamethrower_fuel is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/VEN/M9_7_Flamethrower/M9_7_Flamethrower_fuel.fbx" )
+//------------------------------------------------------------------------------
+//------------------------------------ARMES COL---------------------------------
+//------------------------------------------------------------------------------
+export Modele_Galil             is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/COL/Galil/Galil.fbx" )
+export Modele_Hawk_MM1          is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/COL/Hawk_MM1/Hawk_MM1.fbx" )
+//------------------------------------------------------------------------------
+//------------------------------------ARMES CUB---------------------------------
+//------------------------------------------------------------------------------
+export Modele_Vz_52_57          is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/CUB/Vz_52_57/Vz_52_57.fbx" )
+export Modele_Wz_43_52          is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/CUB/Wz_43_52/Wz_43_52.fbx" )
+export Modele_B10_RCL           is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/CUB/B10_RCL/B10_RCL.fbx" )
 //------------------------------------------------------------------------------
 //------------------------------------ARMES CAN---------------------------------
 //------------------------------------------------------------------------------
@@ -60,6 +93,7 @@ export Modele_Wz88_Tantal   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Arm
 export Modele_SA7_Grail   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/SA7_Grail.fbx" )
 export Modele_SAM_igla   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/SA7_Grail.fbx" )
 export Modele_MANPAD_igla   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/SA7_Grail.fbx" )
+export Modele_MANPAD_igla1   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/SA7_Grail.fbx" )
 export Modele_MANPAD_Strela3   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/SA7_Grail.fbx" )
 export Modele_ATGM_9K115_Metis_M   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/9K115_Metis.fbx" )
 export Modele_AS_Val   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/AS_Val.fbx" )
@@ -82,6 +116,7 @@ export Modele_Mosin_Nagant_Scope   is TResourceMesh( Mesh="GameData:/Assets/3D/A
 export Modele_Mosin_Nagant   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/Mosin_Nagant_Scope/Mosin_Nagant.fbx" )
 export Modele_Mosin_Nagant_PEM   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/Mosin_Nagant_Scope/Mosin_Nagant_PEM.fbx" )
 export Modele_DP28   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/DP28/DP28.fbx" )
+export Modele_RP46   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/DP28/RP46.fbx" )
 export Modele_PPS43   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/PPS43/PPS43.fbx" )
 export Modele_KS_23   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/KS_23/KS_23.fbx" )
 
@@ -96,6 +131,7 @@ export Modele_RPG29_RCL   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes
 export Modele_LPO50   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/DDR/LPO_50.fbx" )
 export Modele_LPO50_fuel   is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/DDR/LPO_50_Bidon.fbx" )
 export Modele_MANPAD_Strela2M is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/SA7_Grail.fbx" )
+export Modele_MANPAD_Strela2MA is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/SA7_Grail.fbx" )
 export Modele_MANPAD_HQ5A is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/SOV/SA7_Grail.fbx" )
 export Modele_Skorpion is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/DDR/Skorpion_vz61.fbx" )
 export Modele_PM63_RAK is TResourceMesh( Mesh="GameData:/Assets/3D/Ammo/Armes/DDR/PM63_RAK.fbx" )
@@ -313,6 +349,32 @@ CUB_SF_1 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/CUB_SF/CUB_SF_1.fbx'
 CUB_SF_2 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/CUB_SF/CUB_SF_2.fbx'
 CUB_SF_3 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/CUB_SF/CUB_SF_3.fbx'
 
+CUB_MININT_1 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/MININT/MININT_1.fbx'
+CUB_MININT_2 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/MININT/MININT_2.fbx'
+CUB_MININT_NCO is 'GameData:/Assets/3D/Units/CUBA/Infanterie/MININT/MININT_NCO.fbx'
+
+CUB_Desembarco_1 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/Desembarco/Desembarco_1.fbx'
+CUB_Desembarco_2 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/Desembarco/Desembarco_2.fbx'
+CUB_Desembarco_NCO is 'GameData:/Assets/3D/Units/CUBA/Infanterie/Desembarco/Desembarco_NCO.fbx'
+
+CUB_SovCuban_1 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/SovCuban/SovCuban_1.fbx'
+CUB_SovCuban_2 is 'GameData:/Assets/3D/Units/CUBA/Infanterie/SovCuban/SovCuban_2.fbx'
+CUB_SovCuban_NCO is 'GameData:/Assets/3D/Units/CUBA/Infanterie/SovCuban/SovCuban_NCO.fbx'
+CUB_SovCuban_Officer is 'GameData:/Assets/3D/Units/CUBA/Infanterie/SovCuban/SovCuban_Officer.fbx'
+CUB_SovCuban_Scout is 'GameData:/Assets/3D/Units/CUBA/Infanterie/SovCuban/SovCuban_Scout.fbx'
+
+//MININT_BEN_CUB
+export Modele_MININT_BEN_CUB is TResourceMesh( Mesh=CUB_MININT_NCO )
+export Modele_MININT_BEN_CUB_02 is TResourceMesh( Mesh=CUB_MININT_1 )
+export Modele_MININT_BEN_CUB_03 is TResourceMesh( Mesh=CUB_MININT_2 )
+export Modele_MININT_BEN_CUB_LOW is TResourceMesh( Mesh=SOV_Morskaya_LOW )
+
+//Naval_Rifle_CMD_CUB
+export Modele_Naval_Rifle_CMD_CUB is TResourceMesh( Mesh=CUB_Desembarco_NCO )
+export Modele_Naval_Rifle_CMD_CUB_02 is TResourceMesh( Mesh=CUB_Desembarco_1 )
+export Modele_Naval_Rifle_CMD_CUB_03 is TResourceMesh( Mesh=CUB_Desembarco_2 )
+export Modele_Naval_Rifle_CMD_CUB_LOW is TResourceMesh( Mesh=SOV_Morskaya_LOW )
+
 //Avispas_Negras_reco_CUB
 export Modele_Avispas_Negras_reco_CUB is TResourceMesh( Mesh=CUB_SF_3 )
 export Modele_Avispas_Negras_reco_CUB_02 is TResourceMesh( Mesh=CUB_SF_2 )
@@ -515,6 +577,13 @@ export Modele_Paratroopers_VEN_04 is TResourceMesh( Mesh=VEN_Para_1 )
 export Modele_Paratroopers_VEN_05 is TResourceMesh( Mesh=VEN_Para_3 )
 export Modele_Paratroopers_VEN_LOW is TResourceMesh( Mesh=NL_Infanterie_1_LOW )
 
+//MANPAD_Strela_2M_Para_VEN
+export Modele_MANPAD_Strela_2M_Para_VEN is TResourceMesh( Mesh=VEN_Para_NCO )
+export Modele_MANPAD_Strela_2M_Para_VEN_02 is TResourceMesh( Mesh=VEN_Para_1 )
+export Modele_MANPAD_Strela_2M_Para_VEN_03 is TResourceMesh( Mesh=VEN_Para_2 )
+export Modele_MANPAD_Strela_2M_Para_VEN_04 is TResourceMesh( Mesh=VEN_Para_3 )
+export Modele_MANPAD_Strela_2M_Para_VEN_LOW is TResourceMesh( Mesh=NL_Infanterie_1_LOW )
+
 //Paratroopers_CMD_VEN
 export Modele_Paratroopers_CMD_VEN is TResourceMesh( Mesh=VEN_Para_Officer )
 export Modele_Paratroopers_CMD_VEN_02 is TResourceMesh( Mesh=VEN_Para_NCO )
@@ -546,6 +615,8 @@ COL_Rifle_3 is 'GameData:/Assets/3D/Units/COL/Infanterie/COL_Rifle/COL_Rifle_3.f
 COL_Rifle_NCO is 'GameData:/Assets/3D/Units/COL/Infanterie/COL_Rifle/COL_Rifle_NCO.fbx'
 COL_Rifle_Officer is 'GameData:/Assets/3D/Units/COL/Infanterie/COL_Rifle/COL_Rifle_Officer.fbx'
 COL_Rifle_Scout is 'GameData:/Assets/3D/Units/COL/Infanterie/COL_Rifle/COL_Rifle_Scout.fbx'
+
+COL_Comandos is 'GameData:/Assets/3D/Units/COL/Infanterie/COL_Para/COL_Comandos.fbx'
 
 //Scout_COL
 export Modele_Scout_COL is TResourceMesh( Mesh=COL_Rifle_NCO )
@@ -584,16 +655,43 @@ export Modele_MP_COL_LOW is TResourceMesh( Mesh=COL_MP_1 )
 //Paratroopers_COL
 export Modele_Paratroopers_COL is TResourceMesh( Mesh=COL_Para_NCO )
 export Modele_Paratroopers_COL_02 is TResourceMesh( Mesh=COL_Para_Scout )
-export Modele_Paratroopers_COL_03 is TResourceMesh( Mesh=COL_Para_1 )
+export Modele_Paratroopers_COL_03 is TResourceMesh( Mesh=COL_Comandos )
 export Modele_Paratroopers_COL_04 is TResourceMesh( Mesh=COL_Para_2 )
 export Modele_Paratroopers_COL_05 is TResourceMesh( Mesh=COL_Para_3 )
 export Modele_Paratroopers_COL_LOW is TResourceMesh( Mesh=COL_Para_1 )
+
+//Commandos_COL
+export Modele_Commandos_COL is TResourceMesh( Mesh=COL_Para_NCO )
+export Modele_Commandos_COL_02 is TResourceMesh( Mesh=COL_Para_Scout )
+export Modele_Commandos_COL_03 is TResourceMesh( Mesh=COL_Para_1 )
+export Modele_Commandos_COL_04 is TResourceMesh( Mesh=COL_Para_2 )
+export Modele_Commandos_COL_05 is TResourceMesh( Mesh=COL_Para_3 )
+export Modele_Commandos_COL_LOW is TResourceMesh( Mesh=COL_Para_1 )
 
 //------------------------------------------------------------------------------
 //Motostrelki_sov
 // export Modele_Motostrelki_sov is TResourceMesh( Mesh="GameData:/Assets/3D/Units/URSS/Infanterie/MotoStrelki/MotoStrelki_1.fbx" )
 // export Modele_Motostrelki_sov_LOW is TResourceMesh( Mesh="GameData:/Assets/3D/Units/URSS/Infanterie/MotoStrelki/MotoStrelki_1.fbx" )
 //------------------------------------------------------------------------------
+
+//MotRifles_CMD_Cuba_SOV
+export Modele_MotRifles_CMD_Cuba_SOV is TResourceMesh( Mesh=CUB_SovCuban_Officer )
+export Modele_MotRifles_CMD_Cuba_SOV_02 is TResourceMesh( Mesh=CUB_SovCuban_NCO )
+export Modele_MotRifles_CMD_Cuba_SOV_03 is TResourceMesh( Mesh=CUB_SovCuban_2 )
+export Modele_MotRifles_CMD_Cuba_SOV_04 is TResourceMesh( Mesh=CUB_SovCuban_1 )
+export Modele_MotRifles_CMD_Cuba_SOV_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_LOW )
+
+//MotRifles_Cuba_RPG22_SOV
+export Modele_MotRifles_Cuba_RPG22_SOV is TResourceMesh( Mesh=CUB_SovCuban_NCO )
+export Modele_MotRifles_Cuba_RPG22_SOV_02 is TResourceMesh( Mesh=CUB_SovCuban_1 )
+export Modele_MotRifles_Cuba_RPG22_SOV_03 is TResourceMesh( Mesh=CUB_SovCuban_2 )
+export Modele_MotRifles_Cuba_RPG22_SOV_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_LOW )
+
+//HvyScout_Cuba_SOV
+export Modele_HvyScout_Cuba_SOV is TResourceMesh( Mesh=CUB_SovCuban_NCO )
+export Modele_HvyScout_Cuba_SOV_02 is TResourceMesh( Mesh=CUB_SovCuban_1 )
+export Modele_HvyScout_Cuba_SOV_03 is TResourceMesh( Mesh=CUB_SovCuban_Scout )
+export Modele_HvyScout_Cuba_SOV_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_LOW )
 
 //MotRifles_MVD_SOV
 export Modele_MotRifles_MVD_SOV is TResourceMesh( Mesh=SOV_MVD_NCO )
@@ -809,11 +907,18 @@ export Modele_MANPAD_Igla_Gvardeitsy_SOV_03 is TResourceMesh( Mesh=SOV_MotoStrel
 export Modele_MANPAD_Igla_Gvardeitsy_SOV_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_TTsko_LOW )
 
 //MANPAD_Strela_2M_SOV
-export Modele_MANPAD_Strela_2M_SOV is TResourceMesh( Mesh=SOV_MotoStrelki_NCO )
-export Modele_MANPAD_Strela_2M_SOV_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2 )
-export Modele_MANPAD_Strela_2M_SOV_03 is TResourceMesh( Mesh=SOV_MotoStrelki_1 )
-export Modele_MANPAD_Strela_2M_SOV_04 is TResourceMesh( Mesh=SOV_MotoStrelki_spe )
-export Modele_MANPAD_Strela_2M_SOV_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_LOW )
+export Modele_MANPAD_Strela_2M_HON is TResourceMesh( Mesh=SOV_MotoStrelki_NCO )
+export Modele_MANPAD_Strela_2M_HON_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2 )
+export Modele_MANPAD_Strela_2M_HON_03 is TResourceMesh( Mesh=SOV_MotoStrelki_1 )
+export Modele_MANPAD_Strela_2M_HON_04 is TResourceMesh( Mesh=SOV_MotoStrelki_spe )
+export Modele_MANPAD_Strela_2M_HON_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_LOW )
+
+//MANPAD_Igla1_HON
+export Modele_MANPAD_Igla1_HON is TResourceMesh( Mesh=SOV_MotoStrelki_NCO )
+export Modele_MANPAD_Igla1_HON_02 is TResourceMesh( Mesh=SOV_MotoStrelki_2 )
+export Modele_MANPAD_Igla1_HON_03 is TResourceMesh( Mesh=SOV_MotoStrelki_1 )
+export Modele_MANPAD_Igla1_HON_04 is TResourceMesh( Mesh=SOV_MotoStrelki_spe )
+export Modele_MANPAD_Igla1_HON_LOW is TResourceMesh( Mesh=SOV_MotoStrelki_1_LOW )
 
 //MANPAD_Strela_3_SOV
 export Modele_MANPAD_Strela_3_SOV is TResourceMesh( Mesh=SOV_Rezervisti_1 )
@@ -1342,6 +1447,18 @@ US_CavTrooper_1_NCO is 'GameData:/Assets/3D/Units/US/Infanterie/CavTrooper/CavTr
 US_CavTrooper_1_Officer is 'GameData:/Assets/3D/Units/US/Infanterie/CavTrooper/CavTrooper_Officer.fbx'
 US_CavTrooper_1_Spe is 'GameData:/Assets/3D/Units/US/Infanterie/CavTrooper/CavTrooper_Spe.fbx'
 
+US_Sniper_CIA_1 is 'GameData:/Assets/3D/Units/US/Infanterie/CIA/CIA_1.fbx'
+US_Sniper_CIA_2 is 'GameData:/Assets/3D/Units/US/Infanterie/CIA/CIA_2.fbx'
+US_Sniper_CIA_1_LOW is 'GameData:/Assets/3D/Units/US/Infanterie/CIA/CIA_1_LOW.fbx'
+
+US_LightRifles_1 is 'GameData:/Assets/3D/Units/US/Infanterie/LightRifles/LightRifles_1.fbx'
+US_LightRifles_NCO is 'GameData:/Assets/3D/Units/US/Infanterie/LightRifles/LightRifles_NCO.fbx'
+
+//------------------------------------------------------------------------------
+//Sniper_CIA_US
+export Modele_Sniper_CIA_US is TResourceMesh( Mesh=US_Sniper_CIA_1 )
+export Modele_Sniper_CIA_US_02 is TResourceMesh( Mesh=US_Sniper_CIA_2 )
+export Modele_Sniper_CIA_US_LOW is TResourceMesh( Mesh=US_Sniper_CIA_1_LOW )
 //------------------------------------------------------------------------------
 //Rifles_half_Cav_Dragon_US
 export Modele_Rifles_half_Cav_Dragon_US is TResourceMesh( Mesh=US_CavTrooper_1_NCO )
@@ -1676,11 +1793,19 @@ export Modele_AeroRifles_US_04 is TResourceMesh( Mesh=US_GI_2 )
 export Modele_AeroRifles_US_05 is TResourceMesh( Mesh=US_GI_1 )
 export Modele_AeroRifles_US_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
+//Mountaineers_LAW_US
+export Modele_Mountaineers_LAW_US is TResourceMesh( Mesh=US_LightRifles_NCO )
+export Modele_Mountaineers_LAW_US_02 is TResourceMesh( Mesh=US_LightRifles_1 )
+export Modele_Mountaineers_LAW_US_03 is TResourceMesh( Mesh=US_GI_spe )
+export Modele_Mountaineers_LAW_US_04 is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Mountaineers_LAW_US_05 is TResourceMesh( Mesh=US_GI_2 )
+export Modele_Mountaineers_LAW_US_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
+
 //LightRifles_CMD_US
-export Modele_LightRifles_CMD_US is TResourceMesh( Mesh=US_GI_Officer )
-export Modele_LightRifles_CMD_US_02 is TResourceMesh( Mesh=US_GI_NCO )
-export Modele_LightRifles_CMD_US_03 is TResourceMesh( Mesh=US_GI_1 )
-export Modele_LightRifles_CMD_US_04 is TResourceMesh( Mesh=US_GI_2 )
+export Modele_LightRifles_CMD_US is TResourceMesh( Mesh=US_LightRifles_1 )
+export Modele_LightRifles_CMD_US_02 is TResourceMesh( Mesh=US_LightRifles_1 )
+export Modele_LightRifles_CMD_US_03 is TResourceMesh( Mesh=US_LightRifles_NCO )
+export Modele_LightRifles_CMD_US_04 is TResourceMesh( Mesh=US_LightRifles_NCO )
 export Modele_LightRifles_CMD_US_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //LightRifles_Dragon_US

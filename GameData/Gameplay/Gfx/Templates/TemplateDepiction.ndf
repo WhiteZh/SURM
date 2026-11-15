@@ -134,7 +134,7 @@ template TemplateWeaponAccessorySubDepiction
         Selector = TInfantryWeaponAccessorySelector
         (
             NoneLimitInMeter = LodHighNoneLimit_SoldierWeapon
-            CameraMoverManager = $/Camera/CameraMoverManager
+            Camera = $/M3D/Misc/CameraPrincipale
             MeshAlternativeKeys = ['mesh_alternative','mesh_alternative_backpack']
             PrincipalDepiction = [LOD_High]
             EnabledValue = <EnabledValue>
@@ -166,7 +166,7 @@ template TemplateInfantrySelectorTactic
     HighSurrogates = <Surrogates>
     HighLowLimitInMeter = LodHighLowLimit_Infantry
     LowNoneLimitInMeter = LodLowNoneLimit_Infantry
-    CameraMoverManager = $/Camera/CameraMoverManager
+    Camera = $/M3D/Misc/CameraPrincipale
     OptionalLimit = $/GraphicOption/ModelQuality
 )
 
@@ -443,7 +443,7 @@ template TransportedInfantryDepiction
         Index = <Index>
         TransportedInfantryCatalog = $/DepictionCore/TransportedInfantryCatalog
         HighNoneLimitInMeter = LodHighLowLimit_Infantry
-        CameraMoverManager = $/Camera/CameraMoverManager
+        Camera = $/M3D/Misc/CameraPrincipale
         OptionalLimit = $/GraphicOption/ModelQuality
     )
 

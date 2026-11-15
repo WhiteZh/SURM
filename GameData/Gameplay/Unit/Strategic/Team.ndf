@@ -15,7 +15,7 @@ export Strategic_TeamUnitDescriptor is TEntityDescriptor
                 TProductionQueueDescriptor
                 (
                     FactoryType = Factory/UniversalFactory
-                    IsSimultaneous = False
+                    IsSimultaneous = false
                 ),
             ]
         ),

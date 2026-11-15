@@ -8,36 +8,28 @@ TargetDataModuleDescriptor is TTargetDataModuleDescriptor()
 
 BuildingPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = True
-    ClampInWorld               = True
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = true
 )
 
 FirePositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = False
-    ClampInWorld               = True
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = false
 )
 
 MissilePositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/ProjectileAltitude
-    InGeoDb                    = True
-    ClampInWorld               = False
-    ClampOutMap                = True
+    InitialCollisionPlane      = TCollisionPlane/ProjectileAltitude
+    InGeoDb                    = true
 )
 
 IAStratZoneIndexModuleDescriptor is TIAStratZoneIndexModuleDescriptor()
 
 SmokePositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = False
-    ClampInWorld               = True
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = false
 )
 
 template Descriptor_Unit_MimeticUnit[ DescriptorId, BlackHoleKey ] is TEntityDescriptor
@@ -53,7 +45,7 @@ template Descriptor_Unit_MimeticUnit[ DescriptorId, BlackHoleKey ] is TEntityDes
             TLinkToOwnerModuleDescriptor(),
             TApparenceModuleDescriptor
             (
-                PickableObject = True
+                PickableObject = true
                 Depiction      = TTimelyDepictionReceiverFactory( BlackHoleKey = <BlackHoleKey> )
             ),
             TSoldierAnimationModuleDescriptor

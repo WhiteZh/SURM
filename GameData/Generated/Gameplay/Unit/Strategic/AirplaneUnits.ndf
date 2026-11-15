@@ -81,7 +81,7 @@ export Descriptor_Unit_pion_BEL_11Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -165,7 +165,7 @@ export Descriptor_Unit_pion_BEL_1Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -249,7 +249,7 @@ export Descriptor_Unit_pion_BEL_23Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -333,7 +333,7 @@ export Descriptor_Unit_pion_BEL_2Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -417,7 +417,7 @@ export Descriptor_Unit_pion_BEL_31Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -501,7 +501,7 @@ export Descriptor_Unit_pion_BEL_349Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -585,7 +585,7 @@ export Descriptor_Unit_pion_BEL_350Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -669,7 +669,7 @@ export Descriptor_Unit_pion_BEL_42Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -753,7 +753,7 @@ export Descriptor_Unit_pion_BEL_7Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -837,7 +837,7 @@ export Descriptor_Unit_pion_BEL_8Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -921,7 +921,7 @@ export Descriptor_Unit_pion_CAN_409TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1005,7 +1005,7 @@ export Descriptor_Unit_pion_CAN_421TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1089,7 +1089,259 @@ export Descriptor_Unit_pion_CAN_439TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_CUB_21RACB is TEntityDescriptor
+(
+    DescriptorId       = GUID:{d9fc9aed-8e3e-463d-845e-d4d4c9e54d84}
+    ClassNameForDebug  = 'Pawn_pion_CUB_21RACB'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/PACT
+            MotherCountry                    = 'RFA'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_CUB_21RACB
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_CUB_21RACB"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_CUB_21RACB'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='KLQLZJVEEV'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_CUB_21RACB'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_CUB_22RACB is TEntityDescriptor
+(
+    DescriptorId       = GUID:{8f049aa7-264a-4fd2-90ee-a9cf9029df29}
+    ClassNameForDebug  = 'Pawn_pion_CUB_22RACB'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/PACT
+            MotherCountry                    = 'RFA'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_CUB_22RACB
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_CUB_22RACB"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_CUB_22RACB'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='IYYFHZFFAH'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_CUB_22RACB'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_CUB_RAC_Prov is TEntityDescriptor
+(
+    DescriptorId       = GUID:{bf2ff09f-103c-427c-8bd7-ac21baa4a946}
+    ClassNameForDebug  = 'Pawn_pion_CUB_RAC_Prov'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/PACT
+            MotherCountry                    = 'DDR'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_CUB_RAC_Prov
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_CUB_RAC_Prov"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_AA_air",
+                    "Texture_STRATEGIC_AA_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_CUB_RAC_Prov'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='KHQGPNRWJX'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_CUB_RAC_Prov'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1173,7 +1425,7 @@ export Descriptor_Unit_pion_FR_Alsace is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1257,7 +1509,7 @@ export Descriptor_Unit_pion_FR_Ardennes is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1341,7 +1593,7 @@ export Descriptor_Unit_pion_FR_Champagne is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1425,7 +1677,7 @@ export Descriptor_Unit_pion_FR_Cigognes is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1509,7 +1761,7 @@ export Descriptor_Unit_pion_FR_Corse is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1593,7 +1845,7 @@ export Descriptor_Unit_pion_FR_Cote_dOr is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1677,7 +1929,7 @@ export Descriptor_Unit_pion_FR_Jura is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1761,7 +2013,7 @@ export Descriptor_Unit_pion_FR_Navarre is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1845,7 +2097,7 @@ export Descriptor_Unit_pion_FR_Roussillon is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -1929,7 +2181,7 @@ export Descriptor_Unit_pion_FR_Valois is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2013,7 +2265,7 @@ export Descriptor_Unit_pion_FR_Vosges is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2097,7 +2349,7 @@ export Descriptor_Unit_pion_NL_Grp_Eindhoven is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2181,7 +2433,7 @@ export Descriptor_Unit_pion_NL_Grp_Leeuwarden is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2265,7 +2517,7 @@ export Descriptor_Unit_pion_NL_Grp_Twenthe is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2349,7 +2601,7 @@ export Descriptor_Unit_pion_NL_Grp_Volkel is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2433,7 +2685,7 @@ export Descriptor_Unit_pion_POL_PLMB40 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2517,7 +2769,7 @@ export Descriptor_Unit_pion_POL_PLMB8 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2601,7 +2853,7 @@ export Descriptor_Unit_pion_RDA_JBG28 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2685,7 +2937,7 @@ export Descriptor_Unit_pion_RDA_JBG37 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2769,7 +3021,7 @@ export Descriptor_Unit_pion_RDA_JBG77 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2853,7 +3105,7 @@ export Descriptor_Unit_pion_RDA_JG1 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -2937,7 +3189,7 @@ export Descriptor_Unit_pion_RDA_JG2 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3021,7 +3273,7 @@ export Descriptor_Unit_pion_RDA_JG3 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3105,7 +3357,7 @@ export Descriptor_Unit_pion_RDA_JG7 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3189,7 +3441,7 @@ export Descriptor_Unit_pion_RDA_JG8 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3273,7 +3525,7 @@ export Descriptor_Unit_pion_RDA_JG9 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3357,7 +3609,7 @@ export Descriptor_Unit_pion_RFA_JBG33 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3441,7 +3693,7 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3525,7 +3777,7 @@ export Descriptor_Unit_pion_RFA_JBG34 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3609,7 +3861,7 @@ export Descriptor_Unit_pion_RFA_JBG34_2 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3693,7 +3945,7 @@ export Descriptor_Unit_pion_RFA_JBG35 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3777,7 +4029,7 @@ export Descriptor_Unit_pion_RFA_JBG35_2 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3861,7 +4113,7 @@ export Descriptor_Unit_pion_RFA_JG74 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -3945,7 +4197,7 @@ export Descriptor_Unit_pion_RFA_JG74_2 is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4029,7 +4281,7 @@ export Descriptor_Unit_pion_SOV_11ORAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4113,7 +4365,7 @@ export Descriptor_Unit_pion_SOV_19GAPIB is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4197,7 +4449,7 @@ export Descriptor_Unit_pion_SOV_20GAPIB is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4281,7 +4533,7 @@ export Descriptor_Unit_pion_SOV_294ORAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4365,7 +4617,7 @@ export Descriptor_Unit_pion_SOV_296APIB is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4449,7 +4701,7 @@ export Descriptor_Unit_pion_SOV_31IGAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4533,7 +4785,7 @@ export Descriptor_Unit_pion_SOV_33IAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4617,7 +4869,7 @@ export Descriptor_Unit_pion_SOV_357OCHAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4701,7 +4953,7 @@ export Descriptor_Unit_pion_SOV_35IAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4785,7 +5037,7 @@ export Descriptor_Unit_pion_SOV_368OCHAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4869,7 +5121,7 @@ export Descriptor_Unit_pion_SOV_559APIB is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -4953,7 +5205,7 @@ export Descriptor_Unit_pion_SOV_730APIB is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5037,7 +5289,7 @@ export Descriptor_Unit_pion_SOV_73IAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5121,7 +5373,7 @@ export Descriptor_Unit_pion_SOV_773IAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5205,7 +5457,7 @@ export Descriptor_Unit_pion_SOV_787IAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5289,7 +5541,7 @@ export Descriptor_Unit_pion_SOV_833IAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5373,7 +5625,7 @@ export Descriptor_Unit_pion_SOV_85IGAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5457,7 +5709,7 @@ export Descriptor_Unit_pion_SOV_911APIB is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5541,7 +5793,7 @@ export Descriptor_Unit_pion_SOV_931ORAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5625,7 +5877,7 @@ export Descriptor_Unit_pion_SOV_968IAP is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5709,7 +5961,7 @@ export Descriptor_Unit_pion_TCH_11FighterRgt is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5793,7 +6045,7 @@ export Descriptor_Unit_pion_TCH_1FighterRgt is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5877,7 +6129,7 @@ export Descriptor_Unit_pion_TCH_20FightBombRgt is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -5961,7 +6213,7 @@ export Descriptor_Unit_pion_TCH_28FightBombRgt is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6045,7 +6297,7 @@ export Descriptor_Unit_pion_TCH_30FightBombRgt is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6129,7 +6381,7 @@ export Descriptor_Unit_pion_TCH_4FighterRgt is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6213,7 +6465,7 @@ export Descriptor_Unit_pion_TCH_5FighterRgt is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6297,7 +6549,7 @@ export Descriptor_Unit_pion_TCH_9FighterRgt is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6381,7 +6633,7 @@ export Descriptor_Unit_pion_UK_12Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6465,7 +6717,7 @@ export Descriptor_Unit_pion_UK_16_20Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6549,7 +6801,7 @@ export Descriptor_Unit_pion_UK_17_31Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6633,7 +6885,7 @@ export Descriptor_Unit_pion_UK_19_92Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6717,7 +6969,7 @@ export Descriptor_Unit_pion_UK_2_15Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6801,7 +7053,7 @@ export Descriptor_Unit_pion_UK_3_4Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6885,7 +7137,7 @@ export Descriptor_Unit_pion_UK_9_14Sq is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -6969,7 +7221,91 @@ export Descriptor_Unit_pion_US_10TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_US_1SOW is TEntityDescriptor
+(
+    DescriptorId       = GUID:{32345d1a-73b8-44f0-8787-b4dbe0167bde}
+    ClassNameForDebug  = 'Pawn_pion_US_1SOW'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/NATO
+            MotherCountry                    = 'POL'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_US_1SOW
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_US_1SOW"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_US_1SOW'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='RWSTCEGXVM'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_US_1SOW'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7053,7 +7389,7 @@ export Descriptor_Unit_pion_US_22TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7137,7 +7473,7 @@ export Descriptor_Unit_pion_US_23TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7221,7 +7557,7 @@ export Descriptor_Unit_pion_US_313TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7305,7 +7641,7 @@ export Descriptor_Unit_pion_US_32TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7389,7 +7725,91 @@ export Descriptor_Unit_pion_US_4450TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_US_46TFS is TEntityDescriptor
+(
+    DescriptorId       = GUID:{eac4ed8a-aa34-484b-92be-3c2832baa075}
+    ClassNameForDebug  = 'Pawn_pion_US_46TFS'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/NATO
+            MotherCountry                    = 'POL'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_US_46TFS
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_US_46TFS"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_ATGM_air",
+                    "Texture_STRATEGIC_ATGM_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_US_46TFS'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='FPONVJZVLO'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_US_46TFS'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7473,7 +7893,7 @@ export Descriptor_Unit_pion_US_480TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7557,7 +7977,7 @@ export Descriptor_Unit_pion_US_492TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7641,7 +8061,7 @@ export Descriptor_Unit_pion_US_493TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7725,7 +8145,7 @@ export Descriptor_Unit_pion_US_494TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7809,7 +8229,7 @@ export Descriptor_Unit_pion_US_495TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7893,7 +8313,7 @@ export Descriptor_Unit_pion_US_496TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -7977,7 +8397,7 @@ export Descriptor_Unit_pion_US_509TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8061,7 +8481,7 @@ export Descriptor_Unit_pion_US_510TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8145,7 +8565,7 @@ export Descriptor_Unit_pion_US_511TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8229,7 +8649,7 @@ export Descriptor_Unit_pion_US_512TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8313,7 +8733,7 @@ export Descriptor_Unit_pion_US_525TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8397,7 +8817,7 @@ export Descriptor_Unit_pion_US_526TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8481,7 +8901,7 @@ export Descriptor_Unit_pion_US_527Aggress is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8565,7 +8985,7 @@ export Descriptor_Unit_pion_US_53TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8649,7 +9069,7 @@ export Descriptor_Unit_pion_US_55TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8733,7 +9153,7 @@ export Descriptor_Unit_pion_US_77TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8817,7 +9237,7 @@ export Descriptor_Unit_pion_US_78TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8901,7 +9321,7 @@ export Descriptor_Unit_pion_US_79TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -8985,7 +9405,7 @@ export Descriptor_Unit_pion_US_81TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -9069,7 +9489,7 @@ export Descriptor_Unit_pion_US_81TFW is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -9153,7 +9573,7 @@ export Descriptor_Unit_pion_US_91TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )
@@ -9237,7 +9657,427 @@ export Descriptor_Unit_pion_US_92TFS is TEntityDescriptor
         ),
         ~/StrategicPositionModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
-        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_US_AFRES is TEntityDescriptor
+(
+    DescriptorId       = GUID:{f71646d7-ba45-4289-8d8c-d53ead1e6ee8}
+    ClassNameForDebug  = 'Pawn_pion_US_AFRES'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/NATO
+            MotherCountry                    = 'RFA'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_US_AFRES
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_US_AFRES"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_US_AFRES'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='MCCWHZMIAH'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_US_AFRES'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_US_MAG_41_46 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{5c694128-6d05-4302-b398-847587e166dd}
+    ClassNameForDebug  = 'Pawn_pion_US_MAG_41_46'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/NATO
+            MotherCountry                    = 'DDR'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_US_MAG_41_46
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_US_MAG_41_46"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_AA_air",
+                    "Texture_STRATEGIC_AA_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_US_MAG_41_46'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='NWKZTXSIPC'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_US_MAG_41_46'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_US_MAG_42 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e6faaaed-424f-4a3f-9c45-0608d061b275}
+    ClassNameForDebug  = 'Pawn_pion_US_MAG_42'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/NATO
+            MotherCountry                    = 'RFA'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_US_MAG_42
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_US_MAG_42"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_US_MAG_42'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='LJLKIOMYUY'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_US_MAG_42'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_US_MAG_49 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{cad81b81-22c9-47d8-9704-2748f357be73}
+    ClassNameForDebug  = 'Pawn_pion_US_MAG_49'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/NATO
+            MotherCountry                    = 'RFA'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_US_MAG_49
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_US_MAG_49"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_US_MAG_49'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='BQKTKWXDSO'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_US_MAG_49'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_US_USNR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{211a3804-6be8-4d80-90d1-707ad79ffa44}
+    ClassNameForDebug  = 'Pawn_pion_US_USNR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition                        = TWargameCoalition/NATO
+            MotherCountry                    = 'RFA'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_US_USNR
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleKey        = "pion_US_USNR"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_US_USNR'
+            Score = 1
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability     = 0.0
+            TimeBetweenEachIdentifyRoll = 0.0
+            VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='LIBDGIYPYS'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_US_USNR'
+        ),
+        ~/StrategicPositionModuleDescriptor,
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 MaxFatigue = ~/StrategicMaxFatiguePerUnit ),
         ~/IAStratZoneIndexModuleDescriptor,
     ]
 )

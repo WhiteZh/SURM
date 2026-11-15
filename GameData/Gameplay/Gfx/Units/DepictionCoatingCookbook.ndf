@@ -1,6 +1,15 @@
 unnamed TCoatingRecipe
 (
     Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Panther_trans_BRZ'
+    Ingredients = [
+        Panther_trans_BRZ_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
     CoatingName = 'Mi_8MTV_Berkut_SOV'
     Ingredients = [
         Mi_8MTV_Berkut_SOV_tourelle_coating_ingredient,

@@ -12,7 +12,7 @@ SpecificMechanicalDepictionSelector is TLodSelector
 (
     HighMidLimitInMeter = 100
     MidLowLimitInMeter = 200
-    CameraMoverManager = $/Camera/CameraMoverManager
+    Camera = $/M3D/Misc/CameraPrincipale
     OptionalLimit = $/GraphicOption/ModelQuality
 )
 
@@ -33,7 +33,7 @@ is THumanWithConditionSelector
 (
     HighLowLimitInMeter = LodHighLowLimit_Infantry
     LowNoneLimitInMeter = LodLowNoneLimit_Infantry
-    CameraMoverManager = $/Camera/CameraMoverManager
+    Camera = $/M3D/Misc/CameraPrincipale
     OptionalLimit = $/GraphicOption/ModelQuality
     DisplayCondition = <DisplayCondition>
 )
@@ -74,7 +74,7 @@ TowedUnitSubDepictionSelector is TTowedUnitSelector
 SoldierDynamicWeaponSubDepictionSelector is TInfantryWeaponSelector
 (
     NoneLimitInMeter = LodHighNoneLimit_SoldierWeapon
-    CameraMoverManager = $/Camera/CameraMoverManager
+    Camera = $/M3D/Misc/CameraPrincipale
     MeshAlternativeKey = 'mesh_alternative'
     PrincipalDepiction = ['WeaponAlternative_1'] // On verra bien si y'a besoin de gérer un truc ici si ça crash parce que y'a pas d'arme 1
 )
@@ -82,7 +82,7 @@ SoldierDynamicWeaponSubDepictionSelector is TInfantryWeaponSelector
 SoldierDynamicBackpackWeaponSubDepictionSelector is TInfantryBackpackWeaponSelector
 (
     NoneLimitInMeter = LodHighNoneLimit_SoldierWeapon
-    CameraMoverManager = $/Camera/CameraMoverManager
+    Camera = $/M3D/Misc/CameraPrincipale
     MeshAlternativeKey = 'mesh_alternative_backpack'
     PrincipalDepiction = ['WeaponAlternative_1'] // On verra bien si y'a besoin de gérer un truc ici si ça crash parce que y'a pas d'arme 1
 )

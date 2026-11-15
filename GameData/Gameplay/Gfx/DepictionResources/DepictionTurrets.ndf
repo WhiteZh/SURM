@@ -49,3 +49,4 @@ export ModelFile_VZ59_t1 is 'GameData:/Assets/3D/Ammo/Tourelles/VZ59/VZ59_t1.fbx
 export ModelFile_VZ59_t2 is 'GameData:/Assets/3D/Ammo/Tourelles/VZ59/VZ59_t2.fbx'
 export ModelFile_VZ59_no_ammo is 'GameData:/Assets/3D/Ammo/Tourelles/VZ59/VZ59_no_ammo.fbx'
 export ModelFile_A_127mm_t1 is 'GameData:/Assets/3D/Ammo/Tourelles/A_127mm/A_127mm_t1.fbx'
+export ModelFile_M134_Minigun_t1 is 'GameData:/Assets/3D/Ammo/Tourelles/M134_Minigun/M134_Minigun_t1.fbx'

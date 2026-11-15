@@ -48,7 +48,7 @@ template BuildingApparenceModuleDescriptor
     SymbolName,
 ] is TApparenceModuleDescriptor
 (
-    PickableObject                        = True
+    PickableObject                        = true
     BlackHoleKey = <BlackHoleKey>
     Depiction = TTimelyModifyLevelBuildReceiverFactory
     (
@@ -58,7 +58,7 @@ template BuildingApparenceModuleDescriptor
 
 DistrictApparenceModuleDescriptor is TApparenceModuleDescriptor
 (
-    PickableObject = True
+    PickableObject = true
     Depiction = TTimelyModifyLevelBuildReceiverFactory()
 )
 
@@ -66,8 +66,8 @@ template InfantryApparenceModuleDescriptor [
     MimeticName
 ] is TApparenceModuleDescriptor
 (
-    UseFollowCam = True
-    PickableObject = False
+    UseFollowCam = true
+    PickableObject = false
     Depiction = TTimelyDepictionReceiverFactory( BlackHoleKey = <MimeticName> )
     ReferenceMesh = $/GFX/DepictionResources/Rien
 )
@@ -79,8 +79,8 @@ template VehicleApparenceModuleDescriptor [
     ReferenceMesh,
 ] is TApparenceModuleDescriptor
 (
-    UseFollowCam = True
-    PickableObject = True
+    UseFollowCam = true
+    PickableObject = true
     Depiction = TTimelyDepictionReceiverFactory( BlackHoleKey = <MimeticName> )
     ReferenceMesh = <ReferenceMesh>
     BlackHoleKey = <BlackHoleKey>
@@ -96,74 +96,60 @@ UnitStateEngineSubUnitModuleDescriptor is TStateEngineSubUnitModuleDescriptor()
 
 AirplanePositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/HighAltitude
-    InGeoDb                    = True
-    ClampInWorld               = False
-    ClampOutMap                = True
+    InitialCollisionPlane      = TCollisionPlane/HighAltitude
+    InGeoDb                    = true
 )
 
 UnitPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = True
-    ClampInWorld               = True
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = true
 )
 
 HelicopterPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/NearGround
-    InGeoDb                    = True
-    ClampInWorld               = True
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/NearGround
+    InGeoDb                    = true
 )
 
 UnitCadaverPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = False
-    ClampInWorld               = True
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = false
 )
 
 DistrictPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = True
-    ClampInWorld               = False
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = true
 )
 
 DistrictCadaverPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = False
-    ClampInWorld               = False
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = false
 )
 
 BuildingCadaverPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = False
-    ClampInWorld               = True
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = false
 )
 
 SelectionModuleDescriptor is TSelectionModuleDescriptor
 (
-    IsSelectable        = True
-    IsHighlightable     = True
-    HasSelectionShader  = False // Disabled by [SDDEUX-1276]
-    HasHighlightShader  = True
+    IsSelectable        = true
+    IsHighlightable     = true
+    HasSelectionShader  = false // Disabled by [SDDEUX-1276]
+    HasHighlightShader  = true
 )
 
 DistrictSelectionModuleDescriptor is TSelectionModuleDescriptor
 (
-    IsSelectable        = True
-    IsHighlightable     = True
-    HasSelectionShader  = True
-    HasHighlightShader  = True
+    IsSelectable        = true
+    IsHighlightable     = true
+    HasSelectionShader  = true
+    HasHighlightShader  = true
 )
 
 InflammableModuleDescriptorDistrict  is TInflammableModuleDescriptor
@@ -239,8 +225,8 @@ template DistrictCadaverGeneratorModuleDescriptor[] is TCadaverGeneratorModuleDe
 
 FOBBuildingModuleDescriptor is TWargameBuildingModuleDescriptor
 (
-    BoundingBoxMinInLBU = $/GFX/Constantes/FOBBoxMin
-    BoundingBoxMaxInLBU = $/GFX/Constantes/FOBBoxMax
+    BoundingBoxMinInLBU = $/GFX/Unit/FOBBoxMin
+    BoundingBoxMaxInLBU = $/GFX/Unit/FOBBoxMax
 )
 
 BuildingDescriptorTagsModuleDescriptor is TTagsModuleDescriptor

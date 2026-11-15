@@ -97,6 +97,10 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
 
         ("CommonTexture_division_ES_brunete",  MAP [(~/ComponentState/Normal, TUIResourceTexture(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/ES_brunete.png"))]),
         ("CommonTexture_division_RFA_default",  MAP [(~/ComponentState/Normal, TUIResourceTexture(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/RFA_default.png"))]),
+        ("CommonTexture_division_FR_4",  MAP [(~/ComponentState/Normal, TUIResourceTexture(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/FR_4.png"))]),
+        ("CommonTexture_division_FR_5db",  MAP [(~/ComponentState/Normal, TUIResourceTexture(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/FR_5db.png"))]),
+        ("CommonTexture_division_FR_6dbl",  MAP [(~/ComponentState/Normal, TUIResourceTexture(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/FR_6dbl.png"))]),
+        ("CommonTexture_division_FR_11para",  MAP [(~/ComponentState/Normal, TUIResourceTexture(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/FR_11para.png"))]),
 
 
         // fulda

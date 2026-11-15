@@ -2209,6 +2209,22 @@ unnamed TTextFormatScript
             "CUB_2o",
             TemplateTFS_Division(TextureToken = "CommonTexture_division_CUB_2o")
         ),
+        (
+            "FR_4",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_FR_4")
+        ),
+        (
+            "FR_5db",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_FR_5db")
+        ),
+        (
+            "FR_6dbl",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_FR_6dbl")
+        ),
+        (
+            "FR_11para",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_FR_11para")
+        ),
         //-------------------------------------------------------------------------------------
 
 

@@ -406,6 +406,17 @@ export MeshDescriptor_Servant_D_TTsko is TResourceMesh
 export MeshDescriptor_Servant_G_TTsko_LOW is TResourceMesh (Mesh=MotoStrelki_1_TTsko_LOW)
 export MeshDescriptor_Servant_D_TTsko_LOW is TResourceMesh (Mesh=MotoStrelki_1_TTsko_LOW)
 //--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Servant_G_Cuba_SOV is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/CUBA/Infanterie/SovCuban/SovCuban_1.fbx"
+)
+export MeshDescriptor_Servant_D_Cuba_SOV is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/CUBA/Infanterie/SovCuban/SovCuban_2.fbx"
+)
+export MeshDescriptor_Servant_G_Cuba_SOV_LOW is TResourceMesh (Mesh=MotoStrelki_1_TTsko_LOW)
+export MeshDescriptor_Servant_D_Cuba_SOV_LOW is TResourceMesh (Mesh=MotoStrelki_1_TTsko_LOW)
+//--------------------------------------------------------------------------------------------------------------------
 export MeshDescriptor_Servant_G_DDR is TResourceMesh
 (
     Mesh="GameData:/Assets/3D/Units/DDR/Infanterie/MotSchutzen/MotSchutzen_1.fbx"
@@ -1079,6 +1090,40 @@ export MeshDescriptor_Servant_D_MTTf_CUB_LOW is TResourceMesh
     Mesh=RFA_Jager_LOW
 )
 export MeshDescriptor_Servant_G_MTTf_CUB_LOW is TResourceMesh
+(
+    Mesh=RFA_Jager_LOW
+)
+//--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Servant_D_Naval_CUB is TResourceMesh
+(
+    Mesh=CUB_Desembarco_NCO
+)
+export MeshDescriptor_Servant_G_Naval_CUB is TResourceMesh
+(
+    Mesh=CUB_Desembarco_1
+)
+export MeshDescriptor_Servant_D_Naval_CUB_LOW is TResourceMesh
+(
+    Mesh=RFA_Jager_LOW
+)
+export MeshDescriptor_Servant_G_Naval_CUB_LOW is TResourceMesh
+(
+    Mesh=RFA_Jager_LOW
+)
+//--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Servant_D_MININT_CUB is TResourceMesh
+(
+    Mesh=CUB_MININT_NCO
+)
+export MeshDescriptor_Servant_G_MININT_CUB is TResourceMesh
+(
+    Mesh=CUB_MININT_1
+)
+export MeshDescriptor_Servant_D_MININT_CUB_LOW is TResourceMesh
+(
+    Mesh=RFA_Jager_LOW
+)
+export MeshDescriptor_Servant_G_MININT_CUB_LOW is TResourceMesh
 (
     Mesh=RFA_Jager_LOW
 )

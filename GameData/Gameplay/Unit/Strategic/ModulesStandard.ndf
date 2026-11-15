@@ -3,26 +3,24 @@ IALinkToGroupModuleDescriptor is TIALinkToGroupModuleDescriptor()
 StrategicSequenceModuleDescriptor is TStrategicSequenceModuleDescriptor()
 StrategicAerialModuleDescriptor is TStrategicAerialModuleDescriptor()
 
-template StrategicFatigueModuleDescriptor [ InitialFatigue ] is TStrategicFatigueModuleDescriptor
+template StrategicFatigueModuleDescriptor [ InitialFatigue, MaxFatigue = ~/StrategicMaxFatiguePerUnit ] is TStrategicFatigueModuleDescriptor
 (
-  MaxFatigue      = ~/StrategicMaxFatiguePerUnit
+  MaxFatigue      = <MaxFatigue>
   InitialFatigue  = <InitialFatigue>
 )
 
 StrategicSelectionModuleDescriptor is TSelectionModuleDescriptor
 (
-    IsSelectable       = True
-    IsHighlightable    = True
-    HasSelectionShader = True
-    HasHighlightShader = True
+    IsSelectable       = true
+    IsHighlightable    = true
+    HasSelectionShader = true
+    HasHighlightShader = true
 )
 
 PawnPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = ECollisionPlane/Ground
-    InGeoDb                    = True
-    ClampInWorld               = False
-    ClampOutMap                = False
+    InitialCollisionPlane      = TCollisionPlane/Ground
+    InGeoDb                    = true
 )
 
 StrategicStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor()
@@ -31,8 +29,8 @@ StrategicIdleStatusModuleDescriptor is TStrategicIdleStatusModuleDescriptor()
 
 StrategicBuildingModuleDescriptor is TWargameBuildingModuleDescriptor
 (
-    BoundingBoxMinInLBU = $/GFX/Constantes/StrategicBuildingBoxMin
-    BoundingBoxMaxInLBU = $/GFX/Constantes/StrategicBuildingBoxMax
+    BoundingBoxMinInLBU = $/GFX/Pawn/StrategicBuildingBoxMin
+    BoundingBoxMaxInLBU = $/GFX/Pawn/StrategicBuildingBoxMax
 )
 
 template StrategicUIModuleDescriptor [ NameToken, ProdMenuTexture ] is TPawnUIModuleDescriptor

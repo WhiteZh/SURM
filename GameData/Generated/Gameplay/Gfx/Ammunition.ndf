@@ -19,8 +19,8 @@ Ammo_Arty_Off_Map_Tochka_U is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 1.05
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = ((47) ) //I think this is radius, not diameter
-    DispersionAtMinRangeGRU           = ((47) )
+    DispersionAtMaxRangeGRU           = 147 //based on 70m CEP (best case scenario I can find)
+    DispersionAtMinRangeGRU           = 147
     SalvoShotsSorted          		  = False
     RadiusSplashPhysicalDamagesGRU    = ((209) )
     PhysicalDamages                   = 19.4
@@ -48,7 +48,76 @@ Ammo_Arty_Off_Map_Tochka_U is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 360.0
+    AimingTime                        = ArtyAimTimeCorr * 360.0
+    TimeBetweenTwoSalvos              = 8.0
+    TimeBetweenTwoSalvos_Min          = 6.0
+    TimeBetweenTwoSalvos_Max          = 10.0
+    ShotsCountPerSalvo                    = 1
+    NbSalvosShootOnPosition           = 1
+    SupplyCost                        = 100.0 
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    SimultaneousShotsCount          = 1
+    AffichageMunitionParSalve         = 1
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_atacms"
+    SmokeDescriptor                   = nil
+    IgnoreInflammabilityConditions    = True
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Direct_hit_3000lb
+    FireTriggeringProbability         = 1.0
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+	TandemCharge                      = False
+    PitchForParabolic                 = 0.7853981633974483
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Arty_Off_Map_ATACMS is TAmmunitionDescriptor //155 area barrage
+(
+    DescriptorId                      = GUID:{6acbaca2-cb7c-4cae-8404-5dd85343ba54}
+	Name                              = 'ATACMS'
+    TypeCategoryName                  = 'BMISSILE'
+    Caliber                           = 'ATACMSMM'
+    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_obusier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = 'RoquetteM26M270227Mm'
+    FxPower                           = EFXPower/Moyen
+    TimeBetweenTwoShots               = 1.0
+    TimeBetweenTwoFx                  = 1.05
+    MaximumRangeGRU                   = 22290
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU           = 147 //based on 70m CEP (best case scenario I can find)
+    DispersionAtMinRangeGRU           = 147
+    SalvoShotsSorted          		  = False
+    RadiusSplashPhysicalDamagesGRU    = ((209) )
+    PhysicalDamages                   = 19.4
+    ShowDamageInUI                    = True
+    RadiusSplashSuppressDamagesGRU    = ((550))
+    SuppressDamages                   = 3520.0
+    AllowSuppressDamageWhenNoImpact   = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
+    ProjectileSpeedGRU                          = 700.0
+    NoiseDissimulationMalus           = 0.0
+    ShotsBeforeMaxNoise               = 1
+	TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor = TDiceHitRollRuleDescriptor
+    (
+         BaseCriticModifier = 20
+         BaseHitValueModifiers =
+         [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0.0),
+            (EBaseHitValueModifier/Moving, 0.0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+        DistanceToTarget = True
+    )
+    AimingTime                        = ArtyAimTimeCorr * 360.0
     TimeBetweenTwoSalvos              = 8.0
     TimeBetweenTwoSalvos_Min          = 6.0
     TimeBetweenTwoSalvos_Max          = 10.0
@@ -88,8 +157,8 @@ Ammo_Arty_Off_Map_122_area_suppress is TAmmunitionDescriptor //122 area suppress
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
 	RadiusSplashPhysicalDamagesGRU    = ((33) )
@@ -118,7 +187,7 @@ Ammo_Arty_Off_Map_122_area_suppress is TAmmunitionDescriptor //122 area suppress
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 10.0
     TimeBetweenTwoSalvos_Min          = 9.1
     TimeBetweenTwoSalvos_Max          = 11.0
@@ -158,8 +227,8 @@ Ammo_Arty_Off_Map_DPICM is TAmmunitionDescriptor //155 DPICM
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((23) * ClusterRadiusCorr )
@@ -189,7 +258,7 @@ Ammo_Arty_Off_Map_DPICM is TAmmunitionDescriptor //155 DPICM
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 6.0
     TimeBetweenTwoSalvos_Min          = 4.0
     TimeBetweenTwoSalvos_Max          = 8.0
@@ -228,8 +297,8 @@ Ammo_Arty_Off_Map_105_area_suppress is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
 	RadiusSplashPhysicalDamagesGRU    = 25
@@ -258,7 +327,7 @@ Ammo_Arty_Off_Map_105_area_suppress is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 10.0
     TimeBetweenTwoSalvos_Min          = 9.1
     TimeBetweenTwoSalvos_Max          = 11.0
@@ -328,7 +397,7 @@ Ammo_Arty_Off_Map_105_point is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 4.0
     TimeBetweenTwoSalvos_Min          = 2.0
     TimeBetweenTwoSalvos_Max          = 6.0
@@ -368,8 +437,8 @@ Ammo_Arty_Off_Map_105_area is TAmmunitionDescriptor
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
 	RadiusSplashPhysicalDamagesGRU    = 25
@@ -398,7 +467,7 @@ Ammo_Arty_Off_Map_105_area is TAmmunitionDescriptor
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 4.0
     TimeBetweenTwoSalvos_Min          = 2.0
     TimeBetweenTwoSalvos_Max          = 6.0
@@ -468,7 +537,7 @@ Ammo_Arty_Off_Map_105_smoke is TAmmunitionDescriptor //155 area smoke
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 75.0
+    AimingTime                        = ArtyAimTimeCorr * 75.0
     TimeBetweenTwoSalvos              = 4.0
     TimeBetweenTwoSalvos_Min          = 2.0
     TimeBetweenTwoSalvos_Max          = 6.0
@@ -507,8 +576,8 @@ Ammo_Arty_Off_Map_122_area is TAmmunitionDescriptor //122 area barrage fires way
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
 	RadiusSplashPhysicalDamagesGRU    = 33
@@ -537,12 +606,12 @@ Ammo_Arty_Off_Map_122_area is TAmmunitionDescriptor //122 area barrage fires way
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 4.0
     TimeBetweenTwoSalvos_Min          = 2.0
     TimeBetweenTwoSalvos_Max          = 6.0
     ShotsCountPerSalvo                    = 6
-    NbSalvosShootOnPosition           = 15
+    NbSalvosShootOnPosition           = 18
     SupplyCost                        = 600.0 
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
@@ -553,6 +622,76 @@ Ammo_Arty_Off_Map_122_area is TAmmunitionDescriptor //122 area barrage fires way
     IgnoreInflammabilityConditions    = True
     FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Direct_hit_Arty
     FireTriggeringProbability         = 1.0
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+	TandemCharge                      = False
+    PitchForParabolic                 = 0.7853981633974483
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Arty_Off_Map_122_area_airburst is TAmmunitionDescriptor //122 area barrage fires way too many rounds per salvo, unclear why
+(
+    DescriptorId                      = GUID:{ae04b10c-dda6-4568-9eb7-72e395529e22}
+    Name                              = 'WRJHZRMFRI'
+    TypeCategoryName                  = 'ABARR'
+    Caliber                           = 'BZLFXSXAFE'
+    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    TraitsToken                       = [ 'STAT', 'airburst','IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_obusier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_ab Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = 'ArtillerieAirburst'
+    FxPower                           = EFXPower/Moyen
+    TimeBetweenTwoShots               = 1.0
+    TimeBetweenTwoFx                  = 1.0
+    MaximumRangeGRU                   = 22290
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
+    SalvoShotsSorted          		  = False
+	CorrectedShotDispersionMultiplier = 0.25
+	RadiusSplashPhysicalDamagesGRU    = 63
+    PhysicalDamages                   = 4.05
+    RadiusSplashSuppressDamagesGRU    = ArtySuppressRadCorr *81
+    SuppressDamages                   = ArtySuppressCorr * 127.0
+    AllowSuppressDamageWhenNoImpact   = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
+    ForceHitTopArmor                  = True
+    TirReflexe                        = False
+    ProjectileSpeedGRU                          = 700.0
+    NoiseDissimulationMalus           = 0.0
+    ShotsBeforeMaxNoise               = 1
+	TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor  = TDiceHitRollRuleDescriptor
+    (
+         BaseCriticModifier = 15
+         BaseHitValueModifiers =
+         [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0.0),
+            (EBaseHitValueModifier/Moving, 0.0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+        DistanceToTarget = True
+    )
+    AimingTime                        = ArtyAimTimeCorr * 135.0
+    TimeBetweenTwoSalvos              = 4.0
+    TimeBetweenTwoSalvos_Min          = 2.0
+    TimeBetweenTwoSalvos_Max          = 6.0
+    ShotsCountPerSalvo                    = 6
+    NbSalvosShootOnPosition           = 18
+    SupplyCost                        = 600.0 
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    SimultaneousShotsCount          = 1
+    AffichageMunitionParSalve         = 6
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_Airburst"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.02
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
 	TandemCharge                      = False
@@ -577,8 +716,8 @@ Ammo_Arty_Off_Map_130_area is TAmmunitionDescriptor //122 area barrage fires way
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
     CorrectedShotDispersionMultiplier = 0.7
     RadiusSplashPhysicalDamagesGRU    = ((36) )
@@ -608,7 +747,7 @@ Ammo_Arty_Off_Map_130_area is TAmmunitionDescriptor //122 area barrage fires way
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 6.0
     TimeBetweenTwoSalvos_Min          = 4.0
     TimeBetweenTwoSalvos_Max          = 8.0
@@ -648,8 +787,8 @@ Ammo_Arty_Off_Map_122_area_full_battalion is TAmmunitionDescriptor //122 area ba
     TimeBetweenTwoFx                  = 0.3
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
 	RadiusSplashPhysicalDamagesGRU    = ((33) )
@@ -678,7 +817,7 @@ Ammo_Arty_Off_Map_122_area_full_battalion is TAmmunitionDescriptor //122 area ba
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 120.0 //organic 122s fire faster
+    AimingTime                        = ArtyAimTimeCorr * 120.0 //organic 122s fire faster
     TimeBetweenTwoSalvos              = 4.0
     TimeBetweenTwoSalvos_Min          = 2.0
     TimeBetweenTwoSalvos_Max          = 6.0
@@ -748,7 +887,7 @@ Ammo_Arty_Off_Map_122_smoke is TAmmunitionDescriptor //155 area smoke
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 100.0
+    AimingTime                        = ArtyAimTimeCorr * 100.0
     TimeBetweenTwoSalvos              = 4.0
     TimeBetweenTwoSalvos_Min          = 2.0
     TimeBetweenTwoSalvos_Max          = 6.0
@@ -787,8 +926,8 @@ Ammo_Arty_Off_Map_M270_220mm is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 0.5
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((750) * 1.25 ) //had to correct radius a bit to get this right
-    DispersionAtMinRangeGRU           = 4*((750) * 1.25 * RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4 * 550 //had to correct radius a bit to get this right was (750) * 1.25
+    DispersionAtMinRangeGRU           = 4 * 550
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((65) * ClusterRadiusCorr )
@@ -818,7 +957,7 @@ Ammo_Arty_Off_Map_M270_220mm is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 8.0
     TimeBetweenTwoSalvos_Min          = 6.0
     TimeBetweenTwoSalvos_Max          = 10.0
@@ -888,7 +1027,7 @@ Ammo_Arty_Off_Map_M270_220mm_alt is TAmmunitionDescriptor // m270 dpicm from hel
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 75.0
+    AimingTime                        = ArtyAimTimeCorr * 75.0
     TimeBetweenTwoSalvos              = 8.0
     TimeBetweenTwoSalvos_Min          = 6.0
     TimeBetweenTwoSalvos_Max          = 10.0
@@ -927,8 +1066,8 @@ Ammo_Arty_Off_Map_BM30_300mm is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 0.3
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((400))
-    DispersionAtMinRangeGRU           = 4*((400))
+    DispersionAtMaxRangeGRU           = 4*((750)) //currently guessing similar to BM-27 lacking better sources 
+    DispersionAtMinRangeGRU           = 4*((750))
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((108))
@@ -957,7 +1096,7 @@ Ammo_Arty_Off_Map_BM30_300mm is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 180.0
+    AimingTime                        = ArtyAimTimeCorr * 180.0
     TimeBetweenTwoSalvos              = 8.0
     TimeBetweenTwoSalvos_Min          = 6.0
     TimeBetweenTwoSalvos_Max          = 10.0
@@ -997,8 +1136,8 @@ Ammo_Arty_Off_Map_BM27_220mm is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 0.2
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((400))
-    DispersionAtMinRangeGRU           = 4*((400))
+    DispersionAtMaxRangeGRU           = 4*((717))
+    DispersionAtMinRangeGRU           = 4*((717))
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((78))
@@ -1027,7 +1166,7 @@ Ammo_Arty_Off_Map_BM27_220mm is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 210.0
+    AimingTime                        = ArtyAimTimeCorr * 210.0
     TimeBetweenTwoSalvos              = 8.0
     TimeBetweenTwoSalvos_Min          = 6.0
     TimeBetweenTwoSalvos_Max          = 10.0
@@ -1067,8 +1206,8 @@ Ammo_Arty_Off_Map_Teruel_HE is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 0.1
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((300))
-    DispersionAtMinRangeGRU           = 4*((300))
+    DispersionAtMaxRangeGRU           = 4*((350))
+    DispersionAtMinRangeGRU           = 4*((350))
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = 33 //122 rockets supposedly don't fragment quite as well
@@ -1098,7 +1237,7 @@ Ammo_Arty_Off_Map_Teruel_HE is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 1.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -1130,19 +1269,19 @@ Ammo_Arty_Off_Map_Teruel_DPICM is TAmmunitionDescriptor //155 area barrage
     TraitsToken                       = [ 'STAT', 'HEAT', 'IND', ]
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_obusier
-    Arme                              = TDamageTypeRTTI(Family=DamageFamily_cluster_ap Index=1)
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_cluster_ap Index=8)
     ProjectileType                    = EProjectileType/Artillerie
-    ImpactHappening                   = 'Roquette110Mm130Mm'
+    ImpactHappening                   = 'RoquetteM26M270227MmCluster'
     FxPower                           = EFXPower/Moyen
     TimeBetweenTwoShots               = 0.1
     TimeBetweenTwoFx                  = 0.1
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((300))
-    DispersionAtMinRangeGRU           = 4*((300))
+    DispersionAtMaxRangeGRU           = 4*((350))
+    DispersionAtMinRangeGRU           = 4*((350))
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
-    RadiusSplashPhysicalDamagesGRU    = 14 * ClusterRadiusCorr
+    RadiusSplashPhysicalDamagesGRU    = 42 * ClusterRadiusCorr //scaled off DPICM 155 shell based on 28 submunitions, but this may be optimistic
     PhysicalDamages                   = 2.7 //4.056
     RadiusSplashSuppressDamagesGRU    = ArtySuppressRadCorr *47
     SuppressDamages                   = ArtySuppressCorr * 163.0
@@ -1169,7 +1308,7 @@ Ammo_Arty_Off_Map_Teruel_DPICM is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 1.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -1208,8 +1347,8 @@ Ammo_Arty_Off_Map_BM21_122mm is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 0.1
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((300))
-    DispersionAtMinRangeGRU           = 4*((300))
+    DispersionAtMaxRangeGRU           = 4*((350))
+    DispersionAtMinRangeGRU           = 4*((350))
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = 30 //122 rockets supposedly don't fragment quite as well
@@ -1239,7 +1378,7 @@ Ammo_Arty_Off_Map_BM21_122mm is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 1.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -1279,8 +1418,8 @@ Ammo_Arty_Off_Map_LARS_110mm is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 0.1
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((200))
-    DispersionAtMinRangeGRU           = 4*((200))
+    DispersionAtMaxRangeGRU           = 4*((350))
+    DispersionAtMinRangeGRU           = 4*((350))
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
 	RadiusSplashPhysicalDamagesGRU    = 30 
@@ -1309,7 +1448,7 @@ Ammo_Arty_Off_Map_LARS_110mm is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 1.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
@@ -1349,8 +1488,8 @@ Ammo_Arty_Off_Map_M107_175mm is TAmmunitionDescriptor //203 area barrage
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*145
+    DispersionAtMinRangeGRU           = 4*145
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((48) )
@@ -1380,7 +1519,7 @@ Ammo_Arty_Off_Map_M107_175mm is TAmmunitionDescriptor //203 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 24.0
     TimeBetweenTwoSalvos_Min          = 22.0
     TimeBetweenTwoSalvos_Max          = 26.0
@@ -1420,8 +1559,8 @@ Ammo_Arty_Off_Map_203_area is TAmmunitionDescriptor //203 area barrage
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*145
+    DispersionAtMinRangeGRU           = 4*145
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((53) )
@@ -1450,7 +1589,7 @@ Ammo_Arty_Off_Map_203_area is TAmmunitionDescriptor //203 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 240.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 26.0
     TimeBetweenTwoSalvos_Min          = 24.0
     TimeBetweenTwoSalvos_Max          = 28.0
@@ -1462,6 +1601,76 @@ Ammo_Arty_Off_Map_203_area is TAmmunitionDescriptor //203 area barrage
     SimultaneousShotsCount          = 1
     AffichageMunitionParSalve         = 6
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_M201A"
+    SmokeDescriptor                   = nil
+    IgnoreInflammabilityConditions    = True
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Direct_hit_Arty
+    FireTriggeringProbability         = 1.0
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+	TandemCharge                      = False
+    PitchForParabolic                 = 0.7853981633974483
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Arty_Off_Map_203_area_pion is TAmmunitionDescriptor //203 area barrage
+(
+    DescriptorId                      = GUID:{e1d5e3be-c05c-4a79-abd8-1fc1a8fc5df7}
+    Name                              = 'KPFYUVRPFC'
+    TypeCategoryName                  = 'ABARR'
+    Caliber                           = 'HPTOQNGJYT'
+    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    TraitsToken                       = [ 'STAT', 'HE', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_obusier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = 'ArtillerieM201203Mm'
+    FxPower                           = EFXPower/Moyen
+    TimeBetweenTwoShots               = 1.0
+    TimeBetweenTwoFx                  = 1.0
+    MaximumRangeGRU                   = 22290
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU           = 4*145
+    DispersionAtMinRangeGRU           = 4*145
+    SalvoShotsSorted          		  = False
+	CorrectedShotDispersionMultiplier = 0.25
+    RadiusSplashPhysicalDamagesGRU    = ((53) )
+    PhysicalDamages                   = 6.902
+    RadiusSplashSuppressDamagesGRU    = (ArtySuppressRadCorr *98 )
+    SuppressDamages                   = ArtySuppressCorr * 254.0
+    AllowSuppressDamageWhenNoImpact   = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
+    TirReflexe                        = False
+    ProjectileSpeedGRU                          = 700.0
+    NoiseDissimulationMalus           = 0.0
+    ShotsBeforeMaxNoise               = 1
+	TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor  = TDiceHitRollRuleDescriptor
+    (
+         BaseCriticModifier = 15
+         BaseHitValueModifiers =
+         [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0.0),
+            (EBaseHitValueModifier/Moving, 0.0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+        DistanceToTarget = True
+    )
+    AimingTime                        = ArtyAimTimeCorr * 180.0
+    TimeBetweenTwoSalvos              = 26.0
+    TimeBetweenTwoSalvos_Min          = 24.0
+    TimeBetweenTwoSalvos_Max          = 28.0
+    ShotsCountPerSalvo                    = 6
+    SupplyCost                        = 600.0 
+    NbSalvosShootOnPosition           = 6
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    SimultaneousShotsCount          = 1
+    AffichageMunitionParSalve         = 6
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_2A44"
     SmokeDescriptor                   = nil
     IgnoreInflammabilityConditions    = True
     FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Direct_hit_Arty
@@ -1520,7 +1729,7 @@ Ammo_Arty_Off_Map_203_point is TAmmunitionDescriptor //203 point barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 26.0
     TimeBetweenTwoSalvos_Min          = 32.0
     TimeBetweenTwoSalvos_Max          = 36.0
@@ -1590,7 +1799,7 @@ Ammo_Arty_Off_Map_203_point_pion is TAmmunitionDescriptor //203 point barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 180.0
+    AimingTime                        = ArtyAimTimeCorr * 180.0
     TimeBetweenTwoSalvos              = 26.0
     TimeBetweenTwoSalvos_Min          = 16.0
     TimeBetweenTwoSalvos_Max          = 20.0
@@ -1601,7 +1810,7 @@ Ammo_Arty_Off_Map_203_point_pion is TAmmunitionDescriptor //203 point barrage
     CanShootWhileMoving               = False
     SimultaneousShotsCount          = 1
     AffichageMunitionParSalve         = 6
-    InterfaceWeaponTexture            = "Texture_Interface_Weapon_M201A"
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_2A44"
     SmokeDescriptor                   = nil
     IgnoreInflammabilityConditions    = True
     FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Direct_hit_Arty
@@ -1630,8 +1839,8 @@ Ammo_Arty_Off_Map_MRSI is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 0.2
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((39) )
@@ -1660,7 +1869,7 @@ Ammo_Arty_Off_Map_MRSI is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 0.5
     TimeBetweenTwoSalvos_Min          = 0.4
     TimeBetweenTwoSalvos_Max          = 0.6
@@ -1730,7 +1939,7 @@ Ammo_Arty_Off_Map_Precis_Rapide is TAmmunitionDescriptor //155 point
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 110.0
+    AimingTime                        = ArtyAimTimeCorr * 110.0
     TimeBetweenTwoSalvos              = 6.0
     TimeBetweenTwoSalvos_Min          = 4.0
     TimeBetweenTwoSalvos_Max          = 8.0
@@ -1770,8 +1979,8 @@ Ammo_Arty_Off_Map_Precis_Soutenu is TAmmunitionDescriptor //area barrage FIST //
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((39) )
@@ -1800,7 +2009,7 @@ Ammo_Arty_Off_Map_Precis_Soutenu is TAmmunitionDescriptor //area barrage FIST //
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 8.0
     TimeBetweenTwoSalvos_Min          = 6.0
     TimeBetweenTwoSalvos_Max          = 10.0
@@ -1870,7 +2079,7 @@ Ammo_Arty_Off_Map_Zone_Rapide_smoke is TAmmunitionDescriptor //155 area smoke
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 75.0
+    AimingTime                        = ArtyAimTimeCorr * 75.0
     TimeBetweenTwoSalvos              = 6.0
     TimeBetweenTwoSalvos_Min          = 4.0
     TimeBetweenTwoSalvos_Max          = 8.0
@@ -1939,7 +2148,7 @@ Ammo_Arty_Off_Map_Zone_Rapide_152_smoke is TAmmunitionDescriptor //152 area smok
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 100.0
+    AimingTime                        = ArtyAimTimeCorr * 100.0
     TimeBetweenTwoSalvos              = 6.0
     TimeBetweenTwoSalvos_Min          = 4.0
     TimeBetweenTwoSalvos_Max          = 8.0
@@ -1978,8 +2187,8 @@ Ammo_Arty_Off_Map_155_full_batt is TAmmunitionDescriptor //155 area barrage full
     TimeBetweenTwoFx                  = 0.3
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((39) )
@@ -2008,7 +2217,7 @@ Ammo_Arty_Off_Map_155_full_batt is TAmmunitionDescriptor //155 area barrage full
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 6.0
     TimeBetweenTwoSalvos_Min          = 4.0
     TimeBetweenTwoSalvos_Max          = 8.0
@@ -2048,8 +2257,8 @@ Ammo_Arty_Off_Map_Zone_Rapide is TAmmunitionDescriptor //155 area barrage
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((39) )
@@ -2078,7 +2287,7 @@ Ammo_Arty_Off_Map_Zone_Rapide is TAmmunitionDescriptor //155 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 6.0
     TimeBetweenTwoSalvos_Min          = 4.0
     TimeBetweenTwoSalvos_Max          = 8.0
@@ -2094,6 +2303,76 @@ Ammo_Arty_Off_Map_Zone_Rapide is TAmmunitionDescriptor //155 area barrage
     IgnoreInflammabilityConditions    = True
     FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Direct_hit_Arty
     FireTriggeringProbability         = 1.0
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+	TandemCharge                      = False
+    PitchForParabolic                 = 0.7853981633974483
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Arty_Off_Map_Zone_Rapide_airburst is TAmmunitionDescriptor //155 area barrage
+(
+    DescriptorId                      = GUID:{0a536a12-8016-4363-8f2d-73199cb3a4b0}
+    Name                              = 'VEGEGJZNIQ'
+    TypeCategoryName                  = 'ABARR'
+    Caliber                           = '155mm'
+    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    TraitsToken                       = [ 'STAT', 'airburst', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_obusier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_ab Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = 'ArtillerieAirburst'
+    FxPower                           = EFXPower/Moyen
+    TimeBetweenTwoShots               = 1.0
+    TimeBetweenTwoFx                  = 1.0
+    MaximumRangeGRU                   = 22290
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
+    SalvoShotsSorted          		  = False
+	CorrectedShotDispersionMultiplier = 0.25
+    RadiusSplashPhysicalDamagesGRU    = 76
+    PhysicalDamages                   = 4.785
+    RadiusSplashSuppressDamagesGRU    = (ArtySuppressRadCorr *95 )
+    SuppressDamages                   = ArtySuppressCorr * 163.0
+    AllowSuppressDamageWhenNoImpact   = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
+    ForceHitTopArmor                  = True
+    TirReflexe                        = False
+    ProjectileSpeedGRU                = 200.0
+    NoiseDissimulationMalus           = 0.0
+    ShotsBeforeMaxNoise               = 2
+	TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor  = TDiceHitRollRuleDescriptor
+    (
+         BaseCriticModifier = 15
+         BaseHitValueModifiers =
+         [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+        DistanceToTarget = True
+    )
+    AimingTime                        = ArtyAimTimeCorr * 90.0
+    TimeBetweenTwoSalvos              = 6.0
+    TimeBetweenTwoSalvos_Min          = 4.0
+    TimeBetweenTwoSalvos_Max          = 8.0
+    ShotsCountPerSalvo                    = 6
+    SupplyCost                        = 600.0 
+    NbSalvosShootOnPosition           = 12
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    SimultaneousShotsCount          = 1
+    AffichageMunitionParSalve         = 6
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_Airburst"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.02
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
 	TandemCharge                      = False
@@ -2118,8 +2397,8 @@ Ammo_Arty_Off_Map_Zone_Rapide_152 is TAmmunitionDescriptor //152 area barrage
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((39) )
@@ -2148,7 +2427,7 @@ Ammo_Arty_Off_Map_Zone_Rapide_152 is TAmmunitionDescriptor //152 area barrage
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 135.0
+    AimingTime                        = ArtyAimTimeCorr * 135.0
     TimeBetweenTwoSalvos              = 6.0
     TimeBetweenTwoSalvos_Min          = 4.0
     TimeBetweenTwoSalvos_Max          = 8.0
@@ -2164,6 +2443,76 @@ Ammo_Arty_Off_Map_Zone_Rapide_152 is TAmmunitionDescriptor //152 area barrage
     IgnoreInflammabilityConditions    = True
     FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Direct_hit_Arty
     FireTriggeringProbability         = 1.0
+    IsHarmlessForAllies               = False
+    PiercingWeapon                    = False
+	TandemCharge                      = False
+    PitchForParabolic                 = 0.7853981633974483
+    DamageTypeEvolutionOverRangeDescriptor  = nil
+)
+Ammo_Arty_Off_Map_Zone_Rapide_152_airburst is TAmmunitionDescriptor //152 area barrage
+(
+    DescriptorId                      = GUID:{a3a49830-f313-4dd5-932c-bff498bb3584}
+    Name                              = 'GTVNJNQBMI'
+    TypeCategoryName                  = 'ABARR'
+    Caliber                           = 'AFPUXFVNKD'
+    WeaponDescriptionToken            = 'RDHZLCYGPG'
+    TraitsToken                       = [ 'STAT', 'airburst', 'IND', ]
+    WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
+    MinMaxCategory                    = MinMax_obusier
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_ab Index=1)
+    ProjectileType                    = EProjectileType/Artillerie
+    ImpactHappening                   = 'ArtillerieAirburst'
+    FxPower                           = EFXPower/Moyen
+    TimeBetweenTwoShots               = 1.0
+    TimeBetweenTwoFx                  = 1.0
+    MaximumRangeGRU                   = 22290
+    AngleDispersion                   = 0.0
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
+    SalvoShotsSorted          		  = False
+	CorrectedShotDispersionMultiplier = 0.25
+    RadiusSplashPhysicalDamagesGRU    = 76
+    PhysicalDamages                   = 4.785
+    RadiusSplashSuppressDamagesGRU    = (ArtySuppressRadCorr *95 )
+    SuppressDamages                   = ArtySuppressCorr * 163.0
+    AllowSuppressDamageWhenNoImpact   = True
+    DisplaySalveAccuracy              = True
+    TirIndirect                       = True
+    ForceHitTopArmorOnSuccess         = True
+    ComputeArmorFromImpactLocation    = True
+    ForceHitTopArmor                  = True
+    TirReflexe                        = False
+    ProjectileSpeedGRU                          = 700.0
+    NoiseDissimulationMalus           = 0.0
+    ShotsBeforeMaxNoise               = 2
+	TargetOnlyOneUnitInDistrict       = False
+    HitRollRuleDescriptor  = TDiceHitRollRuleDescriptor
+    (
+         BaseCriticModifier = 15
+         BaseHitValueModifiers =
+         [
+            (EBaseHitValueModifier/Base, 0.0),
+            (EBaseHitValueModifier/Idling, 0),
+            (EBaseHitValueModifier/Moving, 0),
+            (EBaseHitValueModifier/Targeted, 0.0),
+         ]
+        DistanceToTarget = True
+    )
+    AimingTime                        = ArtyAimTimeCorr * 135.0
+    TimeBetweenTwoSalvos              = 6.0
+    TimeBetweenTwoSalvos_Min          = 4.0
+    TimeBetweenTwoSalvos_Max          = 8.0
+    ShotsCountPerSalvo                    = 6
+    SupplyCost                        = 600.0 
+    NbSalvosShootOnPosition           = 12
+    CanShootOnPosition                = True
+    CanShootWhileMoving               = False
+    SimultaneousShotsCount          = 1
+    AffichageMunitionParSalve         = 6
+    InterfaceWeaponTexture            = "Texture_Interface_Weapon_Airburst"
+    SmokeDescriptor                   = nil
+    FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
+    FireTriggeringProbability         = 0.02
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
 	TandemCharge                      = False
@@ -2188,8 +2537,8 @@ Ammo_Arty_Off_Map_Zone_Soutenu is TAmmunitionDescriptor //area suppress //curren
     TimeBetweenTwoFx                  = 11.0
     MaximumRangeGRU                   = 22290
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
-    DispersionAtMinRangeGRU           = 4*((424)*RangeCorr * 0.1209058738 )
+    DispersionAtMaxRangeGRU           = 4*232
+    DispersionAtMinRangeGRU           = 4*232
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
     RadiusSplashPhysicalDamagesGRU    = ((39) )
@@ -2218,7 +2567,7 @@ Ammo_Arty_Off_Map_Zone_Soutenu is TAmmunitionDescriptor //area suppress //curren
          ]
         DistanceToTarget = True
     )
-    AimingTime                        = 90.0
+    AimingTime                        = ArtyAimTimeCorr * 90.0
     TimeBetweenTwoSalvos              = 11.0
     TimeBetweenTwoSalvos_Min          = 12.0
     TimeBetweenTwoSalvos_Max          = 14.0
@@ -41997,7 +42346,7 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm is TAmmunitionDescriptor
     TypeCategoryName                  = 'YNDLJFDBIK'
     Caliber                           = '35mm'
     WeaponDescriptionToken            = 'BGKHTMZYRF'
-    TraitsToken                       = [ 'MOTION', 'RADAR', ]
+    TraitsToken                       = [ 'STAT', 'RADAR', ]
     WeaponCursorType                  = Weapon_Cursor_FastCanon
     MinMaxCategory                    = MinMax_DCA
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_balledca Index=2)
@@ -42009,8 +42358,8 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm is TAmmunitionDescriptor
     MaximumRangeGRU                   = 1500
     MinimumRangeHelicopterGRU         = 15
     MaximumRangeHelicopterGRU         = 4000
-    MinimumRangeAirplaneGRU                  = 15
-    MaximumRangeAirplaneGRU                  = 4000
+    MinimumRangeAirplaneGRU           = 15
+    MaximumRangeAirplaneGRU           = 4000
     MinimumRangeGRU                   = 4
     AngleDispersion                   = 0.0
     DispersionAtMaxRangeGRU           = 8
@@ -42047,12 +42396,12 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm is TAmmunitionDescriptor
     TimeBetweenTwoSalvos              = 1.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
-    ShotsCountPerSalvo                    = 96
+    ShotsCountPerSalvo                = 96
     SupplyCost                        = 25.0
     NbSalvosShootOnPosition           = 4
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
-    SimultaneousShotsCount          = 2
+    SimultaneousShotsCount            = 2
     AffichageMunitionParSalve         = 96
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_gdf_35"
     SmokeDescriptor                   = nil
@@ -42070,7 +42419,7 @@ Ammo_DCA_AP_2_canons_Oerlikon_GDF_35mm is TAmmunitionDescriptor //self defense A
     TypeCategoryName                  = 'YNDLJFDBIK'
     Caliber                           = '35mm'
     WeaponDescriptionToken            = 'BGKHTMZYRF'
-    TraitsToken                       = [ 'MOTION', 'KINETIC', ]
+    TraitsToken                       = [ 'STAT', 'KINETIC', ]
     WeaponCursorType                  = Weapon_Cursor_FastCanon
     MinMaxCategory                    = MinMax_AutocanonHE
     Arme                              = TDamageTypeRTTI(Family=DamageFamily_ap Index=5)
@@ -42128,7 +42477,7 @@ Ammo_DCA_AP_2_canons_Oerlikon_GDF_35mm is TAmmunitionDescriptor //self defense A
 	TandemCharge                      = False
     DamageTypeEvolutionOverRangeDescriptor  = ~/DamageTypeEvolutionOverRangeDescriptor_heavyAC
 )
-Ammo_DCA_2_canons_Oerlikon_GDF_35mm_NL is TAmmunitionDescriptor //needs work
+Ammo_DCA_2_canons_Oerlikon_GDF_35mm_NL is TAmmunitionDescriptor // apparently dutch gepards could shoot on the move (per red wrench DIVADS video)
 (
     DescriptorId                      = GUID:{a1645dbc-cc07-4338-a4e2-9bf8e3dfa26c}
     Name                              = 'ZYGMKTWNUA'
@@ -42138,27 +42487,27 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm_NL is TAmmunitionDescriptor //needs work
     TraitsToken                       = [ 'MOTION', 'RADAR', ]
     WeaponCursorType                  = Weapon_Cursor_FastCanon
     MinMaxCategory                    = MinMax_DCA
-    Arme                              = TDamageTypeRTTI(Family=DamageFamily_balledca Index=1)
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_balledca Index=2)
     ProjectileType                    = EProjectileType/Obus
     ImpactHappening                   = 'CanonPetitOerlikonGPFHEFI'
     FxPower                           = EFXPower/Moyen
-    TimeBetweenTwoShots               = 0.4
-    TimeBetweenTwoFx                  = 0.2
-    MaximumRangeGRU                   = 370
+    TimeBetweenTwoShots               = 0.1
+    TimeBetweenTwoFx                  = 0.1
+    MaximumRangeGRU                   = 1500
     MinimumRangeHelicopterGRU         = 15
-    MaximumRangeHelicopterGRU         = 1020
+    MaximumRangeHelicopterGRU         = 4000
     MinimumRangeAirplaneGRU                  = 15
-    MaximumRangeAirplaneGRU                  = 1080
+    MaximumRangeAirplaneGRU                  = 4000
     MinimumRangeGRU                   = 4
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 3
-    DispersionAtMinRangeGRU           = 0.5
+    DispersionAtMaxRangeGRU           = 8
+    DispersionAtMinRangeGRU           = 1
     SalvoShotsSorted          		  = False
-    RadiusSplashPhysicalDamagesGRU    = 18 * 0.1209058738 
+    RadiusSplashPhysicalDamagesGRU    = 3
     PhysicalDamages                   = 0.77
     ShowDamageInUI                    = True
-    RadiusSplashSuppressDamagesGRU    = 171
-    SuppressDamages                   = 58.0
+    RadiusSplashSuppressDamagesGRU    = ((45) * 0.1209058738 )
+    SuppressDamages                   = 45.0
     AllowSuppressDamageWhenNoImpact   = True
     DisplaySalveAccuracy              = False
     TirIndirect                       = False
@@ -42173,8 +42522,8 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm_NL is TAmmunitionDescriptor //needs work
          BaseHitValueModifiers =
          [
             (EBaseHitValueModifier/Base, 0.0),
-            (EBaseHitValueModifier/Idling, 35),
-            (EBaseHitValueModifier/Moving, 20),
+            (EBaseHitValueModifier/Idling, 45 * AccCorrAA),
+            (EBaseHitValueModifier/Moving, 25 * AccCorrAA), //was 30
             (EBaseHitValueModifier/Targeted, 0.0),
          ]
         DistanceToTarget = True
@@ -42185,14 +42534,13 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm_NL is TAmmunitionDescriptor //needs work
     TimeBetweenTwoSalvos              = 1.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
-    ShotsCountPerSalvo                    = 10
-    SupplyCost                        = 0.2
+    ShotsCountPerSalvo                = 96
+    SupplyCost                        = 25.0
     NbSalvosShootOnPosition           = 4
     CanShootOnPosition                = True
     CanShootWhileMoving               = True
-    HasDeploymentTime                 = False
-    SimultaneousShotsCount          = 1
-    AffichageMunitionParSalve         = 80
+    SimultaneousShotsCount            = 2
+    AffichageMunitionParSalve         = 96
     InterfaceWeaponTexture            = "Texture_Interface_Weapon_gdf_35"
     SmokeDescriptor                   = nil
     FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
@@ -42200,7 +42548,7 @@ Ammo_DCA_2_canons_Oerlikon_GDF_35mm_NL is TAmmunitionDescriptor //needs work
     IsHarmlessForAllies               = False
     PiercingWeapon                    = False
     TandemCharge                      = False
-    DamageTypeEvolutionOverRangeDescriptor  = nil ////~/DamageTypeEvolutionOverRangeDescriptor_DCA //I don't think there should be any drop with range since it's HE
+    DamageTypeEvolutionOverRangeDescriptor  = nil //~/DamageTypeEvolutionOverRangeDescriptor_AA_Autocannon
 )
 Ammo_DCA_2_canons_S60_57mm is TAmmunitionDescriptor
 (
@@ -89133,23 +89481,23 @@ Ammo_RocketArt_9F53F_122mm_airburst_x50 is TAmmunitionDescriptor //wider AoE, no
     TypeCategoryName                  = 'LTMWHXRDRX'
     Caliber                           = 'BZLFXSXAFE'
     WeaponDescriptionToken            = 'RocketDes'
-    TraitsToken                       = [ 'STAT', 'HEAT', 'airburst', ]
+    TraitsToken                       = [ 'STAT', 'airburst', ]
     WeaponCursorType                  = Weapon_Cursor_CorrectedArtillery
     MinMaxCategory                    = MinMax_MLRS
-    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_bombe Index=1)
+    Arme                              = TDamageTypeRTTI(Family=DamageFamily_howz_ab Index=1)
     ProjectileType                    = EProjectileType/Artillerie
-    ImpactHappening                   = 'Roquette110Mm130MmCluster'
+    ImpactHappening                   = 'ArtillerieAirburst'
     FxPower                           = EFXPower/Moyen
     TimeBetweenTwoShots               = 1.0
     TimeBetweenTwoFx                  = 1.0
     MaximumRangeGRU                   = 20000
     MinimumRangeGRU                   = 2000
     AngleDispersion                   = 0.0
-    DispersionAtMaxRangeGRU           = 350
-    DispersionAtMinRangeGRU           = 50
+    DispersionAtMaxRangeGRU           = 4*350
+    DispersionAtMinRangeGRU           = 4*50
     SalvoShotsSorted          		  = False
 	CorrectedShotDispersionMultiplier = 0.25
-    RadiusSplashPhysicalDamagesGRU    = 53 //airburst gives wider AoE
+    RadiusSplashPhysicalDamagesGRU    = 68 //airburst gives wider AoE
     PhysicalDamages                   = 4.05
     ShowDamageInUI                    = True
     RadiusSplashSuppressDamagesGRU    = ArtySuppressRadCorr *80 
@@ -89159,6 +89507,7 @@ Ammo_RocketArt_9F53F_122mm_airburst_x50 is TAmmunitionDescriptor //wider AoE, no
     TirIndirect                       = True
     ForceHitTopArmorOnSuccess         = True
     ComputeArmorFromImpactLocation    = True
+    ForceHitTopArmor                  = True
     TirReflexe                        = False
     ProjectileSpeedGRU                = 700.0
     NoiseDissimulationMalus           = 0.0
@@ -89182,18 +89531,18 @@ Ammo_RocketArt_9F53F_122mm_airburst_x50 is TAmmunitionDescriptor //wider AoE, no
     TimeBetweenTwoSalvos              = 330.0
     TimeBetweenTwoSalvos_Min          = -1.0
     TimeBetweenTwoSalvos_Max          = -1.0
-    ShotsCountPerSalvo                    = 50
+    ShotsCountPerSalvo                = 50
     SupplyCost                        = 1000.0
     NbSalvosShootOnPosition           = 1
     CanShootOnPosition                = True
     CanShootWhileMoving               = False
     HasDeploymentTime                 = True
-    SimultaneousShotsCount          = 1
+    SimultaneousShotsCount            = 1
     AffichageMunitionParSalve         = 50
     InterfaceWeaponTexture            =  "Texture_Interface_Weapon_RocketArt_9F53_122mm"
     SmokeDescriptor                   = nil
     FireDescriptor                    = $/GFX/Weapon/Descriptor_Fire_Incendie
-    FireTriggeringProbability         = 0.1
+    FireTriggeringProbability         = 0.02
     IsHarmlessForAllies               = False
     PiercingWeapon                    = True
     TandemCharge                      = False

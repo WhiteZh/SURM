@@ -453,3 +453,4 @@ RangeCorrAAM					  is 0.55
 BombRadiusCorr					  is 1.5
 GRUCorr							  is 0.00489908621//0.00465142368 //0.01359141195
 KMHCorr							  is 0.0173076923
+ArtyAimTimeCorr					  is 1.28

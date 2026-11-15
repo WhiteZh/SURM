@@ -224,7 +224,7 @@ MatrixCostName_NL_CLKA_multi is MAP
 
 MatrixCostName_POL_15_Zmechanizowana_multi is MAP
 [
-    (Factory/Art, [1, 1, 2, 3, 3, 3]),
+    (Factory/Art, [1, 1, 1, 1, 1, 1, 2, 2, 2, 3, ]),
     (Factory/DCA, [1, 1, 1, 1, 2, 2, 3]),
     (Factory/Defense, [0]),
     (Factory/Helis, [2]),
@@ -237,7 +237,7 @@ MatrixCostName_POL_15_Zmechanizowana_multi is MAP
 
 MatrixCostName_POL_20_Pancerna_multi is MAP
 [
-    (Factory/Art, [1, 1, 1, 1, 1, 2, 2, 2, 3, ]),
+    (Factory/Art, [1, 1, 1, 1, 1, 1, 2, 2, 2, 3, ]),
     (Factory/DCA, [1, 1, 2, 2, 3, 3]),
     (Factory/Defense, [0]),
     (Factory/Helis, [1, 2, 2, 3]),
@@ -250,7 +250,7 @@ MatrixCostName_POL_20_Pancerna_multi is MAP
 
 MatrixCostName_POL_4_Zmechanizowana_multi is MAP
 [
-    (Factory/Art, [1, 1, 1, 1, 1, 2, 2, 2,]),
+    (Factory/Art, [1, 1, 1, 1, 1, 1, 2, 2, 2,]),
     (Factory/DCA, [1, 1, 2, 2, 3, 3]),
     (Factory/Defense, [0]),
     (Factory/Helis, [1, 2, 2, 3]),
@@ -263,7 +263,7 @@ MatrixCostName_POL_4_Zmechanizowana_multi is MAP
 
 MatrixCostName_POL_Korpus_Desantowy_multi is MAP
 [
-    (Factory/Art, [1, 1, 1, 1, 1, 2, 2, 2, 3, ]),
+    (Factory/Art, [1, 1, 1, 1, 1, 1, 2, 2, 2, 3, ]),
     (Factory/DCA, [1, 1, 2, 2, 3]),
     (Factory/Defense, []),
     (Factory/Helis, [1, 1, 1, 1, 2, 3, 3, 3]),
@@ -436,7 +436,7 @@ MatrixCostName_SOV_119IndTkBrig_multi is MAP
     (Factory/Recons,        [1, 1, 1, 2, 3, 3, 3, 3] ),//8;17
     (Factory/Infantry,  [1, 1, 1, 1, 2, 2, 2, 2] ),//5;10
     (Factory/Tanks,        [1, 1, 1, 1, 1, 1, 1, 2, 2, 2] ),//10;13
-    (Factory/Art,     [1, 1, 2, 3, 3, 3] ),//6;13   =ART
+    (Factory/Art,     [1, 1, 1, 1, 2, 2, 3, 3,] ),//6;13   =ART
     (Factory/DCA,          [1, 1, 2, 3, 3] ),//5;10   =AA
     (Factory/Helis,       [1, 1, 1, 2, 2, 3, 3, 3] ),//8;16
     (Factory/Planes,         [1, 1, 2, 2, 3, 3, 3, 3] ),//8;18
@@ -445,7 +445,7 @@ MatrixCostName_SOV_119IndTkBrig_multi is MAP
 
 MatrixCostName_SOV_157_Rifle_multi is MAP
 [
-    (Factory/Art, [1, 1, 1, 1, 2, 2, 3, 3, 3]),
+    (Factory/Art, [1, 1, 1, 1, 1, 2, 2, 2, 3, 3,]),
     (Factory/DCA, [1, 1, 2, 3, 3]),
     (Factory/Defense, [0]),
     (Factory/Helis, [2, 2]),
@@ -458,7 +458,7 @@ MatrixCostName_SOV_157_Rifle_multi is MAP
 
 MatrixCostName_SOV_17_Gds_Tank_multi is MAP
 [
-    (Factory/Art, [1, 1, 1, 1, 1, 2, 2, 3, 3]),
+    (Factory/Art, [1, 1, 1, 1, 1, 2, 2, 2, 3, 3,]),
     (Factory/DCA, [1, 1, 2, 2, 3, 3, 3]),
     (Factory/Defense, []),
     (Factory/Helis, [1, 2, 3, 3]),
@@ -501,7 +501,7 @@ MatrixCostName_SOV_27_Gds_Rifle_multi is MAP
     (Factory/Recons,        [1, 1, 2, 2, 3, 3] ),//6;13
     (Factory/Infantry,  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2] ),//9;14
     (Factory/Tanks,        [1, 1, 2, 2, 2, 3] ),//6;13
-    (Factory/Art,     [1, 1, 1, 1, 1, 2, 2, 3, 3] ),//8;15    =ART
+    (Factory/Art, 		[1, 1, 1, 1, 1, 2, 2, 2, 3, 3,]),//8;15    =ART
     (Factory/DCA,          [1, 1, 1, 2, 2, 3, 3, 3] ),//8;15   =AA
     (Factory/Helis,       [1, 1, 2, 3] ),//4;7
     (Factory/Planes,         [1, 1, 2, 2, 3, 3] ),//6;13
@@ -566,7 +566,7 @@ MatrixCostName_SOV_39_Gds_Rifle_multi is MAP
     (Factory/Recons,        [1, 1, 2, 3, 3, 3] ),//6;13
     (Factory/Infantry,  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2] ),//10;13
     (Factory/Tanks,        [1, 1, 2, 2, 2, 3] ),//7;14
-    (Factory/Art,     [1, 1, 1, 1, 1, 2, 2, 3] ),//7;14    =ART
+    (Factory/Art, 		[1, 1, 1, 1, 1, 2, 2, 2, 3, 3,]),//7;14    =ART
     (Factory/DCA,          [1, 1, 2, 3, 3, 3] ),//6;13   =AA
     (Factory/Helis,       [1, 2, 2, 3] ),//6;13
     (Factory/Planes,         [1, 1, 2, 3, 3, 3] ),//6;13
@@ -579,7 +579,7 @@ MatrixCostName_SOV_4_Gds_Tank_multi is MAP
     (Factory/Recons,        [1, 1, 1, 1, 3, 3, 3] ),//7;14
     (Factory/Infantry,  [1, 1, 1, 1, 2, 2, 2, 2, 3] ),//7;14
     (Factory/Tanks,        [1, 1, 1, 1, 1, 1, 2, 3, 3] ),//9;14
-    (Factory/Art,     [1, 1, 1, 1, 1, 1, 2, 2] ),//8;15    =ART
+    (Factory/Art,     [1, 1, 1, 1, 1, 1, 1, 2, 2, 3, 3,] ),//8;15    =ART
     (Factory/DCA,          [1, 1, 1, 2, 2, 3, 3, 3] ),//8;15   =AA
     (Factory/Helis,       [1, 2, 2, 3] ),//6;13
     (Factory/Planes,         [1, 1, 2, 2, 3, 3] ),//6;13
@@ -608,7 +608,7 @@ MatrixCostName_SOV_6IndMSBrig_multi is MAP
     (Factory/Logistic, [1, 1, 1, 1, 2, 2, 3, 3]),
     (Factory/Planes, [1, 1, 1, 2, 2, 3, 3]),
     (Factory/Recons, [1, 1, 2, 3, 3]),
-    (Factory/Art, [1, 1, 1, 1, 1, 1, 1, 2, 2, 3]),
+    (Factory/Art, [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 3]),
     (Factory/Tanks, [1, 1, 2, 3]),
 ]
 
@@ -644,7 +644,7 @@ MatrixCostName_SOV_79_Gds_Tank_multi is MAP
     (Factory/Recons,        [1, 1, 1, 2, 3, 3, 3] ),//7;14
     (Factory/Infantry,  [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3] ),//7;14
     (Factory/Tanks,        [1, 1, 1, 1, 1, 1, 2, 3, 3] ),//9;14
-    (Factory/Art,     [1, 1, 1, 1, 1, 1, 2, 2] ),//8;15    =ART
+    (Factory/Art,     [1, 1, 1, 1, 1, 1, 1, 2, 2] ),//8;15    =ART
     (Factory/DCA,          [1, 1, 1, 2, 2, 3, 3, 3] ),//8;15   =AA
     (Factory/Helis,       [1, 2, 2, 3] ),//6;13
     (Factory/Planes,         [1, 1, 1, 2, 3, 3] ),//6;13
@@ -705,7 +705,7 @@ MatrixCostName_TCH_1_Tank_multi is MAP
 
 MatrixCostName_TCH_2_MSD_multi is MAP
 [
-    (Factory/Art, [1, 1, 1, 2, 2, 3, 3]),
+    (Factory/Art, [1, 1, 1, 1, 1, 2, 2, 3, 3]),
     (Factory/DCA, [1, 1, 2, 2, 3, 3, 3]),
     (Factory/Defense, []),
     (Factory/Helis, [2, 3]),
@@ -718,7 +718,7 @@ MatrixCostName_TCH_2_MSD_multi is MAP
 
 MatrixCostName_TCH_303_Tank_multi is MAP
 [
-    (Factory/Art, [1, 1, 1, 1, 2, 2, 3, 3]),
+    (Factory/Art, [1, 1, 1, 1, 1, 2, 2, 3, 3]),
     (Factory/DCA, [1, 1, 1, 2, 3, 3, 3]),
     (Factory/Defense, []),
     (Factory/Helis, [1, 2, 3]),

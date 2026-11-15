@@ -58,6 +58,7 @@ unnamed TGameplayTerrainsRegistration
 		            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.5)]),
 		            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.5)]),
 		            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.5)]),
+		            (DamageFamily_howz_ab, MAP [(ResistanceFamily_infanterie,0.85)]),
 		            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.5)]),
 					(DamageFamily_bombe, MAP [(ResistanceFamily_infanterie,1.0)]),
 		            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.5)]),
@@ -95,6 +96,7 @@ unnamed TGameplayTerrainsRegistration
 		            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.2)]),
 		            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.4)]),
 		            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.35)]),
+		            (DamageFamily_howz_ab, MAP [(ResistanceFamily_infanterie,0.12)]),
 		            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.35)]),
 		            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.2)]),
 					(DamageFamily_pmballe, MAP [(ResistanceFamily_infanterie,0.2)]),
@@ -132,6 +134,7 @@ unnamed TGameplayTerrainsRegistration
 		            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.14)]),
 		            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.25)]),
 		            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.2)]),
+		            (DamageFamily_howz_ab, MAP [(ResistanceFamily_infanterie,0.05)]),
 		            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.2)]),
 		            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.13)]),
 					(DamageFamily_pmballe, MAP [(ResistanceFamily_infanterie,0.13)]),
@@ -169,6 +172,7 @@ unnamed TGameplayTerrainsRegistration
 		            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.25)]),
 		            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.5)]),
 		            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.65)]),
+		            (DamageFamily_howz_ab, MAP [(ResistanceFamily_infanterie,0.25)]),
 		            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.65)]),
 					(DamageFamily_bombe, MAP [(ResistanceFamily_infanterie,1.0)]),
 		            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.25)]),
@@ -179,7 +183,7 @@ unnamed TGameplayTerrainsRegistration
 					(DamageFamily_flamme, MAP [(ResistanceFamily_infanterie,0.8)]),
 					(DamageFamily_cluster_ap, MAP [(ResistanceFamily_infanterie,0.5)]),
 					(DamageFamily_artillerie, MAP [(ResistanceFamily_infanterie,0.6)]),
-					(DamageFamily_suppress, MAP [(ResistanceFamily_infanterie,4.0)]), //experiment to make infantry in buildings easier to suppress
+					//(DamageFamily_suppress, MAP [(ResistanceFamily_infanterie,4.0)]), //experiment to make infantry in buildings easier to suppress (now seems dumb)
 		        ]
 		    DebugColor = RGBA[0, 6, 200, 255]
 		    DissimulationModifierGroundAir = 2.92 * 300
@@ -262,6 +266,7 @@ unnamed TGameplayTerrainsRegistration
 		            (DamageFamily_balle, MAP [(ResistanceFamily_infanterie,0.2)]),
 		            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.4)]),
 		            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.5)]),
+		            (DamageFamily_howz_ab, MAP [(ResistanceFamily_infanterie,0.85)]),
 		            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.5)]),
 					(DamageFamily_bombe, MAP [(ResistanceFamily_infanterie,1.0)]),
 		            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.1)]),
@@ -300,6 +305,7 @@ unnamed TGameplayTerrainsRegistration
 		            (DamageFamily_balledca, MAP [(ResistanceFamily_infanterie,0.55)]),
 		            (DamageFamily_howz, MAP [(ResistanceFamily_infanterie,0.65)]),
 		            (DamageFamily_howz_bombe, MAP [(ResistanceFamily_infanterie,0.65)]),
+		            (DamageFamily_howz_ab, MAP [(ResistanceFamily_infanterie,0.9)]),
 					(DamageFamily_bombe, MAP [(ResistanceFamily_infanterie,1.0)]),
 		            (DamageFamily_fmballe, MAP [(ResistanceFamily_infanterie,0.45)]),
 					(DamageFamily_pmballe, MAP [(ResistanceFamily_infanterie,0.45)]),
@@ -309,7 +315,7 @@ unnamed TGameplayTerrainsRegistration
 					(DamageFamily_flamme, MAP [(ResistanceFamily_infanterie,1.0)]),
 					(DamageFamily_cluster_ap, MAP [(ResistanceFamily_infanterie,1.0)]),
 					(DamageFamily_artillerie, MAP [(ResistanceFamily_infanterie,0.6)]),
-					(DamageFamily_suppress, MAP [(ResistanceFamily_infanterie,4.0)]), //experiment to make infantry in buildings easier to suppress
+					//(DamageFamily_suppress, MAP [(ResistanceFamily_infanterie,4.0)]), //experiment to make infantry in buildings easier to suppress (now seems dumb)
 		        ]
 		    DebugColor = RGBA[128, 128, 128, 255]
 		    DissimulationModifierGroundAir = 0

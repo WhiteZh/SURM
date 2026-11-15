@@ -509527,7 +509527,7 @@ export Descriptor_Unit_FO_152_DDR is TEntityDescriptor
         (
             FactoryType = Factory/Art
             ProductionTime = 5
-            ProductionRessourcesNeeded = MAP[($/GFX/Resources/Resource_CommandPoints, 220), ($/GFX/Resources/Resource_Tickets, 220)]
+            ProductionRessourcesNeeded = MAP[($/GFX/Resources/Resource_CommandPoints, 200), ($/GFX/Resources/Resource_Tickets, 200)]
         ),
         ~/InfluencePositionModuleDescriptor,
         ~/InfluenceDataModuleDescriptor,
@@ -510489,7 +510489,7 @@ export Descriptor_Unit_FO_ESP is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -510773,7 +510773,7 @@ export Descriptor_Unit_FO_BN_ESP is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -513242,7 +513242,7 @@ export Descriptor_Unit_FO_BCo_FR is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -518194,7 +518194,7 @@ export Descriptor_Unit_FO_NL is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -518468,7 +518468,7 @@ export Descriptor_Unit_FO_110_NL is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -518742,7 +518742,7 @@ export Descriptor_Unit_FO_BCO_NL is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -519302,7 +519302,7 @@ export Descriptor_Unit_FO_POL is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -519585,7 +519585,7 @@ export Descriptor_Unit_FO_152_POL is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -519749,7 +519749,7 @@ export Descriptor_Unit_FO_152_POL is TEntityDescriptor
         (
             FactoryType = Factory/Art
             ProductionTime = 5
-            ProductionRessourcesNeeded = MAP[($/GFX/Resources/Resource_CommandPoints, 220), ($/GFX/Resources/Resource_Tickets, 220)]
+            ProductionRessourcesNeeded = MAP[($/GFX/Resources/Resource_CommandPoints, 200), ($/GFX/Resources/Resource_Tickets, 200)]
         ),
         ~/InfluencePositionModuleDescriptor,
         ~/InfluenceDataModuleDescriptor,
@@ -519868,7 +519868,7 @@ export Descriptor_Unit_FO_122_POL is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -520151,7 +520151,7 @@ export Descriptor_Unit_FO_BCo_POL is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -531278,7 +531278,7 @@ export Descriptor_Unit_FO_TCH is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor
@@ -531522,6 +531522,289 @@ export Descriptor_Unit_FO_TCH is TEntityDescriptor
     ]
 )
 
+export Descriptor_Unit_FO_152_TCH is TEntityDescriptor
+(
+    DescriptorId = GUID:{19c40200-db6a-4042-9e1d-83c4ac2f3d41}
+    ClassNameForDebug = 'Unit_FO_152_TCH'
+    ModulesDescriptors = 
+    [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition = TWargameCoalition/PACT
+            MotherCountry = 'TCH'
+            AcknowUnitTypes = [~/TAcknowUnitType_Reco, ~/TAcknowUnitType_Reco_SK, ~/TAcknowUnitType_Reco]
+        ),
+        TFormationModuleDescriptor
+        (
+            TypeUnitFormation = 'Reconnaissance'
+        ),
+        InfantryFlagsModuleDescriptor,
+        $/GFX/UnitConstantes/CriticalEffectModule_Infanterie,
+        ~/TargetCoordinatorModuleDescriptor,
+        ~/UnitPositionModuleDescriptor,
+        ~/PlayerMissionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = 
+            [
+                "AllUnits",
+                "Unite",
+                "UNITE_FO_TCH",
+                "Inf_quartier_ok",
+                "Crew",
+                "AllowedForMissileRoE",
+                "Radio",
+                "GroundUnits",
+                "Forward_Observer"
+            ]
+        ),
+        TExperienceModuleDescriptor
+        (
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
+            ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 2.8
+        ),
+        InfantryApparenceModuleDescriptor
+        (
+            MimeticName = "squad_SM_Infanterie_SOVIET"
+        ),
+        TAutoCoverModuleDescriptor
+        (
+            AutoCoverRangeGRU = 42
+            OccupationRadiusGRU = 12
+            TerrainList = [~/ETerrainType/Batiment, ~/ETerrainType/Ruin, ~/ETerrainType/ForetLegere]
+            UseTerrainsForEscape = True
+        ),
+        $/GFX/Weapon/WeaponDescriptor_CCo_152_TCH,
+        TBaseDamageModuleDescriptor
+        (
+            MaxPhysicalDamages = 2
+            MaxSuppressionDamages = ~/Infanterie_MaxSuppressionDamages
+            MaxStunDamages = ~/Infanterie_MaxStunDamages
+            PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+            SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_GroundUnits_packSupp
+            StunDamageLevelsPack = ~/DamageLevelsPackDescriptor_Unit_packStun
+        ),
+        TDamageModuleDescriptor
+        (
+            SuppressDamagesRegenRatio = ~/Infanterie_SuppressDamagesRegenRatioList
+            StunDamagesRegen = ~/Infanterie_StunDamagesRegen
+            BlindageProperties = TBlindageProperties
+            (
+                ResistanceFront = TResistanceTypeRTTI(Family=ResistanceFamily_infanterie Index=1)
+                ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_infanterie Index=1)
+                ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_infanterie Index=1)
+                ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_infanterie Index=1)
+                ExplosiveReactiveArmor = False
+            )
+            KillWhenDamagesReachMax = True
+            HitRollECM = 0.0
+            UseTopArmorAgainstFire = True
+        ),
+        TDangerousnessModuleDescriptor
+        (
+            Dangerousness = 7
+        ),
+        TRoutModuleDescriptor
+        (
+            MoralLevel = 0
+        ),
+        TInfantrySquadModuleDescriptor
+        (
+            SoldierCount = 2
+            SquadDataDescriptor = ~/SoldierSquadDataDescriptor
+            SoldierBlackHoleKey = 'Scout_TCH'
+            //WeaponUnitFXKey = 'Scout_TCH'
+            MimeticDescriptor = Descriptor_Unit_MimeticUnit
+            (
+                DescriptorId = GUID:{f7029f65-87de-4b37-a93b-a9efa9637f66}
+                BlackHoleKey = 'Scout_TCH'
+            )
+        ),
+        ~/LineInfantrySquadSlotPositionsModuleDescriptor,
+        ~/FacingInfosModuleDescriptor,
+        TGenericMovementModuleDescriptor
+        (
+            MaxSpeedInKmph = 12
+            PathfindType = $/Pathfind/PathfindTypes/Infantry
+        ),
+        TLandMovementModuleDescriptor
+        (
+            UnitMovingType = EUnitMovingType/Infantry
+            SpeedBonusFactorOnRoad = 1.0
+            MaxAccelerationGRU = (AccelCorr * 10)
+            MaxDecelerationGRU = 54
+            TempsDemiTour = 0.1
+            EngineCooldownTime = 0
+            TerrainSpeedFactors = $/GFX/Terrains/InfantryTerrainSpeedFactors
+        ),
+        TScannerConfigurationDescriptor
+        (
+            VisionRangesGRU = MAP [
+                ( EVisionRange/Standard, 6000 ),
+                ( EVisionRange/LowAltitude, 11370 ),
+                ( EVisionRange/HighAltitude, 12370 ),
+            ]
+            OpticalStrengths = MAP
+            [
+                (EOpticalStrength/Standard, OpticalStrengthReducer*2000 * ScoutOpticBonus),
+                (EOpticalStrength/LowAltitude, OpticAltCorr * 3500 * ScoutOpticBonus),
+                (EOpticalStrength/HighAltitude, OpticAltCorr * 4500.0 * ScoutOpticBonus)
+            ]
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            IdentifyBaseProbability = IdentProbMult * 0.56
+            TimeBetweenEachIdentifyRoll = IdentTimeMult * 4.0
+            VisibilityRuleDescriptor = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+        ),
+        TTransportableModuleDescriptor
+        (
+            TransportedTexture = "UseInGame_Transport_RECO"
+            TransportedSoldier = 'Scout_TCH'
+            NbSeatsOccupied = 2
+            TimeToLoad = SquadLoadingTime
+            IsTowable = False
+        ),
+        UnitCadaverGeneratorModuleDescriptor
+        (
+            KillMode = EKillMode/Infantry
+            CadaverDuration = ~/CadaverDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+        ),
+        TIAStratModuleDescriptor
+        (
+            DatabaseId = 0
+            GameplayBehavior = EGameplayBehavior/Nothing | EGameplayBehavior/TacticalAttackInCover
+        ),
+        ~/IAStratZoneIndexModuleDescriptor,
+        ~/UnitStateEngineUnitModuleDescriptor,
+        ~/UnitStateEngineSubUnitModuleDescriptor,
+        ~/SelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TCapaciteModuleDescriptor
+        (
+            DefaultSkillList = [
+                $/GFX/EffectCapacity/Capacite_Morale_display_1,
+                $/GFX/EffectCapacity/Capacite_Morale_loss1,
+                $/GFX/EffectCapacity/Capacite_Morale_loss2,
+                $/GFX/EffectCapacity/Capacite_Morale_loss3,
+                $/GFX/EffectCapacity/Capacite_Morale_loss4,
+                $/GFX/EffectCapacity/Capacite_Morale_loss1_effect,
+                $/GFX/EffectCapacity/Capacite_Morale_loss2_effect,
+                $/GFX/EffectCapacity/Capacite_Morale_loss3_effect,
+                $/GFX/EffectCapacity/Capacite_Morale_loss4_effect,
+                $/GFX/EffectCapacity/Capacite_Morale_loss1_tag,
+                $/GFX/EffectCapacity/Capacite_Morale_loss2_tag,
+                $/GFX/EffectCapacity/Capacite_Morale_loss3_tag,
+                $/GFX/EffectCapacity/Capacite_Morale_loss4_tag,
+                $/GFX/EffectCapacity/Capacite_allow_EW,
+                $/GFX/EffectCapacity/Capacite_cover,
+                $/GFX/EffectCapacity/Capacite_Burn_Bailed_Tank,
+                $/GFX/EffectCapacity/Capacite_infantry_heard_loud,
+                $/GFX/EffectCapacity/Capacite_infantry_heard_medium,
+                $/GFX/EffectCapacity/Capacite_infantry_heard_quiet,
+                $/GFX/EffectCapacity/Capacite_vehicle_heard_loud,
+                $/GFX/EffectCapacity/Capacite_vehicle_heard_medium,
+                $/GFX/EffectCapacity/Capacite_vehicle_heard_quiet,
+                $/GFX/EffectCapacity/Capacite_dig_in,
+                $/GFX/EffectCapacity/Capacite_dig_in_no_dig_in,
+                $/GFX/EffectCapacity/Capacite_Menace_Ennemi_Proche,
+                //$/GFX/EffectCapacity/Capacite_Menace_Ennemi_Proche_flee, //redundant and not coded right
+                $/GFX/EffectCapacity/Capacite_Soutien_Allie_Proche,
+                $/GFX/EffectCapacity/Capacite_Flee_from_tank,
+                $/GFX/EffectCapacity/Capacite_Flee,
+                $/GFX/EffectCapacity/Capacite_Surrender,
+                $/GFX/EffectCapacity/Capacite_Display_Surrender,
+            ]
+        ),
+        TProductionModuleDescriptor
+        (
+            FactoryType = Factory/Art
+            ProductionTime = 5
+            ProductionRessourcesNeeded = MAP[($/GFX/Resources/Resource_CommandPoints, 220), ($/GFX/Resources/Resource_Tickets, 220)]
+        ),
+        ~/InfluencePositionModuleDescriptor,
+        ~/InfluenceDataModuleDescriptor,
+        TAttackReactionModuleDescriptor
+        (
+            CanAssist = False
+            AssistRequestBroadcastRadiusGRU = 0.0
+            DistanceToFleeGRU = 353
+            MaxDistanceForOffensiveReactionGRU = 353
+            MaxDistanceForEngagementGRU = 0.0
+            SearchedTagsInEngagementTarget = ["AllUnits"]
+        ),
+        TMinimapDisplayModuleDescriptor
+        (
+            Texture = "Texture_Minimap_Unit_inf"
+            FollowUnitOrientation = False
+        ),
+        TOrderConfigModuleDescriptor
+        (
+            ValidOrders = ~/Descriptor_OrderAvailability_FO
+        ),
+        TOrderableModuleDescriptor
+        (
+            UnlockableOrders = ~/Descriptor_OrderAvailability_FO
+        ),
+        ~/OrderDisplayModuleDescriptor,
+        ~/GroupableUnitModuleDescriptor,
+        TTacticalLabelModuleDescriptor
+        (
+            MultiSelectionSortingOrder = 18035
+            IdentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values = ["Texture_RTS_H_RECO_inf", "Texture_RECO_inf"]
+            )
+            UnidentifiedTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                Alterator = $/GUIOption/IconType
+                Values = ["Texture_RTS_H_infantry_nonIdentifie", "Texture_infantry_nonIdentifie"]
+            )
+            PositionHeightOffset = 1000.0
+        ),
+        ~/LinkToDistrictModuleDescriptor,
+        ~/TargetDataModuleDescriptor,
+        TStrategicDataModuleDescriptor
+        (
+            UnitAttackValue = 18
+            UnitDefenseValue = 36
+            UnitBonusXpPerLevelValue = 1
+        ),
+        TUnitUIModuleDescriptor
+        (
+            PriceCategory = 'tank_D'
+            UnitRole = 'reco'
+            SpecialtiesList = []
+            NameToken = 'FOTOKEN'
+            InfoPanelConfigurationToken = 'Infantry'
+            MenuIconTexture = 'Texture_RTS_H_RECO_inf'
+            ButtonTexture = 'Texture_Button_Unit_Scout_TCH'
+            TypeStrategicCount = ETypeStrategicDetailedCount/Reco_Inf
+        ),
+        TUnitUpkeepModuleDescriptor
+        (
+            UpkeepPercentage = 0.0
+        ),
+        TVisualShootPositionsModuleDescriptor(),
+        ~/SellModuleDescriptor,
+        TCameraShowroomModuleDescriptor
+        (
+            SpawnType = EShowroomSpawnType/Infantry
+            ShowRoomBlackHoleIdentifier = "squad_SM_Infanterie_SOVIET"
+            HasServants = False
+        )
+    ]
+)
+
 export Descriptor_Unit_FO_BN_TCH is TEntityDescriptor
 (
     DescriptorId = GUID:{0597f40d-267b-48bc-bd58-1db0fc906dee}
@@ -531561,7 +531844,7 @@ export Descriptor_Unit_FO_BN_TCH is TEntityDescriptor
         ),
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_FO
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
         ),
         TVisibilityModuleDescriptor

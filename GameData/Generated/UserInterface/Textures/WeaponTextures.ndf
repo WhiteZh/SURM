@@ -1789,6 +1789,10 @@ Texture_Interface_Weapon_HE is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/traits/HE2.png"
 )
+Texture_Interface_Weapon_Airburst is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/traits/cluster.png"
+)
 Texture_Interface_Weapon_HEAT is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Armes/Panel_Info/HEAT.png"
@@ -2263,6 +2267,7 @@ WeaponAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Interface_Weapon_Strela_10", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Strela_10)]),
         ("Texture_Interface_Weapon_9K31_Strela", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_9K31_Strela)]),
         ("Texture_Interface_Weapon_Starstreak_x3", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Starstreak_x3)]),
+        ("Texture_Interface_Weapon_Airburst", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_Airburst)]),
         ("Texture_Interface_Weapon_HE", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_HE)]),
         ("Texture_Interface_Weapon_HEAT", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_HEAT)]),
         ("Texture_Interface_Weapon_HESH", MAP [(~/ComponentState/Normal, ~/Texture_Interface_Weapon_HESH)]),

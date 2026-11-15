@@ -245,7 +245,7 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     // constante de l'idle des helico
     HelicoSafeCollisionPlanesOrderByTag =
     [
-        ("AllUnits", [TCollisionPlane/NearGround, TCollisionPlane/LowAltitude, TCollisionPlane/Ground]),
+        ("AllUnits", [ECollisionPlane/NearGround, ECollisionPlane/LowAltitude, ECollisionPlane/Ground]),
     ]
 
     IAStratPathCostCacheFilePath = "CurrentScenarioData:/out/IAStrat_PathCache.ndfbin"

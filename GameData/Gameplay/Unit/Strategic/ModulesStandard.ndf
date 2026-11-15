@@ -19,7 +19,7 @@ StrategicSelectionModuleDescriptor is TSelectionModuleDescriptor
 
 PawnPositionModuleDescriptor is TPositionModuleDescriptor
 (
-    InitialCollisionPlane      = TCollisionPlane/Ground
+    InitialCollisionPlane      = ECollisionPlane/Ground
     InGeoDb                    = True
     ClampInWorld               = False
     ClampOutMap                = False

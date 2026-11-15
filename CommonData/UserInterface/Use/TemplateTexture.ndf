@@ -1,4 +1,4 @@
-template TUIResourceTexture_Common
+template TUIResourceTexture
 [
     FileName : string,
 ] is TUIResourceTexture
@@ -6,7 +6,7 @@ template TUIResourceTexture_Common
     FileName = <FileName>
 )
 
-template TUIResourceTexture_MapPack
+template TUIAutoRegisteredResourceTexture
 [
     FileName : string,
 ] is TUIAutoRegisteredResourceTexture

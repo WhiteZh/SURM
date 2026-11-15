@@ -1,508 +1,508 @@
 // Ne pas éditer, ce fichier est généré par DivisionTextureFileWriter
 
 
-Texture_Division_Emblem_BEL_16e_Meca is TUIResourceTexture_Common
+Texture_Division_Emblem_BEL_16e_Meca is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/BEL_16e_Meca.png"
 )
-Texture_Division_Emblem_BEL_DivMob is TUIResourceTexture_Common
+Texture_Division_Emblem_BEL_DivMob is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/BEL_DivMob.png"
 )
-Texture_Division_Emblem_CAN_1st_division is TUIResourceTexture_Common
+Texture_Division_Emblem_CAN_1st_division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/CAN_1st_division.png"
 )
-Texture_Division_Emblem_DK_Jyske is TUIResourceTexture_Common
+Texture_Division_Emblem_DK_Jyske is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DK_Jyske.png"
 )
-Texture_Division_Emblem_DK_Ostre_Landkommando is TUIResourceTexture_Common
+Texture_Division_Emblem_DK_Ostre_Landkommando is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DK_Ostre_Landkommando.png"
 )
-Texture_Division_Emblem_ESP_Brunete is TUIResourceTexture_Common
+Texture_Division_Emblem_ESP_Brunete is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/ESP_Brunete.png"
 )
-Texture_Division_Emblem_ESP_Guzman is TUIResourceTexture_Common
+Texture_Division_Emblem_ESP_Guzman is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/ESP_Guzman.png"
 )
-Texture_Division_Emblem_FR_11e_Para is TUIResourceTexture_Common
+Texture_Division_Emblem_FR_11e_Para is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_11e_Para.png"
 )
-Texture_Division_Emblem_FR_152eID is TUIResourceTexture_Common
+Texture_Division_Emblem_FR_152eID is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_152eID.png"
 )
-Texture_Division_Emblem_FR_5eDB is TUIResourceTexture_Common
+Texture_Division_Emblem_FR_5eDB is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_5eDB.png"
 )
-Texture_Division_Emblem_FR_6e_DBL is TUIResourceTexture_Common
+Texture_Division_Emblem_FR_6e_DBL is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_6e_DBL.png"
 )
-Texture_Division_Emblem_FR_Div_Rhin is TUIResourceTexture_Common
+Texture_Division_Emblem_FR_Div_Rhin is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_Div_Rhin.png"
 )
-Texture_Division_Emblem_FR_ZdD_Paris is TUIResourceTexture_Common
+Texture_Division_Emblem_FR_ZdD_Paris is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_ZdD_Paris.png"
 )
-Texture_Division_Emblem_Berlin_Command is TUIResourceTexture_Common
+Texture_Division_Emblem_Berlin_Command is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/Berlin_Command.png"
 )
-Texture_Division_Emblem_NL_4e_Divisie is TUIResourceTexture_Common
+Texture_Division_Emblem_NL_4e_Divisie is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/NL_4e_Divisie.png"
 )
-Texture_Division_Emblem_NL_CLKA is TUIResourceTexture_Common
+Texture_Division_Emblem_NL_CLKA is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/NL_CLKA.png"
 )
-Texture_Division_Emblem_POL_15_ZMech is TUIResourceTexture_Common
+Texture_Division_Emblem_POL_15_ZMech is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/POL_15_ZMech.png"
 )
-Texture_Division_Emblem_POL_20_Pc is TUIResourceTexture_Common
+Texture_Division_Emblem_POL_20_Pc is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/POL_20_Pc.png"
 )
-Texture_Division_Emblem_POL_4_ZMech is TUIResourceTexture_Common
+Texture_Division_Emblem_POL_4_ZMech is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/POL_4_ZMech.png"
 )
-Texture_Division_Emblem_POL_Korpus_Desantowy is TUIResourceTexture_Common
+Texture_Division_Emblem_POL_Korpus_Desantowy is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/POL_Korpus_Desantowy.png"
 )
-Texture_Division_Emblem_DDR_20_MSD is TUIResourceTexture_Common
+Texture_Division_Emblem_DDR_20_MSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DDR_20_MSD.png"
 )
-Texture_Division_Emblem_DDR_4_MSD is TUIResourceTexture_Common
+Texture_Division_Emblem_DDR_4_MSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DDR_4_MSD.png"
 )
-Texture_Division_Emblem_DDR_7_PzD is TUIResourceTexture_Common
+Texture_Division_Emblem_DDR_7_PzD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DDR_7_PzD.png"
 )
-Texture_Division_Emblem_RDA__9_Panzer is TUIResourceTexture_Common
+Texture_Division_Emblem_RDA__9_Panzer is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RDA__9_Panzer.png"
 )
-Texture_Division_Emblem_RDA_KDA_Erfurt is TUIResourceTexture_Common
+Texture_Division_Emblem_RDA_KDA_Erfurt is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RDA_KDA_Erfurt.png"
 )
-Texture_Division_Emblem_RDA_Rugen_Gruppierung is TUIResourceTexture_Common
+Texture_Division_Emblem_RDA_Rugen_Gruppierung is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RDA_Rugen_Gruppierung.png"
 )
-Texture_Division_Emblem_RFA_1LLDiv is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_1LLDiv is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_1LLDiv.png"
 )
-Texture_Division_Emblem_2_PzGrenDivision_RFA is TUIResourceTexture_Common
+Texture_Division_Emblem_2_PzGrenDivision_RFA is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/2_PzGrenDivision_RFA.png"
 )
-Texture_Division_Emblem_5_Panzerdivision_RFA is TUIResourceTexture_Common
+Texture_Division_Emblem_5_Panzerdivision_RFA is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/5_Panzerdivision_RFA.png"
 )
-Texture_Division_Emblem_RFA_6_PzGrenDivision is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_6_PzGrenDivision is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_6_PzGrenDivision.png"
 )
-Texture_Division_Emblem_RFA_TerrKdo_Sud is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_TerrKdo_Sud is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_TerrKdo_Sud.png"
 )
-Texture_Division_Emblem_RFA_VTK_42 is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_VTK_42 is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_VTK_42.png"
 )
-Texture_Division_Emblem_SOV_119OdtTP is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_119OdtTP is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_119OdtTP.png"
 )
-Texture_Division_Emblem_SOV_157MSD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_157MSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_157MSD.png"
 )
-Texture_Division_Emblem_SOV_17gvTD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_17gvTD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_17gvTD.png"
 )
-Texture_Division_Emblem_SOV_1GvMSD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_1GvMSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_1GvMSD.png"
 )
-Texture_Division_Emblem_SOV_25th_TD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_25th_TD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_25th_TD.png"
 )
-Texture_Division_Emblem_SOV_27GvMSD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_27GvMSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_27GvMSD.png"
 )
-Texture_Division_Emblem_SOV_2GvMSD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_2GvMSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_2GvMSD.png"
 )
-Texture_Division_Emblem_SOV_31TD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_31TD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_31TD.png"
 )
-Texture_Division_Emblem_SOV_336_Naval_Brigade is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_336_Naval_Brigade is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_336_Naval_Brigade.png"
 )
-Texture_Division_Emblem_SOV_35th_VDV is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_35th_VDV is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_35th_VDV.png"
 )
-Texture_Division_Emblem_SOV_39_gvMSD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_39_gvMSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_39_gvMSD.png"
 )
-Texture_Division_Emblem_4th_gtd is TUIResourceTexture_Common
+Texture_Division_Emblem_4th_gtd is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/Sleeve_patch_4GTD.png"
 )
-Texture_Division_Emblem_SOV_56th_VDV is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_56th_VDV is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_56th_VDV.png"
 )
-Texture_Division_Emblem_SOV_6OdtMSB is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_6OdtMSB is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_6OdtMSB.png"
 )
-Texture_Division_Emblem_SOV_71_TD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_71_TD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_71_TD.png"
 )
-Texture_Division_Emblem_SOV_76th_VDV is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_76th_VDV is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_76th_VDV.png"
 )
-Texture_Division_Emblem_SOV_79_gvTD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_79_gvTD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_79_gvTD.png"
 )
-Texture_Division_Emblem_SOV_94gvMSD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_94gvMSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_94gvMSD.png"
 )
-Texture_Division_Emblem_SOV_DON_100 is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_DON_100 is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_DON_100.png"
 )
-Texture_Division_Emblem_TCH_19_MSD is TUIResourceTexture_Common
+Texture_Division_Emblem_TCH_19_MSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/TCH_19_MSD.png"
 )
-Texture_Division_Emblem_TCH_1_Tank is TUIResourceTexture_Common
+Texture_Division_Emblem_TCH_1_Tank is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/TCH_1_Tank.png"
 )
-Texture_Division_Emblem_TCH_2_MSD is TUIResourceTexture_Common
+Texture_Division_Emblem_TCH_2_MSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/TCH_2_MSD.png"
 )
-Texture_Division_Emblem_TCH_303_Tank is TUIResourceTexture_Common
+Texture_Division_Emblem_TCH_303_Tank is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/TCH_303_Tank.png"
 )
-Texture_Division_Emblem_UK_1st_Armoured is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_1st_Armoured is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_1st_Armoured.png"
 )
-Texture_Division_Emblem_UK_2nd_Infantry is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_2nd_Infantry is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_2nd_Infantry.png"
 )
-Texture_Division_Emblem_UK_4th_Armoured is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_4th_Armoured is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_4th_Armoured.png"
 )
-Texture_Division_Emblem_UK_5th_Airborne is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_5th_Airborne is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_5th_Airborne.png"
 )
-Texture_Division_Emblem_UK_London_HDR is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_London_HDR is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_London_HDR.png"
 )
-Texture_Division_Emblem_US_101st_Airmobile is TUIResourceTexture_Common
+Texture_Division_Emblem_US_101st_Airmobile is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_101st_Airmobile.png"
 )
-Texture_Division_Emblem_11ACR is TUIResourceTexture_Common
+Texture_Division_Emblem_11ACR is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/11ACR.png"
 )
-Texture_Division_Emblem_US_1st_Cavalry_Division is TUIResourceTexture_Common
+Texture_Division_Emblem_US_1st_Cavalry_Division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_1st_Cavalry_Division.png"
 )
-Texture_Division_Emblem_24th_infantry_division is TUIResourceTexture_Common
+Texture_Division_Emblem_24th_infantry_division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/24th_infantry_division.png"
 )
-Texture_Division_Emblem_US_2nd_Marine_Division is TUIResourceTexture_Common
+Texture_Division_Emblem_US_2nd_Marine_Division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_2nd_Marine_Division.png"
 )
-Texture_Division_Emblem_US_35th_infantry_division is TUIResourceTexture_Common
+Texture_Division_Emblem_US_35th_infantry_division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_35th_infantry_division.png"
 )
-Texture_Division_Emblem_3rd_Armored_Division is TUIResourceTexture_Common
+Texture_Division_Emblem_3rd_Armored_Division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/3rd_Armored_Division.png"
 )
-Texture_Division_Emblem_US_6th_Light is TUIResourceTexture_Common
+Texture_Division_Emblem_US_6th_Light is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_6th_Light.png"
 )
-Texture_Division_Emblem_82nd_airborne is TUIResourceTexture_Common
+Texture_Division_Emblem_82nd_airborne is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/82nd_airborne.png"
 )
-Texture_Division_Emblem_8th_infantry_division is TUIResourceTexture_Common
+Texture_Division_Emblem_8th_infantry_division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/8th_infantry_division.png"
 )
-Texture_Division_Emblem_US_9th_Motorized is TUIResourceTexture_Common
+Texture_Division_Emblem_US_9th_Motorized is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_9th_Motorized.png"
 )
-Texture_Division_Emblem_WP_Unternehmen_Stoss is TUIResourceTexture_Common
+Texture_Division_Emblem_WP_Unternehmen_Stoss is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/WP_Unternehmen_Stoss.png"
 )
-Texture_Division_Emblem_BEL_Air_Force is TUIResourceTexture_Common
+Texture_Division_Emblem_BEL_Air_Force is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/BEL_Air_Force.png"
 )
-Texture_Division_Emblem_BEL_1e_Infanterie is TUIResourceTexture_Common
+Texture_Division_Emblem_BEL_1e_Infanterie is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/BEL_1e_Infanterie.png"
 )
-Texture_Division_Emblem_FRA_Generic is TUIResourceTexture_Common
+Texture_Division_Emblem_FRA_Generic is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FRA_Generic.png"
 )
-Texture_Division_Emblem_FRA_4eDAM is TUIResourceTexture_Common
+Texture_Division_Emblem_FRA_4eDAM is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FRA_4eDAM.png"
 )
-Texture_Division_Emblem_flag_us is TUIResourceTexture_Common
+Texture_Division_Emblem_flag_us is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/flag_us.png"
 )
-Texture_Division_Emblem_DDR_GroundForces_SansFond is TUIResourceTexture_Common
+Texture_Division_Emblem_DDR_GroundForces_SansFond is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DDR_GroundForces_SansFond.png"
 )
-Texture_Division_Emblem_DDR_19_MSD is TUIResourceTexture_Common
+Texture_Division_Emblem_DDR_19_MSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DDR_19_MSD.png"
 )
-Texture_Division_Emblem_DDR_8_MSD is TUIResourceTexture_Common
+Texture_Division_Emblem_DDR_8_MSD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DDR_8_MSD.png"
 )
-Texture_Division_Emblem_DDR_9_PzD is TUIResourceTexture_Common
+Texture_Division_Emblem_DDR_9_PzD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/DDR_9_PzD.png"
 )
-Texture_Division_Emblem_RDA_MB_III is TUIResourceTexture_Common
+Texture_Division_Emblem_RDA_MB_III is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RDA_MB_III.png"
 )
-Texture_Division_Emblem_RDA_LStR40 is TUIResourceTexture_Common
+Texture_Division_Emblem_RDA_LStR40 is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RDA_LStR40.png"
 )
-Texture_Division_Emblem_RFA_10_Panzer is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_10_Panzer is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_10_Panzer.png"
 )
-Texture_Division_Emblem_RFA_12_Panzer is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_12_Panzer is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_12_Panzer.png"
 )
-Texture_Division_Emblem_RFA_1_Gebirgs is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_1_Gebirgs is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_1_Gebirgs.png"
 )
-Texture_Division_Emblem_RFA_1_Panzerdivision is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_1_Panzerdivision is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_1_Panzerdivision.png"
 )
-Texture_Division_Emblem_RFA_26LLB is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_26LLB is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_26LLB.png"
 )
-Texture_Division_Emblem_RFA_default is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_default is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_default.png"
 )
-Texture_Division_Emblem_RFA_Luftwaffe is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_Luftwaffe is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_Luftwaffe.png"
 )
-Texture_Division_Emblem_RFA_III_Korps is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_III_Korps is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_III_Korps.png"
 )
-Texture_Division_Emblem_RFA_3_Panzerdivision is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_3_Panzerdivision is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_3_Panzerdivision.png"
 )
-Texture_Division_Emblem_RFA_4_PzGrenadier is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_4_PzGrenadier is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_4_PzGrenadier.png"
 )
-Texture_Division_Emblem_SOV_AirForce is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_AirForce is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_AirForce.png"
 )
-Texture_Division_Emblem_SOV_defaut is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_defaut is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_defaut.png"
 )
-Texture_Division_Emblem_Blazon57th_gtd is TUIResourceTexture_Common
+Texture_Division_Emblem_Blazon57th_gtd is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/Blazon57th_gtd.png"
 )
-Texture_Division_Emblem_flag_soviet is TUIResourceTexture_Common
+Texture_Division_Emblem_flag_soviet is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/flag_soviet.png"
 )
-Texture_Division_Emblem_TCH_defaut is TUIResourceTexture_Common
+Texture_Division_Emblem_TCH_defaut is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/TCH_defaut.png"
 )
-Texture_Division_Emblem_UK_1_Corps is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_1_Corps is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_1_Corps.png"
 )
-Texture_Division_Emblem_UK_RAF is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_RAF is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_RAF.png"
 )
-Texture_Division_Emblem_UK_BAOR is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_BAOR is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_BAOR.png"
 )
-Texture_Division_Emblem_US_AirForce is TUIResourceTexture_Common
+Texture_Division_Emblem_US_AirForce is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_AirForce.png"
 )
-Texture_Division_Emblem_US_VII_Corps is TUIResourceTexture_Common
+Texture_Division_Emblem_US_VII_Corps is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_VII_Corps.png"
 )
-Texture_Division_Emblem_US_V_Corps is TUIResourceTexture_Common
+Texture_Division_Emblem_US_V_Corps is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_V_Corps.png"
 )
-Texture_Division_Emblem_US_XVII_Corps is TUIResourceTexture_Common
+Texture_Division_Emblem_US_XVII_Corps is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_XVII_Corps.png"
 )
-Texture_Division_Emblem_US_194th_Armored_Brigade is TUIResourceTexture_Common
+Texture_Division_Emblem_US_194th_Armored_Brigade is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_194th_Armored_Brigade.png"
 )
-Texture_Division_Emblem_US_197th_Mechanized_Brigade is TUIResourceTexture_Common
+Texture_Division_Emblem_US_197th_Mechanized_Brigade is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_197th_Mechanized_Brigade.png"
 )
-Texture_Division_Emblem_1st_Armored_Division is TUIResourceTexture_Common
+Texture_Division_Emblem_1st_Armored_Division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/1st_Armored_Division.png"
 )
-Texture_Division_Emblem__vide is TUIResourceTexture_Common
+Texture_Division_Emblem__vide is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/_vide.png"
 )
-Texture_Division_Emblem_3rd_infantry_division is TUIResourceTexture_Common
+Texture_Division_Emblem_3rd_infantry_division is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/3rd_infantry_division.png"
 )
-Texture_Division_Emblem_BEL_1_Corps is TUIResourceTexture_Common
+Texture_Division_Emblem_BEL_1_Corps is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/BEL_1_Corps.png"
 )
-Texture_Division_Emblem_UK_3rd_Armoured is TUIResourceTexture_Common
+Texture_Division_Emblem_UK_3rd_Armoured is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_3rd_Armoured.png"
 )
-Texture_Division_Emblem_FR_7eDB is TUIResourceTexture_Common
+Texture_Division_Emblem_FR_7eDB is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/FR_7eDB.png"
 )
-Texture_Division_Emblem_POL_11_TkD is TUIResourceTexture_Common
+Texture_Division_Emblem_POL_11_TkD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/POL_11_TkD.png"
 )
-Texture_Division_Emblem_RFA_TerrKdo_Nord is TUIResourceTexture_Common
+Texture_Division_Emblem_RFA_TerrKdo_Nord is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RFA_TerrKdo_Nord.png"
 )
-Texture_Division_Emblem_SOV_138OdtTP is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_138OdtTP is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_138OdtTP.png"
 )
-Texture_Division_Emblem_SOV_9TD is TUIResourceTexture_Common
+Texture_Division_Emblem_SOV_9TD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_9TD.png"
 )
 
-Texture_Division_Type_MECHANIZ is TUIResourceTexture_Common
+Texture_Division_Type_MECHANIZ is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/MECHANIZ.png"
 )
-Texture_Division_Type_INFANREG is TUIResourceTexture_Common
+Texture_Division_Type_INFANREG is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/INFANREG.png"
 )
-Texture_Division_Type_MOTORIZD is TUIResourceTexture_Common
+Texture_Division_Type_MOTORIZD is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/MOTORIZD.png"
 )
-Texture_Division_Type_AIRBORNE is TUIResourceTexture_Common
+Texture_Division_Type_AIRBORNE is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/AIRBORNE.png"
 )
-Texture_Division_Type_ARMORED is TUIResourceTexture_Common
+Texture_Division_Type_ARMORED is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/ARMORED.png"
 )
-Texture_Division_Type_DIVNAVAL is TUIResourceTexture_Common
+Texture_Division_Type_DIVNAVAL is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/DIVNAVAL.png"
 )
-Texture_Division_Type_AIRMOBIL is TUIResourceTexture_Common
+Texture_Division_Type_AIRMOBIL is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/AIRMOBIL.png"
 )
-Texture_Division_Type_ARMORREC is TUIResourceTexture_Common
+Texture_Division_Type_ARMORREC is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/ARMORREC.png"
 )
-Texture_Division_Type_default is TUIResourceTexture_Common
+Texture_Division_Type_default is TUIResourceTexture
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Type/default.png"
 )

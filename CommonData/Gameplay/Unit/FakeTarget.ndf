@@ -13,7 +13,7 @@ Tactic_Descriptor_Unit_FakeTarget is TEntityDescriptor
         ),
         TPositionModuleDescriptor
         (
-            InitialCollisionPlane = TCollisionPlane/Ground
+            InitialCollisionPlane = ECollisionPlane/Ground
         ),
         TVisibilityModuleDescriptor
         (

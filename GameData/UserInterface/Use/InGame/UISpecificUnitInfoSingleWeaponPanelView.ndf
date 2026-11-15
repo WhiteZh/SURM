@@ -131,7 +131,7 @@ template WeaponDamageTypeAttribute
     BackgroundBlockColorTokenFondJauge : string ='MarronPanel_fonce',
     Scale : float = 1.0,
     IsSousGroupe : bool = false,
-    HasSousGroupeText : boolean = false,
+    HasSousGroupeText : bool = false,
     TokenSousGroupe : string = 'PALYIYEIFQ',
 ]
 is BUCKListDescriptor

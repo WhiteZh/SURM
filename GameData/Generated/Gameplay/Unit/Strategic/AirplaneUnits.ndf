@@ -22,7 +22,7 @@ export Descriptor_Unit_pion_BEL_11Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_11Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_11Sq"
@@ -51,8 +51,8 @@ export Descriptor_Unit_pion_BEL_11Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -106,7 +106,7 @@ export Descriptor_Unit_pion_BEL_1Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_1Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_1Sq"
@@ -135,8 +135,8 @@ export Descriptor_Unit_pion_BEL_1Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -190,7 +190,7 @@ export Descriptor_Unit_pion_BEL_23Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_23Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_23Sq"
@@ -219,8 +219,8 @@ export Descriptor_Unit_pion_BEL_23Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -274,7 +274,7 @@ export Descriptor_Unit_pion_BEL_2Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_2Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_2Sq"
@@ -303,8 +303,8 @@ export Descriptor_Unit_pion_BEL_2Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -358,7 +358,7 @@ export Descriptor_Unit_pion_BEL_31Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_31Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_31Sq"
@@ -387,8 +387,8 @@ export Descriptor_Unit_pion_BEL_31Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -442,7 +442,7 @@ export Descriptor_Unit_pion_BEL_349Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_349Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_349Sq"
@@ -471,8 +471,8 @@ export Descriptor_Unit_pion_BEL_349Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -526,7 +526,7 @@ export Descriptor_Unit_pion_BEL_350Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_350Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_350Sq"
@@ -555,8 +555,8 @@ export Descriptor_Unit_pion_BEL_350Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -610,7 +610,7 @@ export Descriptor_Unit_pion_BEL_42Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_42Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_42Sq"
@@ -639,8 +639,8 @@ export Descriptor_Unit_pion_BEL_42Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -694,7 +694,7 @@ export Descriptor_Unit_pion_BEL_7Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_7Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_7Sq"
@@ -723,8 +723,8 @@ export Descriptor_Unit_pion_BEL_7Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -778,7 +778,7 @@ export Descriptor_Unit_pion_BEL_8Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_BEL_8Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_BEL_8Sq"
@@ -807,8 +807,8 @@ export Descriptor_Unit_pion_BEL_8Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -862,7 +862,7 @@ export Descriptor_Unit_pion_CAN_409TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_CAN_409TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_CAN_409TFS"
@@ -891,8 +891,8 @@ export Descriptor_Unit_pion_CAN_409TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -946,7 +946,7 @@ export Descriptor_Unit_pion_CAN_421TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_CAN_421TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_CAN_421TFS"
@@ -975,8 +975,8 @@ export Descriptor_Unit_pion_CAN_421TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1030,7 +1030,7 @@ export Descriptor_Unit_pion_CAN_439TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_CAN_439TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_CAN_439TFS"
@@ -1059,8 +1059,8 @@ export Descriptor_Unit_pion_CAN_439TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1114,7 +1114,7 @@ export Descriptor_Unit_pion_CUB_21RACB is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_CUB_21RACB
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_CUB_21RACB"
@@ -1143,8 +1143,8 @@ export Descriptor_Unit_pion_CUB_21RACB is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1198,7 +1198,7 @@ export Descriptor_Unit_pion_CUB_22RACB is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_CUB_22RACB
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_CUB_22RACB"
@@ -1227,8 +1227,8 @@ export Descriptor_Unit_pion_CUB_22RACB is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1282,7 +1282,7 @@ export Descriptor_Unit_pion_CUB_RAC_Prov is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_CUB_RAC_Prov
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_CUB_RAC_Prov"
@@ -1311,8 +1311,8 @@ export Descriptor_Unit_pion_CUB_RAC_Prov is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1366,7 +1366,7 @@ export Descriptor_Unit_pion_FR_Alsace is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Alsace
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Alsace"
@@ -1395,8 +1395,8 @@ export Descriptor_Unit_pion_FR_Alsace is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1450,7 +1450,7 @@ export Descriptor_Unit_pion_FR_Ardennes is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Ardennes
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Ardennes"
@@ -1479,8 +1479,8 @@ export Descriptor_Unit_pion_FR_Ardennes is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1534,7 +1534,7 @@ export Descriptor_Unit_pion_FR_Champagne is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Champagne
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Champagne"
@@ -1563,8 +1563,8 @@ export Descriptor_Unit_pion_FR_Champagne is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1618,7 +1618,7 @@ export Descriptor_Unit_pion_FR_Cigognes is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Cigognes
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Cigognes"
@@ -1647,8 +1647,8 @@ export Descriptor_Unit_pion_FR_Cigognes is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1702,7 +1702,7 @@ export Descriptor_Unit_pion_FR_Corse is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Corse
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Corse"
@@ -1731,8 +1731,8 @@ export Descriptor_Unit_pion_FR_Corse is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1786,7 +1786,7 @@ export Descriptor_Unit_pion_FR_Cote_dOr is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Cote_dOr
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Cote_dOr"
@@ -1815,8 +1815,8 @@ export Descriptor_Unit_pion_FR_Cote_dOr is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1870,7 +1870,7 @@ export Descriptor_Unit_pion_FR_Jura is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Jura
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Jura"
@@ -1899,8 +1899,8 @@ export Descriptor_Unit_pion_FR_Jura is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -1954,7 +1954,7 @@ export Descriptor_Unit_pion_FR_Navarre is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Navarre
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Navarre"
@@ -1983,8 +1983,8 @@ export Descriptor_Unit_pion_FR_Navarre is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2038,7 +2038,7 @@ export Descriptor_Unit_pion_FR_Roussillon is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Roussillon
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Roussillon"
@@ -2067,8 +2067,8 @@ export Descriptor_Unit_pion_FR_Roussillon is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2122,7 +2122,7 @@ export Descriptor_Unit_pion_FR_Valois is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Valois
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Valois"
@@ -2151,8 +2151,8 @@ export Descriptor_Unit_pion_FR_Valois is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2206,7 +2206,7 @@ export Descriptor_Unit_pion_FR_Vosges is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_FR_Vosges
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_FR_Vosges"
@@ -2235,8 +2235,8 @@ export Descriptor_Unit_pion_FR_Vosges is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2290,7 +2290,7 @@ export Descriptor_Unit_pion_NL_Grp_Eindhoven is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_NL_Grp_Eindhoven
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_NL_Grp_Eindhoven"
@@ -2319,8 +2319,8 @@ export Descriptor_Unit_pion_NL_Grp_Eindhoven is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2374,7 +2374,7 @@ export Descriptor_Unit_pion_NL_Grp_Leeuwarden is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_NL_Grp_Leeuwarden
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_NL_Grp_Leeuwarden"
@@ -2403,8 +2403,8 @@ export Descriptor_Unit_pion_NL_Grp_Leeuwarden is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2458,7 +2458,7 @@ export Descriptor_Unit_pion_NL_Grp_Twenthe is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_NL_Grp_Twenthe
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_NL_Grp_Twenthe"
@@ -2487,8 +2487,8 @@ export Descriptor_Unit_pion_NL_Grp_Twenthe is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2542,7 +2542,7 @@ export Descriptor_Unit_pion_NL_Grp_Volkel is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_NL_Grp_Volkel
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_NL_Grp_Volkel"
@@ -2571,8 +2571,8 @@ export Descriptor_Unit_pion_NL_Grp_Volkel is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2626,7 +2626,7 @@ export Descriptor_Unit_pion_POL_PLMB40 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_POL_PLMB40
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_POL_PLMB40"
@@ -2655,8 +2655,8 @@ export Descriptor_Unit_pion_POL_PLMB40 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2710,7 +2710,7 @@ export Descriptor_Unit_pion_POL_PLMB8 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_POL_PLMB8
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_POL_PLMB8"
@@ -2739,8 +2739,8 @@ export Descriptor_Unit_pion_POL_PLMB8 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2794,7 +2794,7 @@ export Descriptor_Unit_pion_RDA_JBG28 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JBG28
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JBG28"
@@ -2823,8 +2823,8 @@ export Descriptor_Unit_pion_RDA_JBG28 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2878,7 +2878,7 @@ export Descriptor_Unit_pion_RDA_JBG37 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JBG37
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JBG37"
@@ -2907,8 +2907,8 @@ export Descriptor_Unit_pion_RDA_JBG37 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -2962,7 +2962,7 @@ export Descriptor_Unit_pion_RDA_JBG77 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JBG77
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JBG77"
@@ -2991,8 +2991,8 @@ export Descriptor_Unit_pion_RDA_JBG77 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3046,7 +3046,7 @@ export Descriptor_Unit_pion_RDA_JG1 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JG1
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JG1"
@@ -3075,8 +3075,8 @@ export Descriptor_Unit_pion_RDA_JG1 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3130,7 +3130,7 @@ export Descriptor_Unit_pion_RDA_JG2 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JG2
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JG2"
@@ -3159,8 +3159,8 @@ export Descriptor_Unit_pion_RDA_JG2 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3214,7 +3214,7 @@ export Descriptor_Unit_pion_RDA_JG3 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JG3
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JG3"
@@ -3243,8 +3243,8 @@ export Descriptor_Unit_pion_RDA_JG3 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3298,7 +3298,7 @@ export Descriptor_Unit_pion_RDA_JG7 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JG7
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JG7"
@@ -3327,8 +3327,8 @@ export Descriptor_Unit_pion_RDA_JG7 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3382,7 +3382,7 @@ export Descriptor_Unit_pion_RDA_JG8 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JG8
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JG8"
@@ -3411,8 +3411,8 @@ export Descriptor_Unit_pion_RDA_JG8 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3466,7 +3466,7 @@ export Descriptor_Unit_pion_RDA_JG9 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RDA_JG9
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RDA_JG9"
@@ -3495,8 +3495,8 @@ export Descriptor_Unit_pion_RDA_JG9 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3550,7 +3550,7 @@ export Descriptor_Unit_pion_RFA_JBG33 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JBG33
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RFA_JBG33"
@@ -3579,8 +3579,8 @@ export Descriptor_Unit_pion_RFA_JBG33 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3634,7 +3634,7 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JBG33_2
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RFA_JBG33_2"
@@ -3663,8 +3663,8 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3718,7 +3718,7 @@ export Descriptor_Unit_pion_RFA_JBG34 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JBG34
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RFA_JBG34"
@@ -3747,8 +3747,8 @@ export Descriptor_Unit_pion_RFA_JBG34 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3802,7 +3802,7 @@ export Descriptor_Unit_pion_RFA_JBG34_2 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JBG34_2
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RFA_JBG34_2"
@@ -3831,8 +3831,8 @@ export Descriptor_Unit_pion_RFA_JBG34_2 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3886,7 +3886,7 @@ export Descriptor_Unit_pion_RFA_JBG35 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JBG35
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RFA_JBG35"
@@ -3915,8 +3915,8 @@ export Descriptor_Unit_pion_RFA_JBG35 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -3970,7 +3970,7 @@ export Descriptor_Unit_pion_RFA_JBG35_2 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JBG35_2
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RFA_JBG35_2"
@@ -3999,8 +3999,8 @@ export Descriptor_Unit_pion_RFA_JBG35_2 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4054,7 +4054,7 @@ export Descriptor_Unit_pion_RFA_JG74 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JG74
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RFA_JG74"
@@ -4083,8 +4083,8 @@ export Descriptor_Unit_pion_RFA_JG74 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4138,7 +4138,7 @@ export Descriptor_Unit_pion_RFA_JG74_2 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JG74_2
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_RFA_JG74_2"
@@ -4167,8 +4167,8 @@ export Descriptor_Unit_pion_RFA_JG74_2 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4222,7 +4222,7 @@ export Descriptor_Unit_pion_SOV_11ORAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_11ORAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_11ORAP"
@@ -4251,8 +4251,8 @@ export Descriptor_Unit_pion_SOV_11ORAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4306,7 +4306,7 @@ export Descriptor_Unit_pion_SOV_19GAPIB is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_19GAPIB
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_19GAPIB"
@@ -4335,8 +4335,8 @@ export Descriptor_Unit_pion_SOV_19GAPIB is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4390,7 +4390,7 @@ export Descriptor_Unit_pion_SOV_20GAPIB is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_20GAPIB
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_20GAPIB"
@@ -4419,8 +4419,8 @@ export Descriptor_Unit_pion_SOV_20GAPIB is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4474,7 +4474,7 @@ export Descriptor_Unit_pion_SOV_294ORAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_294ORAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_294ORAP"
@@ -4503,8 +4503,8 @@ export Descriptor_Unit_pion_SOV_294ORAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4558,7 +4558,7 @@ export Descriptor_Unit_pion_SOV_296APIB is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_296APIB
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_296APIB"
@@ -4587,8 +4587,8 @@ export Descriptor_Unit_pion_SOV_296APIB is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4642,7 +4642,7 @@ export Descriptor_Unit_pion_SOV_31IGAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_31IGAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_31IGAP"
@@ -4671,8 +4671,8 @@ export Descriptor_Unit_pion_SOV_31IGAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4726,7 +4726,7 @@ export Descriptor_Unit_pion_SOV_33IAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_33IAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_33IAP"
@@ -4755,8 +4755,8 @@ export Descriptor_Unit_pion_SOV_33IAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4810,7 +4810,7 @@ export Descriptor_Unit_pion_SOV_357OCHAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_357OCHAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_357OCHAP"
@@ -4839,8 +4839,8 @@ export Descriptor_Unit_pion_SOV_357OCHAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4894,7 +4894,7 @@ export Descriptor_Unit_pion_SOV_35IAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_35IAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_35IAP"
@@ -4923,8 +4923,8 @@ export Descriptor_Unit_pion_SOV_35IAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -4978,7 +4978,7 @@ export Descriptor_Unit_pion_SOV_368OCHAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_368OCHAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_368OCHAP"
@@ -5007,8 +5007,8 @@ export Descriptor_Unit_pion_SOV_368OCHAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5062,7 +5062,7 @@ export Descriptor_Unit_pion_SOV_559APIB is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_559APIB
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_559APIB"
@@ -5091,8 +5091,8 @@ export Descriptor_Unit_pion_SOV_559APIB is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5146,7 +5146,7 @@ export Descriptor_Unit_pion_SOV_730APIB is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_730APIB
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_730APIB"
@@ -5175,8 +5175,8 @@ export Descriptor_Unit_pion_SOV_730APIB is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5230,7 +5230,7 @@ export Descriptor_Unit_pion_SOV_73IAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_73IAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_73IAP"
@@ -5259,8 +5259,8 @@ export Descriptor_Unit_pion_SOV_73IAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5314,7 +5314,7 @@ export Descriptor_Unit_pion_SOV_773IAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_773IAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_773IAP"
@@ -5343,8 +5343,8 @@ export Descriptor_Unit_pion_SOV_773IAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5398,7 +5398,7 @@ export Descriptor_Unit_pion_SOV_787IAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_787IAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_787IAP"
@@ -5427,8 +5427,8 @@ export Descriptor_Unit_pion_SOV_787IAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5482,7 +5482,7 @@ export Descriptor_Unit_pion_SOV_833IAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_833IAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_833IAP"
@@ -5511,8 +5511,8 @@ export Descriptor_Unit_pion_SOV_833IAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5566,7 +5566,7 @@ export Descriptor_Unit_pion_SOV_85IGAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_85IGAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_85IGAP"
@@ -5595,8 +5595,8 @@ export Descriptor_Unit_pion_SOV_85IGAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5650,7 +5650,7 @@ export Descriptor_Unit_pion_SOV_911APIB is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_911APIB
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_911APIB"
@@ -5679,8 +5679,8 @@ export Descriptor_Unit_pion_SOV_911APIB is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5734,7 +5734,7 @@ export Descriptor_Unit_pion_SOV_931ORAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_931ORAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_931ORAP"
@@ -5763,8 +5763,8 @@ export Descriptor_Unit_pion_SOV_931ORAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5818,7 +5818,7 @@ export Descriptor_Unit_pion_SOV_968IAP is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_SOV_968IAP
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_SOV_968IAP"
@@ -5847,8 +5847,8 @@ export Descriptor_Unit_pion_SOV_968IAP is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5902,7 +5902,7 @@ export Descriptor_Unit_pion_TCH_11FighterRgt is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_TCH_11FighterRgt
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_TCH_11FighterRgt"
@@ -5931,8 +5931,8 @@ export Descriptor_Unit_pion_TCH_11FighterRgt is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -5986,7 +5986,7 @@ export Descriptor_Unit_pion_TCH_1FighterRgt is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_TCH_1FighterRgt
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_TCH_1FighterRgt"
@@ -6015,8 +6015,8 @@ export Descriptor_Unit_pion_TCH_1FighterRgt is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6070,7 +6070,7 @@ export Descriptor_Unit_pion_TCH_20FightBombRgt is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_TCH_20FightBombRgt
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_TCH_20FightBombRgt"
@@ -6099,8 +6099,8 @@ export Descriptor_Unit_pion_TCH_20FightBombRgt is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6154,7 +6154,7 @@ export Descriptor_Unit_pion_TCH_28FightBombRgt is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_TCH_28FightBombRgt
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_TCH_28FightBombRgt"
@@ -6183,8 +6183,8 @@ export Descriptor_Unit_pion_TCH_28FightBombRgt is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6238,7 +6238,7 @@ export Descriptor_Unit_pion_TCH_30FightBombRgt is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_TCH_30FightBombRgt
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_TCH_30FightBombRgt"
@@ -6267,8 +6267,8 @@ export Descriptor_Unit_pion_TCH_30FightBombRgt is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6322,7 +6322,7 @@ export Descriptor_Unit_pion_TCH_4FighterRgt is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_TCH_4FighterRgt
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_TCH_4FighterRgt"
@@ -6351,8 +6351,8 @@ export Descriptor_Unit_pion_TCH_4FighterRgt is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6406,7 +6406,7 @@ export Descriptor_Unit_pion_TCH_5FighterRgt is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_TCH_5FighterRgt
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_TCH_5FighterRgt"
@@ -6435,8 +6435,8 @@ export Descriptor_Unit_pion_TCH_5FighterRgt is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6490,7 +6490,7 @@ export Descriptor_Unit_pion_TCH_9FighterRgt is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_TCH_9FighterRgt
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_TCH_9FighterRgt"
@@ -6519,8 +6519,8 @@ export Descriptor_Unit_pion_TCH_9FighterRgt is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6574,7 +6574,7 @@ export Descriptor_Unit_pion_UK_12Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_UK_12Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_UK_12Sq"
@@ -6603,8 +6603,8 @@ export Descriptor_Unit_pion_UK_12Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6658,7 +6658,7 @@ export Descriptor_Unit_pion_UK_16_20Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_UK_16_20Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_UK_16_20Sq"
@@ -6687,8 +6687,8 @@ export Descriptor_Unit_pion_UK_16_20Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6742,7 +6742,7 @@ export Descriptor_Unit_pion_UK_17_31Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_UK_17_31Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_UK_17_31Sq"
@@ -6771,8 +6771,8 @@ export Descriptor_Unit_pion_UK_17_31Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6826,7 +6826,7 @@ export Descriptor_Unit_pion_UK_19_92Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_UK_19_92Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_UK_19_92Sq"
@@ -6855,8 +6855,8 @@ export Descriptor_Unit_pion_UK_19_92Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6910,7 +6910,7 @@ export Descriptor_Unit_pion_UK_2_15Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_UK_2_15Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_UK_2_15Sq"
@@ -6939,8 +6939,8 @@ export Descriptor_Unit_pion_UK_2_15Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -6994,7 +6994,7 @@ export Descriptor_Unit_pion_UK_3_4Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_UK_3_4Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_UK_3_4Sq"
@@ -7023,8 +7023,8 @@ export Descriptor_Unit_pion_UK_3_4Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7078,7 +7078,7 @@ export Descriptor_Unit_pion_UK_9_14Sq is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_UK_9_14Sq
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_UK_9_14Sq"
@@ -7107,8 +7107,8 @@ export Descriptor_Unit_pion_UK_9_14Sq is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7162,7 +7162,7 @@ export Descriptor_Unit_pion_US_10TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_10TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_10TFS"
@@ -7191,8 +7191,8 @@ export Descriptor_Unit_pion_US_10TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7246,7 +7246,7 @@ export Descriptor_Unit_pion_US_1SOW is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_1SOW
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_1SOW"
@@ -7275,8 +7275,8 @@ export Descriptor_Unit_pion_US_1SOW is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7330,7 +7330,7 @@ export Descriptor_Unit_pion_US_22TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_22TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_22TFS"
@@ -7359,8 +7359,8 @@ export Descriptor_Unit_pion_US_22TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7414,7 +7414,7 @@ export Descriptor_Unit_pion_US_23TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_23TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_23TFS"
@@ -7443,8 +7443,8 @@ export Descriptor_Unit_pion_US_23TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7498,7 +7498,7 @@ export Descriptor_Unit_pion_US_313TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_313TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_313TFS"
@@ -7527,8 +7527,8 @@ export Descriptor_Unit_pion_US_313TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7582,7 +7582,7 @@ export Descriptor_Unit_pion_US_32TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_32TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_32TFS"
@@ -7611,8 +7611,8 @@ export Descriptor_Unit_pion_US_32TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7666,7 +7666,7 @@ export Descriptor_Unit_pion_US_4450TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_4450TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_4450TFS"
@@ -7695,8 +7695,8 @@ export Descriptor_Unit_pion_US_4450TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7750,7 +7750,7 @@ export Descriptor_Unit_pion_US_46TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_46TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_46TFS"
@@ -7779,8 +7779,8 @@ export Descriptor_Unit_pion_US_46TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7834,7 +7834,7 @@ export Descriptor_Unit_pion_US_480TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_480TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_480TFS"
@@ -7863,8 +7863,8 @@ export Descriptor_Unit_pion_US_480TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -7918,7 +7918,7 @@ export Descriptor_Unit_pion_US_492TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_492TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_492TFS"
@@ -7947,8 +7947,8 @@ export Descriptor_Unit_pion_US_492TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8002,7 +8002,7 @@ export Descriptor_Unit_pion_US_493TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_493TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_493TFS"
@@ -8031,8 +8031,8 @@ export Descriptor_Unit_pion_US_493TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8086,7 +8086,7 @@ export Descriptor_Unit_pion_US_494TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_494TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_494TFS"
@@ -8115,8 +8115,8 @@ export Descriptor_Unit_pion_US_494TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8170,7 +8170,7 @@ export Descriptor_Unit_pion_US_495TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_495TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_495TFS"
@@ -8199,8 +8199,8 @@ export Descriptor_Unit_pion_US_495TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8254,7 +8254,7 @@ export Descriptor_Unit_pion_US_496TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_496TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_496TFS"
@@ -8283,8 +8283,8 @@ export Descriptor_Unit_pion_US_496TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8338,7 +8338,7 @@ export Descriptor_Unit_pion_US_509TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_509TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_509TFS"
@@ -8367,8 +8367,8 @@ export Descriptor_Unit_pion_US_509TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8422,7 +8422,7 @@ export Descriptor_Unit_pion_US_510TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_510TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_510TFS"
@@ -8451,8 +8451,8 @@ export Descriptor_Unit_pion_US_510TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8506,7 +8506,7 @@ export Descriptor_Unit_pion_US_511TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_511TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_511TFS"
@@ -8535,8 +8535,8 @@ export Descriptor_Unit_pion_US_511TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8590,7 +8590,7 @@ export Descriptor_Unit_pion_US_512TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_512TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_512TFS"
@@ -8619,8 +8619,8 @@ export Descriptor_Unit_pion_US_512TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8674,7 +8674,7 @@ export Descriptor_Unit_pion_US_525TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_525TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_525TFS"
@@ -8703,8 +8703,8 @@ export Descriptor_Unit_pion_US_525TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8758,7 +8758,7 @@ export Descriptor_Unit_pion_US_526TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_526TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_526TFS"
@@ -8787,8 +8787,8 @@ export Descriptor_Unit_pion_US_526TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8842,7 +8842,7 @@ export Descriptor_Unit_pion_US_527Aggress is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_527Aggress
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_527Aggress"
@@ -8871,8 +8871,8 @@ export Descriptor_Unit_pion_US_527Aggress is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -8926,7 +8926,7 @@ export Descriptor_Unit_pion_US_53TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_53TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_53TFS"
@@ -8955,8 +8955,8 @@ export Descriptor_Unit_pion_US_53TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9010,7 +9010,7 @@ export Descriptor_Unit_pion_US_55TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_55TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_55TFS"
@@ -9039,8 +9039,8 @@ export Descriptor_Unit_pion_US_55TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9094,7 +9094,7 @@ export Descriptor_Unit_pion_US_77TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_77TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_77TFS"
@@ -9123,8 +9123,8 @@ export Descriptor_Unit_pion_US_77TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9178,7 +9178,7 @@ export Descriptor_Unit_pion_US_78TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_78TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_78TFS"
@@ -9207,8 +9207,8 @@ export Descriptor_Unit_pion_US_78TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9262,7 +9262,7 @@ export Descriptor_Unit_pion_US_79TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_79TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_79TFS"
@@ -9291,8 +9291,8 @@ export Descriptor_Unit_pion_US_79TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9346,7 +9346,7 @@ export Descriptor_Unit_pion_US_81TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_81TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_81TFS"
@@ -9375,8 +9375,8 @@ export Descriptor_Unit_pion_US_81TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9430,7 +9430,7 @@ export Descriptor_Unit_pion_US_81TFW is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_81TFW
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_81TFW"
@@ -9459,8 +9459,8 @@ export Descriptor_Unit_pion_US_81TFW is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9514,7 +9514,7 @@ export Descriptor_Unit_pion_US_91TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_91TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_91TFS"
@@ -9543,8 +9543,8 @@ export Descriptor_Unit_pion_US_91TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9598,7 +9598,7 @@ export Descriptor_Unit_pion_US_92TFS is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_92TFS
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_92TFS"
@@ -9627,8 +9627,8 @@ export Descriptor_Unit_pion_US_92TFS is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9682,7 +9682,7 @@ export Descriptor_Unit_pion_US_AFRES is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_AFRES
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_AFRES"
@@ -9711,8 +9711,8 @@ export Descriptor_Unit_pion_US_AFRES is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9766,7 +9766,7 @@ export Descriptor_Unit_pion_US_MAG_41_46 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_MAG_41_46
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_MAG_41_46"
@@ -9795,8 +9795,8 @@ export Descriptor_Unit_pion_US_MAG_41_46 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9850,7 +9850,7 @@ export Descriptor_Unit_pion_US_MAG_42 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_MAG_42
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_MAG_42"
@@ -9879,8 +9879,8 @@ export Descriptor_Unit_pion_US_MAG_42 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -9934,7 +9934,7 @@ export Descriptor_Unit_pion_US_MAG_49 is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_MAG_49
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_MAG_49"
@@ -9963,8 +9963,8 @@ export Descriptor_Unit_pion_US_MAG_49 is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
@@ -10018,7 +10018,7 @@ export Descriptor_Unit_pion_US_USNR is TEntityDescriptor
         ),
         TApparenceModuleDescriptor
         (
-            PickableObject      = True
+            PickableObject      = true
             Depiction           = $/GFX/Depiction/Gfx_pion_US_USNR
             ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
             BlackHoleKey        = "pion_US_USNR"
@@ -10047,8 +10047,8 @@ export Descriptor_Unit_pion_US_USNR is TEntityDescriptor
         ),
         TStrategicBattleModuleDescriptor
         (
-            CanBeInitialTarget = False
-            HasZoneOfControl = False
+            CanBeInitialTarget = false
+            HasZoneOfControl = false
             BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),

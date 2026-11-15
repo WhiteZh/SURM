@@ -7,7 +7,7 @@ export StrategicMovementDescriptor_aerial is TStrategicMovementModuleDescriptor
     NormalTerrainAPConsumptionModifier = 1.0 * 2.92
     SpeedReducerTerrainAPConsumptionModifier = 2.0 * 2.92
     RoadAPConsumptionModifier = 0.8 * 2.92
-    ConsumeAPOnMove = False
+    ConsumeAPOnMove = false
 )
 export StrategicMovementDescriptor_helico is TStrategicMovementModuleDescriptor
 (
@@ -15,7 +15,7 @@ export StrategicMovementDescriptor_helico is TStrategicMovementModuleDescriptor
     NormalTerrainAPConsumptionModifier = 1.0 * 2.92
     SpeedReducerTerrainAPConsumptionModifier = 1.0 * 2.92
     RoadAPConsumptionModifier = 1.0 * 2.92
-    ConsumeAPOnMove = True
+    ConsumeAPOnMove = true
 )
 export StrategicMovementDescriptor_helico_inf is TStrategicMovementModuleDescriptor
 (
@@ -23,7 +23,7 @@ export StrategicMovementDescriptor_helico_inf is TStrategicMovementModuleDescrip
     NormalTerrainAPConsumptionModifier = 1.5 * 2.92
     SpeedReducerTerrainAPConsumptionModifier = 1.5 * 2.92
     RoadAPConsumptionModifier = 1.5 * 2.92
-    ConsumeAPOnMove = True
+    ConsumeAPOnMove = true
 )
 export StrategicMovementDescriptor_howitzer is TStrategicMovementModuleDescriptor
 (
@@ -31,7 +31,7 @@ export StrategicMovementDescriptor_howitzer is TStrategicMovementModuleDescripto
     NormalTerrainAPConsumptionModifier = 2.0 * 2.92
     SpeedReducerTerrainAPConsumptionModifier = 4.0 * 2.92
     RoadAPConsumptionModifier = 1.0 * 2.92
-    ConsumeAPOnMove = True
+    ConsumeAPOnMove = true
 )
 export StrategicMovementDescriptor_mecanized is TStrategicMovementModuleDescriptor
 (
@@ -39,7 +39,7 @@ export StrategicMovementDescriptor_mecanized is TStrategicMovementModuleDescript
     NormalTerrainAPConsumptionModifier = 2.0 * 2.92
     SpeedReducerTerrainAPConsumptionModifier = 4.0 * 2.92
     RoadAPConsumptionModifier = 1.0 * 2.92
-    ConsumeAPOnMove = True
+    ConsumeAPOnMove = true
 )
 export StrategicMovementDescriptor_montagne is TStrategicMovementModuleDescriptor
 (
@@ -47,5 +47,5 @@ export StrategicMovementDescriptor_montagne is TStrategicMovementModuleDescripto
     NormalTerrainAPConsumptionModifier = 2.0 * 2.92
     SpeedReducerTerrainAPConsumptionModifier = 2.0 * 2.92
     RoadAPConsumptionModifier = 1.0 * 2.92
-    ConsumeAPOnMove = True
+    ConsumeAPOnMove = true
 )

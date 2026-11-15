@@ -14,7 +14,7 @@
 //     AlertMessageType    = AlertMsg_Per_UniteDetruite
 //     TimeBeforeRepeat    = 30 (Seulement pour OnResourceEmpty, OnMaxStock, OnEnemyContact)
 //
-//     UseTeamColorForMinimap = False
+//     UseTeamColorForMinimap = false
 //     BaseFilterColorForMinimap = RGBA[255,0,0,255]
 //
 
@@ -91,7 +91,7 @@ OnCapturedEnemyUnit is TUIFeedbackDispatchedMessageDescriptor
     MinimapPingDuration = 2
     MinimapPingAnimStartTime = 0.5
     BaseFilterColorForMinimap = [200,238,254,255]
-//  AlertMessageType = AlertMsg_Arei_UnitSurrender_En
+//  AlertMessageType = AlertMsg_Arei_EnemyUnitSurrender
 //  AllowFocusOnEvent = true
     IsActiveForPlayer = true
     TimeBeforeRepeat = 10
@@ -104,7 +104,7 @@ OnUnitSurrender is TUIFeedbackDispatchedMessageDescriptor  //deprec
     MinimapPingDuration = 4
     MinimapPingAnimStartTime = 0.5
     BaseFilterColorForMinimap = [200,238,254,255] // [203,132,212,255]
-    AlertMessageType = AlertMsg_Arei_UnitSurrender_En // AlertMessageType = AlertMsg_Arei_UnitSurrender
+    AlertMessageType = AlertMsg_Arei_EnemyUnitSurrender
     TimeBeforeRepeat = 10
     UnitAcknow = TAcknowUnitAction_Surrender
     IsActiveForEnemies = true
@@ -482,40 +482,6 @@ OnTargetBuildingDestroyed is TUIFeedbackDispatchedMessageDescriptor
     TimeBeforeRepeat = 5
 )
 
-OnObjectiveCaptured is TUIFeedbackDispatchedMessageDescriptor
-(
-    MinimapPingType = $/UI/Components/MinimapPing_Spotted
-    MinimapPingAnimType = $/UI/Components/MinimapPingAnim_Scale
-    MinimapPingDuration = 4
-    MinimapPingAnimStartTime = 0.5
-    BaseFilterColorForMinimap = [250,190,50,250]
-    //HudSound = ~/HudSoundOnObjectiveCaptured //son placeholder
-    AlertMessageType = AlertMsg_Par_OnObjectiveCaptured
-    TimeBeforeRepeat = 20 // 30
-    IsActiveForPlayer = true
-    IsActiveForAllies = true
-    IsActiveForEnemies = false
-    AllowFocusOnEvent = true
-    //UnitAcknow = $/SoundSettings/TAcknowUnitAction_EnemyAirplaneContact
-)
-
-OnObjectiveLost is TUIFeedbackDispatchedMessageDescriptor
-(
-    MinimapPingType = $/UI/Components/MinimapPing_Spotted
-    MinimapPingAnimType = $/UI/Components/MinimapPingAnim_Scale
-    MinimapPingDuration = 4
-    MinimapPingAnimStartTime = 0.5
-    BaseFilterColorForMinimap = [204,0,0,250]
-    //HudSound = ~/HudSoundOnObjectiveLost //son placeholder
-    AlertMessageType = AlertMsg_Par_OnObjectiveLost
-    TimeBeforeRepeat = 20 // 10
-    IsActiveForPlayer = true
-    IsActiveForAllies = true
-    IsActiveForEnemies = false
-    AllowFocusOnEvent = true
-    //UnitAcknow = $/SoundSettings/TAcknowUnitAction_EnemyAirplaneContact
-)
-
 OnEnemyAirplaneContact is TUIFeedbackDispatchedMessageDescriptor
 (
     MinimapPingType = $/UI/Components/MinimapPing_Spotted
@@ -891,8 +857,6 @@ IngameFeedbackMessageManagerDescriptor is TUISpecificInGameFeedbackMessageManage
         ( FeedbackMessage_OnWithdrawOrder, ~/OnWithdrawOrder ),
         ( FeedbackMessage_OnTargetDistrictDestroyed, ~/OnTargetDistrictDestroyed ),
         ( FeedbackMessage_OnTargetBuildingDestroyed, ~/OnTargetBuildingDestroyed ),
-        ( FeedbackMessage_OnObjectiveCaptured, ~/OnObjectiveCaptured ),
-        ( FeedbackMessage_OnObjectiveLost, ~/OnObjectiveLost ),
         ( FeedbackMessage_OnBuildingUnderAttack, ~/OnUnitUnderAttack ),
         ( FeedbackMessage_OnShootOnPositionSmokeOrder, ~/OnSmoke ),
         ( FeedbackMessage_OnCriticEvacuate, ~/OnCriticEvacuate),

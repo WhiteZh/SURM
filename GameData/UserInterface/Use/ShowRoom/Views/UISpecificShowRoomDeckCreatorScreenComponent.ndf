@@ -1063,9 +1063,9 @@ private DeckPanelContentList is BUCKListDescriptor
 							AlignementToAnchor = [0.5, 0.5]
 							AlignementToFather = [0.5, 0.5]
 						)
-						CanScrollVertically = False
-						CanScrollHorizontally = True
-						HasHorizontalScrollbar = True
+						CanScrollVertically = false
+						CanScrollHorizontally = true
+						HasHorizontalScrollbar = true
 						Components =
 						[
 						   ~/ListeDesUnitesDuDeck

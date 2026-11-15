@@ -32,7 +32,7 @@ UnitSpecialties is TUnitSpecialtiesContainer
                 SpecialtyTextureName       = "Texture_Speciality_Icon_infantry_half"
                 SpecialtyHintTitleToken    = "GEFBTMRHWG"
                 SpecialtyHintBodyToken     = "PAUSJGTPDI"
-                ShowAsFilterInShowroom = False
+                ShowAsFilterInShowroom = falseFalse
             )
         ),
         (
@@ -910,16 +910,6 @@ UnitSpecialties is TUnitSpecialtiesContainer
                 SpecialtyTextureName       = "Texture_Speciality_Icon_team"
                 SpecialtyHintTitleToken    = "PWLQGRCLQB"
                 SpecialtyHintBodyToken     = "ONEJEZTOYS"
-                ShowAsFilterInShowroom = False
-            )
-        ),
-        (
-            "test",
-            TUnitSpecialtyDescriptor
-            (
-                SpecialtyHintTitleToken    = "test"
-                SpecialtyHintBodyToken     = "test"
-                SpecialtyHintExtendedToken = "test"
                 ShowAsFilterInShowroom = False
             )
         ),

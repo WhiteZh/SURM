@@ -1,7 +1,3 @@
-// A incrémenter quand on veut provoquer une recompilation des glads chez tout le monde sans gêner personne
-
-// Version : 00569
-
 //-----------------------------------------------------------------------------
 // differentes constantes utilisees un peu partout.
 
@@ -267,7 +263,7 @@ ShaderVertexFetchMode is TBaseClass
 //-----------------------------------------------------------------------------
 //  RenderType
 //-----------------------------------------------------------------------------
-// doit matcher avec l'enum TShaderVertexFetchMode de Core3D/RenderType.h
+// doit matcher avec l'enum TShaderVertexFetchMode de Renderer/RenderType.h
 RenderType is TBaseClass
 (
     Forward                   is 0

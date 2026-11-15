@@ -7,6 +7,5 @@ Flag_LdDetectable is 5
 Flag_Tank is 6
 Flag_IsAttacked is 7
 Flag_CannotAttackEnReflex is 8
-Flag_AlreadyModifiePorteeDuTirUnitGroup is 9
 Flag_FakeTarget is 14
 Flag_SousTirArtillerie is 16

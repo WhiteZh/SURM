@@ -6453,3 +6453,403 @@ export Descriptor_Deck_Division_US_8th_Inf_challenge is TDeckDivisionDescriptor
     [
     ]
 )
+
+// ---- Entries added from basedat (missing in SURM) ----
+export Descriptor_Deck_Division_BRZ_3a_Divisao_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{abc84784-709d-417d-b395-1c1c92f22ba0}
+    CfgName = 'BRZ_3a_Divisao_multi'
+    DivisionName = 'LGUXSIDOUC'
+    InterfaceOrder = 43.0
+    DivisionCoalition = TWargameCoalition/NATO
+    DivisionTags = ['DEFAULT', 'BRZ', 'NATO', 'ARMORREC']
+    DescriptionHintTitleToken = 'LGUXSIDOUC'
+    MaxActivationPoints = 50
+    DivisionRule = Descriptor_Deck_Division_BRZ_3a_Divisao_multi_Rule
+    CostMatrix = MatrixCostName_BRZ_3a_Divisao_multi
+    EmblemTexture     = "Texture_Division_Emblem_BRZ_3DE"
+    TypeToken        = "ARMORREC"
+    SummaryTextToken = "SUMBRZ3DI"
+    HistoryTextToken = "HISBRZ3DI"
+    CountryId = "BRZ"
+    StandoutUnits =
+    [
+        $/GFX/Unit/Descriptor_Unit_MB3_Tamoyo_I_BRZ,
+        $/GFX/Unit/Descriptor_Unit_Commandos_BRZ,
+        $/GFX/Unit/Descriptor_Unit_Ghibli_BRZ,
+    ]
+)
+export Descriptor_Deck_Division_CUB_1a_Division_Tankes_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{8c116d38-fc54-434b-8873-8831f364622a}
+    CfgName = 'CUB_1a_Division_Tankes_multi'
+    DivisionName = 'BXFLQKIGNM'
+    InterfaceOrder = 35.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['DEFAULT', 'CUB', 'PACT', 'ARMORED']
+    DescriptionHintTitleToken = 'BXFLQKIGNM'
+    MaxActivationPoints = 50
+    DivisionRule = Descriptor_Deck_Division_CUB_1a_Division_Tankes_multi_Rule
+    CostMatrix = MatrixCostName_CUB_1a_Division_Tankes_multi
+    EmblemTexture     = "Texture_Division_Emblem_CUB_1Div"
+    TypeToken        = "ARMORED"
+    SummaryTextToken = "SUMCUB1TD"
+    HistoryTextToken = "HISCUB1TD"
+    CountryId = "CUB"
+    StandoutUnits =
+    [
+        $/GFX/Unit/Descriptor_Unit_T62_obr72_CUB,
+        $/GFX/Unit/Descriptor_Unit_Avispas_Negras_reco_CUB,
+        $/GFX/Unit/Descriptor_Unit_MiG_29_AA_CUB,
+    ]
+)
+export Descriptor_Deck_Division_US_4th_Marine_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{517d4dd6-fdf3-4995-b1bf-4840b2e4893c}
+    CfgName = 'US_4th_Marine_multi'
+    DivisionName = 'EAXOKGRRUW'
+    InterfaceOrder = 4.0
+    DivisionCoalition = TWargameCoalition/NATO
+    DivisionTags = ['DEFAULT', 'US', 'NATO', 'DIVNAVAL']
+    DescriptionHintTitleToken = 'EAXOKGRRUW'
+    MaxActivationPoints = 50
+    DivisionRule = Descriptor_Deck_Division_US_4th_Marine_multi_Rule
+    CostMatrix = MatrixCostName_US_4th_Marine_multi
+    EmblemTexture     = "Texture_Division_Emblem_US_4MARDIV"
+    TypeToken        = "DIVNAVAL"
+    SummaryTextToken = "SUMUS4MAR"
+    HistoryTextToken = "HISUS4MAR"
+    CountryId = "US"
+    StandoutUnits =
+    [
+        $/GFX/Unit/Descriptor_Unit_M1A1HA_USMC_Abrams_US,
+        $/GFX/Unit/Descriptor_Unit_FAST_USMC_US,
+        $/GFX/Unit/Descriptor_Unit_F18_Hornet_AA_US,
+    ]
+)
+export Descriptor_Deck_Division_US_7th_Light_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{d110f0db-40ad-402f-9ff6-ad89ddbb0750}
+    CfgName = 'US_7th_Light_multi'
+    DivisionName = 'UHEMZJFLHR'
+    InterfaceOrder = 7.0
+    DivisionCoalition = TWargameCoalition/NATO
+    DivisionTags = ['DEFAULT', 'US', 'NATO', 'MOTORIZD']
+    DescriptionHintTitleToken = 'UHEMZJFLHR'
+    MaxActivationPoints = 50
+    DivisionRule = Descriptor_Deck_Division_US_7th_Light_multi_Rule
+    CostMatrix = MatrixCostName_US_7th_Light_multi
+    EmblemTexture     = "Texture_Division_Emblem_US_7ID"
+    TypeToken        = "MOTORIZD"
+    SummaryTextToken = "SUMUS7LID"
+    HistoryTextToken = "HISUS7LID"
+    CountryId = "US"
+    StandoutUnits =
+    [
+        $/GFX/Unit/Descriptor_Unit_M462_Nimrod_COL,
+        $/GFX/Unit/Descriptor_Unit_Groupe_AT_Light_US,
+        $/GFX/Unit/Descriptor_Unit_AC_130H_Gunship_US,
+    ]
+)
+export Descriptor_Deck_Division_VEN_1a_Division_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{cd0a18b0-9326-4976-8007-af6c206a8218}
+    CfgName = 'VEN_1a_Division_multi'
+    DivisionName = 'EJRQECJDNV'
+    InterfaceOrder = 37.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['DEFAULT', 'VEN', 'PACT', 'INFANREG']
+    DescriptionHintTitleToken = 'EJRQECJDNV'
+    MaxActivationPoints = 50
+    DivisionRule = Descriptor_Deck_Division_VEN_1a_Division_multi_Rule
+    CostMatrix = MatrixCostName_VEN_1a_Division_multi
+    EmblemTexture     = "Texture_Division_Emblem_VZE_1ID"
+    TypeToken        = "INFANREG"
+    SummaryTextToken = "SUMVEN1DI"
+    HistoryTextToken = "HISVEN1DI"
+    CountryId = "VEN"
+    StandoutUnits =
+    [
+        $/GFX/Unit/Descriptor_Unit_M18A2_superHellcat_VEN,
+        $/GFX/Unit/Descriptor_Unit_Commandos_VEN,
+        $/GFX/Unit/Descriptor_Unit_DCA_Bofors_Breda_VEN,
+    ]
+)
+export Descriptor_Deck_Division_VEN_4a_Division_multi is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{dcf1a23d-f35a-4126-86db-fa191a73d61e}
+    CfgName = 'VEN_4a_Division_multi'
+    DivisionName = 'FUJWIAFRAN'
+    InterfaceOrder = 38.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['DEFAULT', 'VEN', 'PACT', 'MECHANIZ']
+    DescriptionHintTitleToken = 'FUJWIAFRAN'
+    MaxActivationPoints = 50
+    DivisionRule = Descriptor_Deck_Division_VEN_4a_Division_multi_Rule
+    CostMatrix = MatrixCostName_VEN_4a_Division_multi
+    EmblemTexture     = "Texture_Division_Emblem_VZE_4ID"
+    TypeToken        = "MECHANIZ"
+    SummaryTextToken = "SUMVEN4DI"
+    HistoryTextToken = "HISVEN4DI"
+    CountryId = "VEN"
+    StandoutUnits =
+    [
+        $/GFX/Unit/Descriptor_Unit_AMX_30_V_VEN,
+        $/GFX/Unit/Descriptor_Unit_Sniper_AMR_VEN,
+        $/GFX/Unit/Descriptor_Unit_F16A_AA_VEN,
+    ]
+)
+export Descriptor_Deck_Division_CUB_11InfDiv_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{ba9484c1-abf2-4f07-92f3-9acaccd8dac3}
+    CfgName = 'CUB_11InfDiv_solo'
+    DivisionName = 'FYXMSTVYOI'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_11Div"
+    StrategicLabelColor     = "SovDivision2"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_12InfDiv_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{5fa3eb9f-b751-4f38-bfb3-6946b39a2b17}
+    CfgName = 'CUB_12InfDiv_solo'
+    DivisionName = 'DBIQEKOAKS'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_12Div"
+    StrategicLabelColor     = "SovDivision3"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_1Tanques_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{b1721f64-8827-458b-84fe-b66baa83af03}
+    CfgName = 'CUB_1Tanques_solo'
+    DivisionName = 'MPEGBPDKZO'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_1Div"
+    StrategicLabelColor     = "division_SOV_4"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_20MechDiv_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{6de0dec4-3cdf-47a0-b1e3-0ded606c4151}
+    CfgName = 'CUB_20MechDiv_solo'
+    DivisionName = 'TCBDVIBKXM'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_generic"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_24InfDiv_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{f72dda72-d37e-4022-9089-84a576447d4d}
+    CfgName = 'CUB_24InfDiv_solo'
+    DivisionName = 'OTMNLXIUQZ'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_24Div"
+    StrategicLabelColor     = "SovDivision1"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_2Corps_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{fcd1c2f6-75d6-4446-b57d-697385789ab4}
+    CfgName = 'CUB_2Corps_solo'
+    DivisionName = 'CSVXNNLIRE'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_2CorpoFAR"
+    StrategicLabelColor     = "SovDivision_kassel_1"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_ArtDiv_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{aa29ec79-6ec3-4c4c-8dea-9700623eab79}
+    CfgName = 'CUB_ArtDiv_solo'
+    DivisionName = 'LAIOFZFENJ'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_generic"
+    StrategicLabelColor     = "SovDivision_kassel_2"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_WestArmy_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{7d1a9362-bb59-403e-aa4c-ca0477a8fe9d}
+    CfgName = 'CUB_WestArmy_solo'
+    DivisionName = 'DPOSUIIXBI'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_generic"
+    StrategicLabelColor     = "CzecDiv_2"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_WestMTT_HavanaMTT_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{bd7f813a-45d3-4fad-9796-5dd93c8c6b22}
+    CfgName = 'CUB_WestMTT_HavanaMTT_solo'
+    DivisionName = 'YLXZQMLKBU'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_MTT"
+    StrategicLabelColor     = "CzecDiv_2"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_WestMTT_PinarMTT_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{40b19fdf-def4-4f60-80fd-1aefac816e69}
+    CfgName = 'CUB_WestMTT_PinarMTT_solo'
+    DivisionName = 'DEVDCVEOLB'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_MTT"
+    StrategicLabelColor     = "CzecDiv_2"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_WestMTT_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{a120484d-7b5a-408a-9c24-5f46692b4646}
+    CfgName = 'CUB_WestMTT_solo'
+    DivisionName = 'NCWOIBKFSC'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_MTT"
+    StrategicLabelColor     = "CzecDiv_2"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_CUB_ZonaAeraOeste_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{6670cb03-f1d0-4ff6-af14-80d4f4bd708c}
+    CfgName = 'CUB_ZonaAeraOeste_solo'
+    DivisionName = 'CRWYXQYYVR'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_CUB_generic"
+    StrategicLabelColor     = "SovDivision_kassel_3"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_SOV_7MSBr_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{e284302f-6dc5-421e-8d55-8f2b5857f8f9}
+    CfgName = 'SOV_7MSBr_solo'
+    DivisionName = 'XNBBXQOQYY'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/PACT
+    DivisionTags = ['STRAT', 'PACT']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_SOV_7_SovBrigade"
+    StrategicLabelColor     = "SovDivision_boar_1"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_US_101AB_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{e33edbc8-0f31-4d93-913e-5cd723c3c8b9}
+    CfgName = 'US_101AB_solo'
+    DivisionName = 'VATUZUWJBF'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/NATO
+    DivisionTags = ['STRAT', 'NATO']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_US_101st_Airmobile"
+    StrategicLabelColor     = "division_US_3"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_US_26ID_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{7625f1ba-5967-4f74-b0ec-6a75ddfd2976}
+    CfgName = 'US_26ID_solo'
+    DivisionName = 'HGPAXVZBKC'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/NATO
+    DivisionTags = ['STRAT', 'NATO']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_US_26ID"
+    StrategicLabelColor     = "division_US_2"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_US_4MARDIV_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{fd23b91d-f2ee-4c6b-90e2-9a569840d0ad}
+    CfgName = 'US_4MARDIV_solo'
+    DivisionName = 'DHDMKZGQKU'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/NATO
+    DivisionTags = ['STRAT', 'NATO']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_US_4MARDIV"
+    StrategicLabelColor     = "H2_bleu_2"
+    StandoutUnits =
+    [
+    ]
+)
+export Descriptor_Deck_Division_US_JTF_Cuba_solo is TDeckDivisionDescriptor
+(
+    DescriptorId = GUID:{11804e7e-1ec0-48bb-b2bd-b53c2d5d5269}
+    CfgName = 'US_JTF_Cuba_solo'
+    DivisionName = 'SUNICROBJM'
+    InterfaceOrder = -1.0
+    DivisionCoalition = TWargameCoalition/NATO
+    DivisionTags = ['STRAT', 'NATO']
+    DivisionRule = nil
+    EmblemTexture     = "Texture_Division_Emblem_US_6th_Army_South"
+    StrategicLabelColor     = "division_US_air"
+    StandoutUnits =
+    [
+    ]
+)

@@ -14,7 +14,7 @@ OutGameVersionTextDescriptor is BUCKSpecificTextWithHint
     )
 
     AutoHintElementName = "Hint"
-    HasAutoHint = True
+    HasAutoHint = true
 
     TextStyle = "Default"
     TypefaceToken = "UIMainFont"

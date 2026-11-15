@@ -17,7 +17,6 @@ ShowRoomResource is TUISpecificShowRoomResources
     UILayerLDHint               = $/UserInterface/UILayer_2DInterfaceLDHint
 
     CommonResources             = ~/UICommonResource
-    InGameResourcesHandler      = $/UI/ResourcesHandler/InGameResourcesHandler
     OutGameResourcesHandler     = $/UI/ResourcesHandler/OutGameResourcesHandler
     MousePointerMaskLayer       = $/UserInterface/UILayer_ShowRoomMousePointerMask
 

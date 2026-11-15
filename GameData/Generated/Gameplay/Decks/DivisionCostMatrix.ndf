@@ -950,3 +950,77 @@ MatrixCostName_WP_Unternehmen_Zentrum_multi is MAP
     (Factory/Defense,     [0,] ),//55cases 107pts...Coef 1.94
 ]
 
+
+// ---- Entries added from basedat (missing in SURM) ----
+MatrixCostName_BRZ_3a_Divisao_multi is MAP
+[
+    (Factory/Art, [1, 1, 1, 2, 2, 3, 3]),
+    (Factory/DCA, [1, 1, 2, 3, 3]),
+    (Factory/Defense, []),
+    (Factory/Helis, []),
+    (Factory/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 2, 2]),
+    (Factory/Logistic, [1, 1, 2, 3, 3, 3]),
+    (Factory/Planes, [1, 1, 1, 2, 2, 3, 3, 3]),
+    (Factory/Recons, [1, 1, 1, 1, 1, 2, 3, 3, 3]),
+    (Factory/Tanks, [1, 1, 1, 1, 2, 2, 3, 3]),
+]
+MatrixCostName_CUB_1a_Division_Tankes_multi is MAP
+[
+    (Factory/Art, [1, 1, 1, 2, 3, 3, 3]),
+    (Factory/DCA, [1, 1, 1, 2, 3, 3, 3]),
+    (Factory/Defense, []),
+    (Factory/Helis, [1, 2, 2]),
+    (Factory/Infantry, [1, 1, 1, 1, 2, 3, 3]),
+    (Factory/Logistic, [1, 1, 2, 3, 3, 3]),
+    (Factory/Planes, [1, 1, 1, 2, 3, 3, 3]),
+    (Factory/Recons, [1, 1, 2, 2, 3, 3, 3]),
+    (Factory/Tanks, [1, 1, 1, 1, 1, 1, 1, 2, 2, 3]),
+]
+MatrixCostName_US_4th_Marine_multi is MAP
+[
+    (Factory/Art, [1, 1, 2, 3, 3, 3]),
+    (Factory/DCA, [1, 2, 2, 3]),
+    (Factory/Defense, []),
+    (Factory/Helis, [1, 1, 2, 3, 3]),
+    (Factory/Infantry, [1, 1, 1, 1, 1, 1, 1, 2, 2, 3]),
+    (Factory/Logistic, [1, 1, 2, 2, 3, 3, 3]),
+    (Factory/Planes, [1, 1, 1, 2, 2, 3, 3, 3]),
+    (Factory/Recons, [1, 1, 1, 2, 3, 3, 3]),
+    (Factory/Tanks, [1, 1, 1, 2, 3, 3, 3]),
+]
+MatrixCostName_US_7th_Light_multi is MAP
+[
+    (Factory/Art, [1, 1, 2, 2, 3, 3]),
+    (Factory/DCA, [1, 2, 3, 3, 3]),
+    (Factory/Defense, []),
+    (Factory/Helis, [1, 1, 1, 2, 3, 3]),
+    (Factory/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 2, 3]),
+    (Factory/Logistic, [1, 1, 2, 3, 3, 3]),
+    (Factory/Planes, [1, 1, 1, 2, 2, 3, 3, 3]),
+    (Factory/Recons, [1, 1, 1, 1, 2, 2, 3, 3]),
+    (Factory/Tanks, [1, 1, 2, 3, 3]),
+]
+MatrixCostName_VEN_1a_Division_multi is MAP
+[
+    (Factory/Art, [1, 1, 2, 3, 3, 3]),
+    (Factory/DCA, [1, 1, 1, 2, 3, 3]),
+    (Factory/Defense, []),
+    (Factory/Helis, [1, 2, 3]),
+    (Factory/Infantry, [1, 1, 1, 1, 1, 1, 1, 1, 2, 2]),
+    (Factory/Logistic, [1, 1, 1, 1, 2, 3, 3]),
+    (Factory/Planes, [1, 1, 2, 3, 3, 3]),
+    (Factory/Recons, [1, 1, 1, 1, 1, 2, 3, 3, 3]),
+    (Factory/Tanks, [1, 1, 2, 2, 3]),
+]
+MatrixCostName_VEN_4a_Division_multi is MAP
+[
+    (Factory/Art, [1, 1, 1, 2, 3, 3, 3]),
+    (Factory/DCA, [1, 1, 2, 3, 3, 3]),
+    (Factory/Defense, []),
+    (Factory/Helis, []),
+    (Factory/Infantry, [1, 1, 1, 1, 1, 1, 1, 2, 2, 3]),
+    (Factory/Logistic, [1, 1, 1, 2, 3, 3, 3]),
+    (Factory/Planes, [1, 1, 1, 2, 2, 3, 3, 3]),
+    (Factory/Recons, [1, 1, 1, 1, 2, 3, 3, 3]),
+    (Factory/Tanks, [1, 1, 1, 1, 2, 3, 3]),
+]

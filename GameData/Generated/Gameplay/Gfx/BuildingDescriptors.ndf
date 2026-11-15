@@ -47,11 +47,11 @@ export Descriptor_Unit_FOB_BEL is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -175,11 +175,11 @@ export Descriptor_Unit_FOB_BRZ is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -303,11 +303,11 @@ export Descriptor_Unit_FOB_CAN is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -431,11 +431,11 @@ export Descriptor_Unit_FOB_COL is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -559,11 +559,11 @@ export Descriptor_Unit_FOB_CUB is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -687,11 +687,11 @@ export Descriptor_Unit_FOB_DDR is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -815,11 +815,11 @@ export Descriptor_Unit_FOB_DK is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -943,11 +943,11 @@ export Descriptor_Unit_FOB_ESP is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -1071,11 +1071,11 @@ export Descriptor_Unit_FOB_FR is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -1199,11 +1199,11 @@ export Descriptor_Unit_FOB_NL is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -1327,11 +1327,11 @@ export Descriptor_Unit_FOB_POL is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -1455,11 +1455,11 @@ export Descriptor_Unit_FOB_RFA is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -1583,11 +1583,11 @@ export Descriptor_Unit_FOB_SOV is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -1711,11 +1711,11 @@ export Descriptor_Unit_FOB_TCH is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -1839,11 +1839,11 @@ export Descriptor_Unit_FOB_UK is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -1967,11 +1967,11 @@ export Descriptor_Unit_FOB_US is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor
@@ -2095,11 +2095,11 @@ export Descriptor_Unit_FOB_VEN is TEntityDescriptor
                 ResistanceSides = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceRear = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
                 ResistanceTop = TResistanceTypeRTTI(Family=ResistanceFamily_batiment Index=1)
-                ExplosiveReactiveArmor = False
+                ExplosiveReactiveArmor = false
             )
-            KillWhenDamagesReachMax = True
+            KillWhenDamagesReachMax = true
             HitRollECM = 0.0
-            UseTopArmorAgainstFire = False
+            UseTopArmorAgainstFire = false
         ),
         ~/TargetCoordinatorModuleDescriptor,
         TVisibilityModuleDescriptor

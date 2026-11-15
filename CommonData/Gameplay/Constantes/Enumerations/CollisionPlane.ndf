@@ -1,5 +1,5 @@
 // Sync with EugIA_Common/CollisionPlane.h
-ECollisionPlane is TBaseClass
+TCollisionPlane is TBaseClass
 (
     NoCollision is 0
     Ground is 1

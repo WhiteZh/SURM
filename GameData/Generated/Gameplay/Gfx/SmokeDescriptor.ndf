@@ -20,7 +20,7 @@ export Descriptor_Smoke_Fumi105mm is TEntityDescriptor
                 Height  = 88 * 26 * 2.83
                 Density = 0.5
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -50,7 +50,7 @@ export Descriptor_Smoke_Fumi107mm is TEntityDescriptor
                 Height  = 88 * 26 * 2.83
                 Density = 0.5
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -80,7 +80,7 @@ export Descriptor_Smoke_Fumi120mm is TEntityDescriptor
                 Height  = 106 * 26 * 2.83
                 Density = 0.5
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -110,7 +110,7 @@ export Descriptor_Smoke_Fumi120mm_mortier is TEntityDescriptor
                 Height  = 106 * 26 * 2.83
                 Density = 0.5
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -140,7 +140,7 @@ export Descriptor_Smoke_Fumi122mm is TEntityDescriptor
                 Height  = 106 * 26 * 2.83
                 Density = 0.5
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -170,7 +170,7 @@ export Descriptor_Smoke_Fumi152mm is TEntityDescriptor
                 Height  = 124 * 26 * 2.83
                 Density = 1.0
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -200,7 +200,7 @@ export Descriptor_Smoke_Fumi155mm is TEntityDescriptor
                 Height  = 124 * 26 * 2.83
                 Density = 1.0
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -230,7 +230,7 @@ export Descriptor_Smoke_Fumi203mm is TEntityDescriptor
                 Height  = 124 * 26 * 2.83
                 Density = 1.0
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -260,7 +260,7 @@ export Descriptor_Smoke_Fumi60mm is TEntityDescriptor
                 Height  = 53 * 26 * 2.83
                 Density = 0.1
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -290,7 +290,7 @@ export Descriptor_Smoke_Fumi40mm is TEntityDescriptor
                 Height  = 5 * 26 * 2.83
                 Density = 0.3
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -320,7 +320,7 @@ export Descriptor_Smoke_Fumi81mm is TEntityDescriptor
                 Height  = 71 * 26 * 2.83
                 Density = 0.1
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -350,7 +350,7 @@ export Descriptor_Smoke_FumiBombe is TEntityDescriptor
                 Height  = 124 * 26 * 2.83
                 Density = 1.0
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -608,7 +608,7 @@ export Descriptor_Smoke_FumiTest1 is TEntityDescriptor
                 Height  = 124 * 26 * 2.83
                 Density = 0.1
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (
@@ -638,7 +638,7 @@ export Descriptor_Smoke_Fumi_smoke_grenade is TEntityDescriptor
                 Height  = 53 * 26 * 2.83
                 Density = 0.1
             ))
-            DefaultVisibility  = True
+            DefaultVisibility  = true
         ),
         TSmokeModuleDescriptor
         (

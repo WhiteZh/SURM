@@ -1156,8 +1156,6 @@ is TUISpecificUnitInfoPanelViewDescriptor
 
     BlindageTextColors = ~/InfoPanelValuesColors
 
-    VeteranceColorName = "Orange"
-
     AttributeDescriptorsPool = MAP
     [
         ("AttributeStrength",         UnitInfoPanelAttribute(ElementName = "AttributeStrength" Token = "UIPA_STR" ValueToken = "UIP_VAL" HintToken = "HIP_TEAM" Scale = Scale)),
@@ -1170,7 +1168,6 @@ is TUISpecificUnitInfoPanelViewDescriptor
         ("AttributeResilience",       UnitInfoPanelAttribute(ElementName = "AttributeResilience" Token = "UIP_RESIL" ValueToken = "UIP_VAL" HintToken = "HIP_RESIL" Scale = Scale)),
 
         ("AttributeSupply",           UnitInfoPanelAttribute(ElementName = "AttributeSupply" Token = "UIPA_SUPLY" ValueToken = "UIP_VAL" HintToken = "HIP_SUPP" Scale = Scale)),
-        ("AttributeFuel",             UnitInfoPanelAttribute(ElementName = "AttributeFuel" Token = "UIPA_FUEL" ValueToken = "UIP_FUEL" HintToken = "HIP_fuel" Scale = Scale)),
         ("AttributeAutonomy",         UnitInfoPanelAttribute(ElementName = "AttributeAutonomy" Token = "UIPA_AUTO" ValueToken = "RANGE_KM" HintToken = "HIP_auton" Scale = Scale)),
         ("AttributeAmphibious",       UnitInfoPanelAttribute(ElementName = "AttributeAmphibious" Token = "UIPA_AMPH" ValueToken = "UIP_VAL" HintToken = "HIP_amph" Scale = Scale)),
 
@@ -1212,7 +1209,7 @@ listeAffichageInfoUnit_Default is
 [
     "AttributeMaxDamages","AttributeOptics", "AttributeConcealment",
     "AttributeAmphibious","AttributeSpeed",  "AttributeRoadSpeed",
-    "AttributeAutonomy","AttributeFuel","AttributeAdvanceDeployment",
+    "AttributeAutonomy","EMPTY_SLOT","AttributeAdvanceDeployment",
 ]
 
 //Penser à répliquer les modifications dans listeAffichageInfoUnit_HelicoTransport ci-dessous
@@ -1220,7 +1217,7 @@ listeAffichageInfoUnit_VehiculeTransport is
 [
     "AttributeMaxDamages","AttributeOptics", "AttributeConcealment",
     "AttributeAmphibious","AttributeSpeed",  "AttributeRoadSpeed",
-    "AttributeAutonomy","AttributeFuel","AttributeAdvanceDeployment",
+    "AttributeAutonomy","EMPTY_SLOT","AttributeAdvanceDeployment",
 ]
 
 listeAffichageInfoUnit_Infanterie is
@@ -1247,7 +1244,7 @@ listeAffichageInfoUnit_Air is
 [
     "AttributeMaxDamages", "AttributeAirOptics", "AttributeAgility",
     "AttributeECM", "AttributeSpeed","AttributeTravelTime",
-    "AttributeFuelMoveDuration", "AttributeFuel", "EMPTY_SLOT"
+    "AttributeFuelMoveDuration", "EMPTY_SLOT1", "EMPTY_SLOT"
 ]
 
 
@@ -1257,14 +1254,14 @@ listeAffichageInfoUnit_HelicoDefault is
 [
     "AttributeMaxDamages","AttributeOptics", "AttributeConcealment",
     "AttributeECM","AttributeSpeed", "EMPTY_SLOT",
-    "AttributeAutonomy","AttributeFuel","AttributeAdvanceDeployment",
+    "AttributeAutonomy","EMPTY_SLOT1","AttributeAdvanceDeployment",
 ]
 
 listeAffichageInfoUnit_HelicoTransport is
 [
     "AttributeMaxDamages","AttributeOptics", "AttributeConcealment",
     "AttributeECM","AttributeSpeed", "EMPTY_SLOT",
-    "AttributeAutonomy","AttributeFuel","AttributeAdvanceDeployment",
+    "AttributeAutonomy","EMPTY_SLOT1","AttributeAdvanceDeployment",
 ]
 
 listeAffichageInfoUnit_HelicoSupply is

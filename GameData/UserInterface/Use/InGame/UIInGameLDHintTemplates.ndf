@@ -1637,8 +1637,8 @@ is BUCKContainerDescriptor
 //-------------------------------------------------------------------------------------
 template SuperHint
 [
-    alignementGauche : boolean = true,
-    challenge : boolean = false,
+    alignementGauche : bool = true,
+    challenge : bool = false,
     hasImage : bool = false,
 ]
  is BUCKListDescriptor

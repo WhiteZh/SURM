@@ -92,9 +92,9 @@ private ModCenterPanelDetailsButton is BUCKButtonDescriptor
 
 private ModCenterStarRatingTexture is BUCKTextureDescriptor
 (
-    ClipTextureToComponent = True
+    ClipTextureToComponent = true
     TextureToken = "OutgameTexture_ModCenter_Star"
-    TileTextureInComponent = True
+    TileTextureInComponent = true
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [0, 0]
